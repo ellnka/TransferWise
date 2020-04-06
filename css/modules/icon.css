@@ -1,0 +1,38 @@
+/* line 1, ../../sass/modules/icon.scss */
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  cursor: pointer;
+}
+/* line 6, ../../sass/modules/icon.scss */
+.icon--blue {
+  color: #00b9ff;
+}
+/* line 10, ../../sass/modules/icon.scss */
+.icon--small {
+  width: 16px;
+  height: 16px;
+}
+/* line 15, ../../sass/modules/icon.scss */
+.icon--medium {
+  width: 24px;
+  height: 24px;
+}
+/* line 20, ../../sass/modules/icon.scss */
+.icon--arrow-down {
+  width: 16px;
+  height: 16px;
+  margin-left: 1px;
+  margin-left: 4px;
+  font-family: glyphicons halflings;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 33, ../../sass/modules/icon.scss */
+.icon--arrow-down:before {
+  content: '\E114';
+}

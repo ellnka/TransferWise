@@ -1,0 +1,36 @@
+
+.link-button {
+    display: block;
+    padding: 12px 24px 10px 24px;
+    border-radius: 5px;
+    border: 1px solid ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: $standardLineHeight;
+    color: $black;
+    text-decoration: none;
+    text-align: center;
+    background-color: $transparent;
+
+    &:hover {
+        color: $white;
+        background-color: $blueButton;
+        border: 1px solid $blueButton;   
+    }
+
+    &--white-blue {
+        color: $blueButton;
+        border: 1px solid $blueButton;   
+    }
+
+    &--white-grey {
+        color: $greyButton;
+        border: 1px solid $greyButton;
+    }
+
+    &--small {
+        border-radius: 2px;
+        font-size: 14px;
+        padding: 4px 16px 2px 16px; 
+    }
+}

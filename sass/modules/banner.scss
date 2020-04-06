@@ -1,0 +1,30 @@
+.banner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-image: url(./../images/bg-white.svg),url(./../images/bg-grey.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left,top right;
+    background-size: contain,contain;
+    
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content {
+        padding-top: 12px; 
+        background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
+        background-size: 134px, auto 84%;
+        background-repeat: no-repeat, no-repeat;
+        background-origin: content-box, content-box;
+        background-position: 82% bottom, right top;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+    }
+}

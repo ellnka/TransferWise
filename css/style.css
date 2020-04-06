@@ -1,0 +1,372 @@
+/* line 5, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: averta;
+  font-weight: 500;
+  src: url(./../fonts/TW-Averta-Regular.eot);
+  src: url(./../fonts/TW-Averta-Regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Regular.woff2) format("woff2"), url(./../fonts/TW-Averta-Regular.woff) format("woff"), url(./../fonts/TW-Averta-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: averta;
+  font-weight: 600;
+  src: url(./../fonts/TW-Averta-Semibold.eot);
+  src: url(./../fonts/TW-Averta-Semibold.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Semibold.woff2) format("woff2"), url(./../fonts/TW-Averta-Semibold.woff) format("woff"), url(./../fonts/TW-Averta-Semibold.ttf) format("truetype");
+}
+@font-face {
+  font-family: averta;
+  font-weight: 800;
+  src: url(./../fonts/TW-Averta-Bold.eot);
+  src: url(./../fonts/TW-Averta-Bold.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Bold.woff2) format("woff2"), url(./../fonts/TW-Averta-Bold.woff) format("woff"), url(./../fonts/TW-Averta-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: glyphicons halflings;
+  src: url(./../fonts/glyphicons-halflings-regular.eot);
+  src: url(./../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(./../fonts/glyphicons-halflings-regular.woff) format("woff"), url(./../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(./../images/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+}
+/* line 1, ../sass/modules/badge.scss */
+.badge {
+  position: relative;
+  display: inline-block;
+  min-width: 16px;
+  padding: 6px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1em;
+  height: 2em;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #000;
+  border-radius: 10px;
+}
+/* line 17, ../sass/modules/badge.scss */
+.badge--green {
+  background-color: #2ed06e;
+}
+
+/* line 1, ../sass/modules/banner.scss */
+.banner {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left,top right;
+  background-size: contain,contain;
+}
+/* line 9, ../sass/modules/banner.scss */
+.banner__header {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 14, ../sass/modules/banner.scss */
+.banner__content {
+  padding-top: 12px;
+  background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
+  background-size: 134px, auto 84%;
+  background-repeat: no-repeat, no-repeat;
+  background-origin: content-box, content-box;
+  background-position: 82% bottom, right top;
+}
+/* line 23, ../sass/modules/banner.scss */
+.banner__links {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 1, ../sass/modules/content.scss */
+.content {
+  padding: 0px 32px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+/* line 7, ../sass/modules/content.scss */
+.content-link {
+  color: #00b9ea;
+}
+/* line 10, ../sass/modules/content.scss */
+.content-link:hover {
+  color: #00a4d5;
+}
+/* line 14, ../sass/modules/content.scss */
+.content-link--decorated {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* line 20, ../sass/modules/content.scss */
+.content-text {
+  color: #5d7079;
+  font-size: 16px;
+}
+/* line 23, ../sass/modules/content.scss */
+.content-text--blue {
+  color: #00b9ff;
+}
+
+/* line 28, ../sass/modules/content.scss */
+.content-title {
+  text-align: left;
+  color: #fff;
+}
+/* line 32, ../sass/modules/content.scss */
+.content-title__h1 {
+  font-size: 42px;
+  line-height: 56px;
+}
+/* line 37, ../sass/modules/content.scss */
+.content-title__h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+/* line 42, ../sass/modules/content.scss */
+.content-title__h4 {
+  font-size: 18px;
+}
+/* line 46, ../sass/modules/content.scss */
+.content-title--dark-blue {
+  color: #2e4369;
+}
+
+/* line 1, ../sass/modules/icon.scss */
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  cursor: pointer;
+}
+/* line 6, ../sass/modules/icon.scss */
+.icon--blue {
+  color: #00b9ff;
+}
+/* line 10, ../sass/modules/icon.scss */
+.icon--small {
+  width: 16px;
+  height: 16px;
+}
+/* line 15, ../sass/modules/icon.scss */
+.icon--medium {
+  width: 24px;
+  height: 24px;
+}
+/* line 20, ../sass/modules/icon.scss */
+.icon--arrow-down {
+  width: 16px;
+  height: 16px;
+  margin-left: 1px;
+  margin-left: 4px;
+  font-family: glyphicons halflings;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 33, ../sass/modules/icon.scss */
+.icon--arrow-down:before {
+  content: '\E114';
+}
+
+/* line 2, ../sass/modules/link-button.scss */
+.link-button {
+  display: block;
+  padding: 12px 24px 10px 24px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 15, ../sass/modules/link-button.scss */
+.link-button:hover {
+  color: #fff;
+  background-color: #00b9ff;
+  border: 1px solid #00b9ff;
+}
+/* line 21, ../sass/modules/link-button.scss */
+.link-button--white-blue {
+  color: #00b9ff;
+  border: 1px solid #00b9ff;
+}
+/* line 26, ../sass/modules/link-button.scss */
+.link-button--white-grey {
+  color: #828691;
+  border: 1px solid #828691;
+}
+/* line 31, ../sass/modules/link-button.scss */
+.link-button--small {
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 4px 16px 2px 16px;
+}
+
+/* line 1, ../sass/modules/main.scss */
+body {
+  margin: 0;
+  min-width: 1164px;
+  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+  font-size: 90%;
+  color: #000080;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: .016em;
+}
+
+/* line 13, ../sass/modules/main.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/modules/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 23, ../sass/modules/main.scss */
+p {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 29, ../sass/modules/main.scss */
+b, strong {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* line 34, ../sass/modules/main.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 39, ../sass/modules/main.scss */
+.m-r-8 {
+  margin-right: 8px;
+}
+
+/* line 43, ../sass/modules/main.scss */
+.m-r-10 {
+  margin-right: 10px;
+}
+
+/* line 47, ../sass/modules/main.scss */
+.m-r-16 {
+  margin-right: 16px;
+}
+
+/* line 51, ../sass/modules/main.scss */
+.m-l-8 {
+  margin-left: 8px;
+}
+
+/* line 55, ../sass/modules/main.scss */
+.m-b-16 {
+  margin-bottom: 16px;
+}
+
+/* line 59, ../sass/modules/main.scss */
+.m-b-18 {
+  margin-bottom: 18px;
+}
+
+/* line 63, ../sass/modules/main.scss */
+.m-b-24 {
+  margin-bottom: 24px;
+}
+
+/* line 68, ../sass/modules/main.scss */
+.m-t-34 {
+  margin-top: 34px;
+}
+
+/* line 1, ../sass/modules/top-notification.scss */
+.top-notification {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #f2f5f7;
+  background-color: #253655;
+}
+/* line 9, ../sass/modules/top-notification.scss */
+.top-notification__content {
+  padding: 0;
+  line-height: 24px;
+}

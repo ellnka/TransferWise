@@ -1,0 +1,40 @@
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    cursor: pointer;
+
+    &--blue {
+        color: #00b9ff;
+    }
+
+    &--small {
+        width: 16px;
+        height: 16px;
+    }
+
+    &--medium {
+        width: 24px;
+        height: 24px;
+    }
+    
+    &--arrow-down {
+        width: 16px;
+        height:16px;
+        margin-left: 1px;
+        margin-left: 4px;
+        font-family: glyphicons halflings;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        vertical-align: middle;
+
+        &:before {
+            content: '\E114';
+        }
+    }
+}
+
+
+
