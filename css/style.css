@@ -87,13 +87,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(./../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(./../fonts/glyphicons-halflings-regular.woff) format("woff"), url(./../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(./../images/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 @font-face {
-  font-family: 'glyphicons-cross';
-  src: url("./../fonts/glyphicons-cross.eot?4ilf8z");
-  src: url("./../fonts/glyphicons-cross.eot?4ilf8z#iefix") format("embedded-opentype"), url("./../fonts/glyphicons-cross.ttf?4ilf8z") format("truetype"), url("./../fonts/glyphicons-cross.woff?4ilf8z") format("woff"), url("./../fonts/glyphicons-cross.svg?4ilf8z#icomoon") format("svg");
+  font-family: icons;
+  src: url("./../fonts/icons.eot?4ilf8z");
+  src: url("./../fonts/icons.eot?4ilf8z#iefix") format("embedded-opentype"), url("./../fonts/icons.ttf?4ilf8z") format("truetype"), url("./../fonts/icons.woff?4ilf8z") format("woff"), url("./../fonts/icons.svg?4ilf8z#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+/* line 1, ../sass/modules/main.scss */
+.main {
+  position: relative;
+  background-image: url(./../images/bg-blue.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
 /* line 1, ../sass/modules/badge.scss */
 .badge {
   display: inline-block;
@@ -163,6 +172,102 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-image: none;
   }
 }
+/* line 1, ../sass/modules/common.scss */
+body {
+  margin: 0;
+  min-width: 1164px;
+  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+  font-size: 90%;
+  color: #000;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: .016em;
+}
+
+/* line 13, ../sass/modules/common.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/modules/common.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 23, ../sass/modules/common.scss */
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 28, ../sass/modules/common.scss */
+span {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 34, ../sass/modules/common.scss */
+a {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 41, ../sass/modules/common.scss */
+b, strong {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* line 46, ../sass/modules/common.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 51, ../sass/modules/common.scss */
+.m-r-8 {
+  margin-right: 8px;
+}
+
+/* line 55, ../sass/modules/common.scss */
+.m-r-10 {
+  margin-right: 10px;
+}
+
+/* line 59, ../sass/modules/common.scss */
+.m-r-16 {
+  margin-right: 16px;
+}
+
+/* line 63, ../sass/modules/common.scss */
+.m-l-8 {
+  margin-left: 8px;
+}
+
+/* line 67, ../sass/modules/common.scss */
+.m-b-16 {
+  margin-bottom: 16px;
+}
+
+/* line 71, ../sass/modules/common.scss */
+.m-b-18 {
+  margin-bottom: 18px;
+}
+
+/* line 75, ../sass/modules/common.scss */
+.m-b-24 {
+  margin-bottom: 24px;
+}
+
+/* line 80, ../sass/modules/common.scss */
+.m-t-34 {
+  margin-top: 34px;
+}
+
 /* line 1, ../sass/modules/content.scss */
 .content {
   padding: 0px 32px;
@@ -243,50 +348,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/modules/icon.scss */
 .icon {
-  display: inline-block;
-  fill: currentColor;
-  cursor: pointer;
-  speak: none;
-}
-/* line 7, ../sass/modules/icon.scss */
-.icon--blue {
-  color: #00b9ff;
-}
-/* line 11, ../sass/modules/icon.scss */
-.icon--small {
-  width: 16px;
-  height: 16px;
-}
-/* line 16, ../sass/modules/icon.scss */
-.icon--medium {
-  width: 24px;
-  height: 24px;
-}
-/* line 21, ../sass/modules/icon.scss */
-.icon--arrow-down {
-  width: 16px;
-  height: 16px;
-  margin-left: 1px;
-  margin-left: 4px;
-  font-family: glyphicons halflings;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1;
-  text-align: center;
-  vertical-align: middle;
-}
-/* line 34, ../sass/modules/icon.scss */
-.icon--arrow-down:before {
-  content: '\E114';
-}
-/* line 39, ../sass/modules/icon.scss */
-.icon__close {
-  width: 24px;
-  height: 24px;
-  color: #00b9ff;
-  font-family: glyphicons-cross;
-  font-size: 24px;
+  display: inline;
+  font-family: icons;
+  font-size: 13px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -294,10 +358,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1;
   text-align: center;
   vertical-align: middle;
+  fill: currentColor;
+  cursor: pointer;
+  speak: none;
 }
-/* line 54, ../sass/modules/icon.scss */
+/* line 16, ../sass/modules/icon.scss */
+.icon__arrow-down {
+  vertical-align: top;
+}
+/* line 19, ../sass/modules/icon.scss */
+.icon__arrow-down:before {
+  content: '\f078';
+}
+/* line 24, ../sass/modules/icon.scss */
+.icon__close {
+  font-size: 24px;
+  color: #00b9ff;
+}
+/* line 28, ../sass/modules/icon.scss */
 .icon__close:before {
   content: "\e900";
+}
+/* line 33, ../sass/modules/icon.scss */
+.icon__globe {
+  vertical-align: top;
+  font-size: 13px;
+  padding-top: 4px;
+}
+/* line 37, ../sass/modules/icon.scss */
+.icon__globe:before {
+  content: "\e901";
 }
 
 /* line 2, ../sass/modules/link-button.scss */
@@ -305,7 +395,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   padding: 12px 24px 10px 24px;
   border-radius: 5px;
-  border: 1px solid;
+  border: 1px solid #000;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -337,100 +427,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 4px 16px 2px 16px;
 }
 
-/* line 1, ../sass/modules/main.scss */
-body {
-  margin: 0;
-  min-width: 1164px;
-  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
-  font-size: 90%;
-  color: #000;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 500;
-  letter-spacing: .016em;
-}
-
-/* line 13, ../sass/modules/main.scss */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-/* line 19, ../sass/modules/main.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-/* line 23, ../sass/modules/main.scss */
-p {
-  padding: 0;
-  margin: 0;
-}
-
-/* line 28, ../sass/modules/main.scss */
-span {
-  padding: 0;
-  margin: 0;
-}
-
-/* line 34, ../sass/modules/main.scss */
-a {
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 41, ../sass/modules/main.scss */
-b, strong {
+/* line 1, ../sass/modules/navbar.scss */
+.navbar {
+  height: 56px;
+  display: flex;
+  justify-content: end;
   font-weight: 600;
-  letter-spacing: 0;
+  color: #fff;
+  align-items: center;
 }
-
-/* line 46, ../sass/modules/main.scss */
-img {
-  max-width: 100%;
-  max-height: 100%;
+/* line 11, ../sass/modules/navbar.scss */
+.navbar__item--left {
+  margin-right: auto;
 }
-
-/* line 51, ../sass/modules/main.scss */
-.m-r-8 {
-  margin-right: 8px;
-}
-
-/* line 55, ../sass/modules/main.scss */
-.m-r-10 {
-  margin-right: 10px;
-}
-
-/* line 59, ../sass/modules/main.scss */
-.m-r-16 {
-  margin-right: 16px;
-}
-
-/* line 63, ../sass/modules/main.scss */
-.m-l-8 {
-  margin-left: 8px;
-}
-
-/* line 67, ../sass/modules/main.scss */
-.m-b-16 {
-  margin-bottom: 16px;
-}
-
-/* line 71, ../sass/modules/main.scss */
-.m-b-18 {
-  margin-bottom: 18px;
-}
-
-/* line 75, ../sass/modules/main.scss */
-.m-b-24 {
-  margin-bottom: 24px;
-}
-
-/* line 80, ../sass/modules/main.scss */
-.m-t-34 {
-  margin-top: 34px;
+/* line 16, ../sass/modules/navbar.scss */
+.navbar__button {
+  margin: 13px 0 8px 10px;
 }
 
 /* line 1, ../sass/modules/top-notification.scss */

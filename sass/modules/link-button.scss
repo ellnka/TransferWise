@@ -3,7 +3,7 @@
     display: block;
     padding: 12px 24px 10px 24px;
     border-radius: 5px;
-    border: 1px solid ;
+    border: 1px solid $black;
     font-size: 16px;
     font-weight: 600;
     line-height: $standardLineHeight;
@@ -14,13 +14,13 @@
 
     &:hover {
         color: $white;
-        background-color: $blue;
-        border: 1px solid $blue;   
+        background-color: $blueButton;
+        border: 1px solid $blueButton;   
     }
 
     &--white-blue {
-        color: $blue;
-        border: 1px solid $blue;   
+        color: $blueButton;
+        border: 1px solid $blueButton;   
     }
 
     &--white-grey {

@@ -1,58 +1,42 @@
 .icon {
-    display: inline-block;
+    display: inline;
+    font-family: icons;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
     fill: currentColor;
     cursor: pointer;
     speak: none;
-
-    &--blue {
-        color: $blue;
-    }
-
-    &--small {
-        width: 16px;
-        height: 16px;
-    }
-
-    &--medium {
-        width: 24px;
-        height: 24px;
-    }
     
-    &--arrow-down {
-        width: 16px;
-        height:16px;
-        margin-left: 1px;
-        margin-left: 4px;
-        font-family: glyphicons halflings;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 1;
-        text-align: center;
-        vertical-align: middle;
+    &__arrow-down {
+        vertical-align: top;
 
         &:before {
-            content: '\E114';
+            content: '\f078';
         }
     }
 
     &__close {
-        width: 24px;
-        height: 24px;
-        color: $blue;
-        font-family: glyphicons-cross;
         font-size: 24px;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        text-align: center;
-        vertical-align: middle;
+        color: $blue;
+
+        &:before {
+            content: "\e900";
+        }
     }
 
-    &__close:before {
-        content: "\e900";
+    &__globe {
+        vertical-align: top;
+        font-size: 13px;
+        padding-top: 4px;
+        &:before {
+            content: "\e901";
+        }  
     }
 }
 

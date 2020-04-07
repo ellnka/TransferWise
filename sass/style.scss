@@ -5,14 +5,16 @@
 @import "_vars";
 
 @import "mixins/clearfix";
-
-// @import "modules/common";
+@import "modules/main";
 @import "modules/badge";
 @import "modules/banner";
+@import "modules/common";
 @import "modules/content";
 @import "modules/dot";
 @import "modules/icon";
 @import "modules/link-button";
-@import "modules/main";
+@import "modules/logo";
+@import "modules/menu";
+@import "modules/navbar";
 @import "modules/top-notification";
 

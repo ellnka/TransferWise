@@ -1,0 +1,19 @@
+.navbar {
+    height: 56px;
+    display: flex;
+    justify-content: end;
+
+    font-weight: 600;
+    color: $navbarTextColor;
+    align-items: center;
+
+    &__item {
+        &--left {
+            margin-right: auto;
+        }
+    }
+
+    &__button {
+        margin: 13px 0 8px 10px;
+    }
+}
