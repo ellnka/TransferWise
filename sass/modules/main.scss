@@ -3,7 +3,7 @@ body {
     min-width: 1164px;  
     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
     font-size: 90%; 
-    color: $blue;
+    color: $black;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -21,10 +21,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
     font-weight: 500;
     padding: 0;
     margin: 0;
 }
+
 
 b, strong {
     font-weight: 600;

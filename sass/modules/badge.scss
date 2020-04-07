@@ -1,20 +1,19 @@
 .badge {
-    position: relative;
     display: inline-block;
+    position: relative;
     min-width: 16px;
-    padding: 6px 8px;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 1em;
     height: 2em;
-    color: $white;
+    padding: 6px 8px;
+    font-size: $badgeFontSize;
+    font-weight: $badgeFontWeight;
+    line-height: 1em;
+    color: $badgeTextColor;
     text-align: center;
-    white-space: nowrap;
     vertical-align: middle;
     background-color: $black;
     border-radius: 10px;
 
     &--green {
-        background-color: $greenBadge;
+        background-color: $badgeGreen;
     }
 }

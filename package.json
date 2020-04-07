@@ -1,12 +1,12 @@
 {
-  "name": "medlab3",
+  "name": "TransWise",
   "version": "1.0.0",
-  "description": "MedLab 3.0 frontend components",
+  "description": "TransWise training site",
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "serhii.borodai@teaminternational.com",
+  "author": "Elena Y",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.7.7",
@@ -18,7 +18,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.7.5",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "compass": "^0.1.1",
     "grunt": "^1.0.4",

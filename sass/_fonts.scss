@@ -37,3 +37,15 @@
     url(./../fonts/glyphicons-halflings-regular.ttf) format('truetype'),
     url(./../images/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
+
+@font-face {
+  font-family: 'glyphicons-cross';
+  src:  url('./../fonts/glyphicons-cross.eot?4ilf8z');
+  src:  url('./../fonts/glyphicons-cross.eot?4ilf8z#iefix') format('embedded-opentype'),
+        url('./../fonts/glyphicons-cross.ttf?4ilf8z') format('truetype'), 
+        url('./../fonts/glyphicons-cross.woff?4ilf8z') format('woff'),
+        url('./../fonts/glyphicons-cross.svg?4ilf8z#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+}

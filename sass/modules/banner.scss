@@ -1,10 +1,10 @@
 .banner {
     padding-top: 16px;
     padding-bottom: 16px;
-    background-image: url(./../images/bg-white.svg),url(./../images/bg-grey.svg);
-    background-repeat: no-repeat,no-repeat;
-    background-position: top left,top right;
-    background-size: contain,contain;
+    background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: contain, contain;
     
     &__header {
         display: flex;
@@ -13,11 +13,6 @@
 
     &__content {
         padding-top: 12px; 
-        background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
-        background-size: 134px, auto 84%;
-        background-repeat: no-repeat, no-repeat;
-        background-origin: content-box, content-box;
-        background-position: 82% bottom, right top;
     }
 
     &__links {
@@ -25,6 +20,34 @@
         justify-content: flex-start;
         margin: 0; 
         padding: 0; 
-        list-style: none; 
+    }
+}
+
+
+// Responsive
+@media screen and (min-width: $breakPointSm) {
+    .banner {
+        &__content {
+            background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
+            background-size: 134px, auto 80%;
+            background-repeat: no-repeat, no-repeat;
+            background-origin: content-box, content-box;
+            background-position: 80% bottom, right top;
+        }
+    }
+}
+
+@media screen and (max-width: $breakPointSm) {
+    .banner {
+        &__content {
+             background-image: none;
+        }
+    }
+}
+@media screen and (max-width: $breakPointXs) {
+    .banner {
+        &__content {
+             background-image: none;
+        }
     }
 }

@@ -1,31 +1,64 @@
-/* line 1, ../../sass/modules/banner.scss */
-.banner {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
-  background-repeat: no-repeat,no-repeat;
-  background-position: top left,top right;
-  background-size: contain,contain;
-}
-/* line 9, ../../sass/modules/banner.scss */
-.banner__header {
-  display: flex;
-  justify-content: space-between;
-}
-/* line 14, ../../sass/modules/banner.scss */
-.banner__content {
-  padding-top: 12px;
-  background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
-  background-size: 134px, auto 84%;
-  background-repeat: no-repeat, no-repeat;
-  background-origin: content-box, content-box;
-  background-position: 82% bottom, right top;
-}
-/* line 23, ../../sass/modules/banner.scss */
-.banner__links {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+/*
+Error: Undefined variable: "$breakPointSm".
+        on line 28 of S:/JS/TransferWise/sass/modules/banner.scss
+
+23:     }
+24: }
+25: 
+26: 
+27: // Responsive
+28: @media screen and (min-width: $breakPointSm) {
+29:     .banner {
+30:         &__content {
+31:             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
+32:             background-size: 134px, auto 80%;
+33:             background-repeat: no-repeat, no-repeat;
+
+Backtrace:
+S:/JS/TransferWise/sass/modules/banner.scss:28
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:543:in `block in run_interp_no_strip'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:541:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:541:in `run_interp_no_strip'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:548:in `run_interp'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Ruby27-x64/bin/compass:23:in `load'
+C:/Ruby27-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$breakPointSm\".\A         on line 28 of S:/JS/TransferWise/sass/modules/banner.scss\A \A 23:     }\A 24: }\A 25: \A 26: \A 27: // Responsive\A 28: @media screen and (min-width: $breakPointSm) {\A 29:     .banner {\A 30:         &__content {\A 31:             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);\A 32:             background-size: 134px, auto 80%;\A 33:             background-repeat: no-repeat, no-repeat;"; }

@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$greyText".
-        on line 21 of S:/JS/TransferWise/sass/modules/content.scss
+Error: Undefined variable: "$blueLink".
+        on line 8 of S:/JS/TransferWise/sass/modules/content.scss
 
-16:         font-weight: 600;
-17:     }
-18: }
-19: 
-20: .content-text {
-21:     color: $greyText;
-22:     font-size: 16px;
-23:     &--blue {
-24:         color: $blueText;
-25:     }
-26: }
+3:     margin: 0 auto;
+4:     max-width:1100px
+5: }
+6: 
+7: .content-link {
+8:     color: $blueLink;
+9: 
+10:     &:hover {
+11:         color: $blueLinkHovered;
+12:     }
+13:     
 
 Backtrace:
-S:/JS/TransferWise/sass/modules/content.scss:21
+S:/JS/TransferWise/sass/modules/content.scss:8
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +68,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$greyText\".\A         on line 21 of S:/JS/TransferWise/sass/modules/content.scss\A \A 16:         font-weight: 600;\A 17:     }\A 18: }\A 19: \A 20: .content-text {\A 21:     color: $greyText;\A 22:     font-size: 16px;\A 23:     &--blue {\A 24:         color: $blueText;\A 25:     }\A 26: }"; }
+  content: "Error: Undefined variable: \"$blueLink\".\A         on line 8 of S:/JS/TransferWise/sass/modules/content.scss\A \A 3:     margin: 0 auto;\A 4:     max-width:1100px\A 5: }\A 6: \A 7: .content-link {\A 8:     color: $blueLink;\A 9: \A 10:     &:hover {\A 11:         color: $blueLinkHovered;\A 12:     }\A 13:     "; }

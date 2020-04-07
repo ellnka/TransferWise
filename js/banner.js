@@ -8,5 +8,3 @@ const $bannerBtnClose = $banner.querySelector(".button-close");
 $bannerBtnClose.onclick = () => {
     $banner.style.display = "none";
 }
-
-

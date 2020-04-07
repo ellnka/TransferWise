@@ -5,10 +5,10 @@
 }
 
 .content-link {
-    color: #00b9ea;
+    color: $blueLink;
 
     &:hover {
-        color: #00a4d5;
+        color: $blueLinkHovered;
     }
     
     &--decorated {
@@ -20,12 +20,17 @@
 .content-text {
     color: $greyText;
     font-size: 16px;
+
     &--blue {
         color: $blueText;
     }
+    
+    &--dark-blue {
+        color: $darkBlueText;
+    }
 }
 
-.content-title{
+.content-title {
     text-align: left;
     color: #fff;
 
@@ -36,14 +41,26 @@
 
     &__h2 {
         font-size: 28px; 
-        font-weight: 600;   
+        font-weight: 800;  
+        color: $darkBlueText; 
     }
 
     &__h4 {
         font-size: 18px;
     }
+}
 
-    &--dark-blue {
-        color: $darkBlueText;
+// Responsive
+// @media screen and (min-width: $breakPointSm) { }
+
+@media screen and (max-width: $breakPointSm) {
+    .content {
+        max-width: $breakPointSm;
+    }
+}
+
+@media screen and (max-width: $breakPointXs) {
+    .content {
+        max-width: $breakPointXs;
     }
 }

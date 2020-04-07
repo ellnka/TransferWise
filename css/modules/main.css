@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$blue".
+Error: Undefined variable: "$black".
         on line 6 of S:/JS/TransferWise/sass/modules/main.scss
 
 1: body {  
@@ -7,7 +7,7 @@ Error: Undefined variable: "$blue".
 3:     min-width: 1164px;  
 4:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
 5:     font-size: 90%; 
-6:     color: $blue;
+6:     color: $black;
 7:     font-size: 14px;
 8:     line-height: 24px;
 9:     font-weight: 500;
@@ -68,4 +68,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 6 of S:/JS/TransferWise/sass/modules/main.scss\A \A 1: body {  \A 2:     margin: 0;\A 3:     min-width: 1164px;  \A 4:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;\A 5:     font-size: 90%; \A 6:     color: $blue;\A 7:     font-size: 14px;\A 8:     line-height: 24px;\A 9:     font-weight: 500;\A 10:     letter-spacing: .016em;\A 11: }"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 6 of S:/JS/TransferWise/sass/modules/main.scss\A \A 1: body {  \A 2:     margin: 0;\A 3:     min-width: 1164px;  \A 4:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;\A 5:     font-size: 90%; \A 6:     color: $black;\A 7:     font-size: 14px;\A 8:     line-height: 24px;\A 9:     font-weight: 500;\A 10:     letter-spacing: .016em;\A 11: }"; }

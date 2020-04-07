@@ -1,0 +1,7 @@
+.dot {
+    color: $blue;
+    user-select: none;
+    &--green {
+        color:$green;
+    }
+}

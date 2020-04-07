@@ -2,9 +2,10 @@
     display: inline-block;
     fill: currentColor;
     cursor: pointer;
+    speak: none;
 
     &--blue {
-        color: #00b9ff;
+        color: $blue;
     }
 
     &--small {
@@ -33,6 +34,25 @@
         &:before {
             content: '\E114';
         }
+    }
+
+    &__close {
+        width: 24px;
+        height: 24px;
+        color: $blue;
+        font-family: glyphicons-cross;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    &__close:before {
+        content: "\e900";
     }
 }
 

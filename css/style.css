@@ -86,24 +86,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(./../fonts/glyphicons-halflings-regular.eot);
   src: url(./../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(./../fonts/glyphicons-halflings-regular.woff) format("woff"), url(./../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(./../images/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
+@font-face {
+  font-family: 'glyphicons-cross';
+  src: url("./../fonts/glyphicons-cross.eot?4ilf8z");
+  src: url("./../fonts/glyphicons-cross.eot?4ilf8z#iefix") format("embedded-opentype"), url("./../fonts/glyphicons-cross.ttf?4ilf8z") format("truetype"), url("./../fonts/glyphicons-cross.woff?4ilf8z") format("woff"), url("./../fonts/glyphicons-cross.svg?4ilf8z#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 /* line 1, ../sass/modules/badge.scss */
 .badge {
-  position: relative;
   display: inline-block;
+  position: relative;
   min-width: 16px;
+  height: 2em;
   padding: 6px 8px;
   font-size: 10px;
   font-weight: 700;
   line-height: 1em;
-  height: 2em;
   color: #fff;
   text-align: center;
-  white-space: nowrap;
   vertical-align: middle;
   background-color: #000;
   border-radius: 10px;
 }
-/* line 17, ../sass/modules/badge.scss */
+/* line 16, ../sass/modules/badge.scss */
 .badge--green {
   background-color: #2ed06e;
 }
@@ -113,9 +120,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 16px;
   padding-bottom: 16px;
   background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
-  background-repeat: no-repeat,no-repeat;
-  background-position: top left,top right;
-  background-size: contain,contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, top right;
+  background-size: contain, contain;
 }
 /* line 9, ../sass/modules/banner.scss */
 .banner__header {
@@ -125,21 +132,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 14, ../sass/modules/banner.scss */
 .banner__content {
   padding-top: 12px;
-  background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
-  background-size: 134px, auto 84%;
-  background-repeat: no-repeat, no-repeat;
-  background-origin: content-box, content-box;
-  background-position: 82% bottom, right top;
 }
-/* line 23, ../sass/modules/banner.scss */
+/* line 18, ../sass/modules/banner.scss */
 .banner__links {
   display: flex;
   justify-content: flex-start;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
+@media screen and (min-width: 992px) {
+  /* line 30, ../sass/modules/banner.scss */
+  .banner__content {
+    background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
+    background-size: 134px, auto 80%;
+    background-repeat: no-repeat, no-repeat;
+    background-origin: content-box, content-box;
+    background-position: 80% bottom, right top;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 42, ../sass/modules/banner.scss */
+  .banner__content {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 49, ../sass/modules/banner.scss */
+  .banner__content {
+    background-image: none;
+  }
+}
 /* line 1, ../sass/modules/content.scss */
 .content {
   padding: 0px 32px;
@@ -166,33 +189,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #5d7079;
   font-size: 16px;
 }
-/* line 23, ../sass/modules/content.scss */
+/* line 24, ../sass/modules/content.scss */
 .content-text--blue {
   color: #00b9ff;
 }
-
 /* line 28, ../sass/modules/content.scss */
+.content-text--dark-blue {
+  color: #2e4369;
+}
+
+/* line 33, ../sass/modules/content.scss */
 .content-title {
   text-align: left;
   color: #fff;
 }
-/* line 32, ../sass/modules/content.scss */
+/* line 37, ../sass/modules/content.scss */
 .content-title__h1 {
   font-size: 42px;
   line-height: 56px;
 }
-/* line 37, ../sass/modules/content.scss */
+/* line 42, ../sass/modules/content.scss */
 .content-title__h2 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 800;
+  color: #2e4369;
 }
-/* line 42, ../sass/modules/content.scss */
+/* line 48, ../sass/modules/content.scss */
 .content-title__h4 {
   font-size: 18px;
 }
-/* line 46, ../sass/modules/content.scss */
-.content-title--dark-blue {
-  color: #2e4369;
+
+@media screen and (max-width: 992px) {
+  /* line 57, ../sass/modules/content.scss */
+  .content {
+    max-width: 992px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 63, ../sass/modules/content.scss */
+  .content {
+    max-width: 768px;
+  }
+}
+/* line 1, ../sass/modules/dot.scss */
+.dot {
+  color: #00b9ff;
+  user-select: none;
+}
+/* line 4, ../sass/modules/dot.scss */
+.dot--green {
+  color: #2ed06e;
 }
 
 /* line 1, ../sass/modules/icon.scss */
@@ -200,22 +246,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   fill: currentColor;
   cursor: pointer;
+  speak: none;
 }
-/* line 6, ../sass/modules/icon.scss */
+/* line 7, ../sass/modules/icon.scss */
 .icon--blue {
   color: #00b9ff;
 }
-/* line 10, ../sass/modules/icon.scss */
+/* line 11, ../sass/modules/icon.scss */
 .icon--small {
   width: 16px;
   height: 16px;
 }
-/* line 15, ../sass/modules/icon.scss */
+/* line 16, ../sass/modules/icon.scss */
 .icon--medium {
   width: 24px;
   height: 24px;
 }
-/* line 20, ../sass/modules/icon.scss */
+/* line 21, ../sass/modules/icon.scss */
 .icon--arrow-down {
   width: 16px;
   height: 16px;
@@ -229,9 +276,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   vertical-align: middle;
 }
-/* line 33, ../sass/modules/icon.scss */
+/* line 34, ../sass/modules/icon.scss */
 .icon--arrow-down:before {
   content: '\E114';
+}
+/* line 39, ../sass/modules/icon.scss */
+.icon__close {
+  width: 24px;
+  height: 24px;
+  color: #00b9ff;
+  font-family: glyphicons-cross;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 54, ../sass/modules/icon.scss */
+.icon__close:before {
+  content: "\e900";
 }
 
 /* line 2, ../sass/modules/link-button.scss */
@@ -277,7 +343,7 @@ body {
   min-width: 1164px;
   font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
   font-size: 90%;
-  color: #000080;
+  color: #000;
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
@@ -298,59 +364,71 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 23, ../sass/modules/main.scss */
 p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 28, ../sass/modules/main.scss */
+span {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 34, ../sass/modules/main.scss */
+a {
   font-weight: 500;
   padding: 0;
   margin: 0;
 }
 
-/* line 29, ../sass/modules/main.scss */
+/* line 41, ../sass/modules/main.scss */
 b, strong {
   font-weight: 600;
   letter-spacing: 0;
 }
 
-/* line 34, ../sass/modules/main.scss */
+/* line 46, ../sass/modules/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 39, ../sass/modules/main.scss */
+/* line 51, ../sass/modules/main.scss */
 .m-r-8 {
   margin-right: 8px;
 }
 
-/* line 43, ../sass/modules/main.scss */
+/* line 55, ../sass/modules/main.scss */
 .m-r-10 {
   margin-right: 10px;
 }
 
-/* line 47, ../sass/modules/main.scss */
+/* line 59, ../sass/modules/main.scss */
 .m-r-16 {
   margin-right: 16px;
 }
 
-/* line 51, ../sass/modules/main.scss */
+/* line 63, ../sass/modules/main.scss */
 .m-l-8 {
   margin-left: 8px;
 }
 
-/* line 55, ../sass/modules/main.scss */
+/* line 67, ../sass/modules/main.scss */
 .m-b-16 {
   margin-bottom: 16px;
 }
 
-/* line 59, ../sass/modules/main.scss */
+/* line 71, ../sass/modules/main.scss */
 .m-b-18 {
   margin-bottom: 18px;
 }
 
-/* line 63, ../sass/modules/main.scss */
+/* line 75, ../sass/modules/main.scss */
 .m-b-24 {
   margin-bottom: 24px;
 }
 
-/* line 68, ../sass/modules/main.scss */
+/* line 80, ../sass/modules/main.scss */
 .m-t-34 {
   margin-top: 34px;
 }
