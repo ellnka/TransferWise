@@ -1,18 +1,18 @@
-.banner {
-    padding-top: 16px;
-    padding-bottom: 16px;
+.banner { 
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, top right;
     background-size: contain, contain;
-    
+
     &__header {
         display: flex;
         justify-content: space-between;
     }
 
     &__content {
-        padding-top: 12px; 
+        padding-top: 1.2rem; 
     }
 
     &__links {
@@ -29,10 +29,10 @@
     .banner {
         &__content {
             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
-            background-size: 134px, auto 80%;
+            background-size: 134px, auto 85%;
             background-repeat: no-repeat, no-repeat;
             background-origin: content-box, content-box;
-            background-position: 80% bottom, right top;
+            background-position: 82% bottom, right top;
         }
     }
 }

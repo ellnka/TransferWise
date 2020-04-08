@@ -1,42 +1,23 @@
 $white: #fff;
 $black: #000;
+
 $green: #2ed06e;
-$blue: #00b9ff;
+
+$blue: #00b9ff;    // main blue
+$blue1: #00b9ea;   // link
+$blue2: #00a4d5;   // hovered link
+
+$darkBlue: #253655;
+$darkBlue2: #2e4369; // text
+
+$grey: #5d7079;    // text
+$grey2: #828691;  // button
 $lightGrey: #f2f5f7;
+
+
 $transparent: rgba(0, 0, 0, 0);
 
 // breakpoints
 $breakPointXs: 768px;
 $breakPointSm: 992px;
 $breakPointMd: 1200px;
-
-// badge
-$badgeGreen: #2ed06e;
-$badgeTextColor: #fff;
-$badgeFontSize: 10px;
-$badgeFontWeight: 700;
-
-// buttons
-$greyButton: #828691;
-$blueButton: #00b9ff;
-
-// content links
-$blueLink: #00b9ea;
-$blueLinkHovered: #00a4d5;
-
-//content text
-$darkBlue: #253655;
-$darkBlueText: #2e4369;
-$blueText: #00b9ff;
-$greyText: #5d7079;
-
-
-//menu
-$menuTextColor: #fff;
-$menuTextHovered: #00b9ff;
-
-//navbar 
-$navbarTextColor: #fff;
-
-$standardLineHeight: 24px;
-$h1LineHeight: 56px;

@@ -103,31 +103,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: left center;
 }
 
-/* line 1, ../sass/modules/badge.scss */
-.badge {
-  display: inline-block;
-  position: relative;
-  min-width: 16px;
-  height: 2em;
-  padding: 6px 8px;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1em;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  background-color: #000;
-  border-radius: 10px;
-}
-/* line 16, ../sass/modules/badge.scss */
-.badge--green {
-  background-color: #2ed06e;
-}
-
 /* line 1, ../sass/modules/banner.scss */
 .banner {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
   background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: top left, top right;
@@ -140,7 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 14, ../sass/modules/banner.scss */
 .banner__content {
-  padding-top: 12px;
+  padding-top: 1.2rem;
 }
 /* line 18, ../sass/modules/banner.scss */
 .banner__links {
@@ -154,10 +133,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 30, ../sass/modules/banner.scss */
   .banner__content {
     background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
-    background-size: 134px, auto 80%;
+    background-size: 134px, auto 85%;
     background-repeat: no-repeat, no-repeat;
     background-origin: content-box, content-box;
-    background-position: 80% bottom, right top;
+    background-position: 82% bottom, right top;
   }
 }
 @media screen and (max-width: 992px) {
@@ -173,43 +152,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 /* line 1, ../sass/modules/common.scss */
-body {
-  margin: 0;
-  min-width: 1164px;
+html {
   font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
-  font-size: 90%;
   color: #000;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 2.5rem;
   font-weight: 500;
-  letter-spacing: .016em;
+  letter-spacing: .016rem;
 }
 
-/* line 13, ../sass/modules/common.scss */
+/* line 10, ../sass/modules/common.scss */
+body {
+  margin: 0;
+}
+
+/* line 14, ../sass/modules/common.scss */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* line 19, ../sass/modules/common.scss */
+/* line 20, ../sass/modules/common.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* line 23, ../sass/modules/common.scss */
+/* line 24, ../sass/modules/common.scss */
 p {
   padding: 0;
   margin: 0;
 }
 
-/* line 28, ../sass/modules/common.scss */
+/* line 29, ../sass/modules/common.scss */
 span {
   padding: 0;
   margin: 0;
 }
 
-/* line 34, ../sass/modules/common.scss */
+/* line 35, ../sass/modules/common.scss */
 a {
   font-weight: 500;
   padding: 0;
@@ -217,246 +198,334 @@ a {
 }
 
 /* line 41, ../sass/modules/common.scss */
-b, strong {
-  font-weight: 600;
-  letter-spacing: 0;
-}
-
-/* line 46, ../sass/modules/common.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 51, ../sass/modules/common.scss */
+/* line 46, ../sass/modules/common.scss */
 .m-r-8 {
-  margin-right: 8px;
+  margin-right: 0.8rem;
 }
 
-/* line 55, ../sass/modules/common.scss */
+/* line 50, ../sass/modules/common.scss */
 .m-r-10 {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
-/* line 59, ../sass/modules/common.scss */
+/* line 54, ../sass/modules/common.scss */
 .m-r-16 {
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 
-/* line 63, ../sass/modules/common.scss */
+/* line 57, ../sass/modules/common.scss */
+.m-l-4 {
+  margin-left: 0.4rem;
+}
+
+/* line 61, ../sass/modules/common.scss */
 .m-l-8 {
-  margin-left: 8px;
+  margin-left: 0.8rem;
 }
 
-/* line 67, ../sass/modules/common.scss */
+/* line 65, ../sass/modules/common.scss */
 .m-b-16 {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
-/* line 71, ../sass/modules/common.scss */
+/* line 69, ../sass/modules/common.scss */
 .m-b-18 {
-  margin-bottom: 18px;
+  margin-bottom: 1.8rem;
 }
 
-/* line 75, ../sass/modules/common.scss */
+/* line 73, ../sass/modules/common.scss */
 .m-b-24 {
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
-/* line 80, ../sass/modules/common.scss */
+/* line 78, ../sass/modules/common.scss */
 .m-t-34 {
-  margin-top: 34px;
+  margin-top: 3.4rem;
+}
+
+/* line 82, ../sass/modules/common.scss */
+.p-r-3 {
+  padding-right: .3rem;
+}
+
+/* line 86, ../sass/modules/common.scss */
+.p-r-5 {
+  padding-right: .5rem;
+}
+
+/* line 90, ../sass/modules/common.scss */
+.p-r-8 {
+  padding-right: .8rem !important;
+}
+
+/* line 94, ../sass/modules/common.scss */
+.p-t-15 {
+  padding-top: 1.5rem;
 }
 
 /* line 1, ../sass/modules/content.scss */
 .content {
-  padding: 0px 32px;
   margin: 0 auto;
   max-width: 1100px;
 }
-
-/* line 7, ../sass/modules/content.scss */
-.content-link {
+/* line 5, ../sass/modules/content.scss */
+.content__link {
   color: #00b9ea;
 }
-/* line 10, ../sass/modules/content.scss */
-.content-link:hover {
+/* line 8, ../sass/modules/content.scss */
+.content__link:hover {
   color: #00a4d5;
 }
-/* line 14, ../sass/modules/content.scss */
-.content-link--decorated {
+/* line 12, ../sass/modules/content.scss */
+.content__link--underlined {
   text-decoration: underline;
   font-weight: 600;
 }
-
-/* line 20, ../sass/modules/content.scss */
-.content-text {
+/* line 18, ../sass/modules/content.scss */
+.content__text {
   color: #5d7079;
-  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: .035rem;
 }
 /* line 24, ../sass/modules/content.scss */
-.content-text--blue {
+.content__text--blue {
   color: #00b9ff;
 }
 /* line 28, ../sass/modules/content.scss */
-.content-text--dark-blue {
+.content__text--dark-blue {
   color: #2e4369;
 }
-
 /* line 33, ../sass/modules/content.scss */
-.content-title {
+.content__title {
   text-align: left;
   color: #fff;
 }
 /* line 37, ../sass/modules/content.scss */
-.content-title__h1 {
-  font-size: 42px;
-  line-height: 56px;
+.content__title--h1 {
+  font-size: 4.2rem;
+  line-height: 5.6rem;
 }
 /* line 42, ../sass/modules/content.scss */
-.content-title__h2 {
-  font-size: 28px;
+.content__title--h2 {
+  font-size: 2.8rem;
   font-weight: 800;
   color: #2e4369;
+  line-height: 3.2rem;
 }
-/* line 48, ../sass/modules/content.scss */
-.content-title__h4 {
-  font-size: 18px;
+/* line 49, ../sass/modules/content.scss */
+.content__title--h4 {
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 57, ../sass/modules/content.scss */
+  /* line 61, ../sass/modules/content.scss */
   .content {
     max-width: 992px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 63, ../sass/modules/content.scss */
+  /* line 67, ../sass/modules/content.scss */
   .content {
     max-width: 768px;
   }
 }
-/* line 1, ../sass/modules/dot.scss */
-.dot {
-  color: #00b9ff;
-  user-select: none;
-}
-/* line 4, ../sass/modules/dot.scss */
-.dot--green {
-  color: #2ed06e;
-}
-
-/* line 1, ../sass/modules/icon.scss */
-.icon {
-  display: inline;
-  font-family: icons;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  text-align: center;
-  vertical-align: middle;
-  fill: currentColor;
-  cursor: pointer;
-  speak: none;
-}
-/* line 16, ../sass/modules/icon.scss */
-.icon__arrow-down {
-  vertical-align: top;
-}
-/* line 19, ../sass/modules/icon.scss */
-.icon__arrow-down:before {
-  content: '\f078';
-}
-/* line 24, ../sass/modules/icon.scss */
-.icon__close {
-  font-size: 24px;
-  color: #00b9ff;
-}
-/* line 28, ../sass/modules/icon.scss */
-.icon__close:before {
-  content: "\e900";
-}
-/* line 33, ../sass/modules/icon.scss */
-.icon__globe {
-  vertical-align: top;
-  font-size: 13px;
-  padding-top: 4px;
-}
-/* line 37, ../sass/modules/icon.scss */
-.icon__globe:before {
-  content: "\e901";
-}
-
-/* line 2, ../sass/modules/link-button.scss */
+/* line 2, ../sass/modules/buttons.scss */
 .link-button {
   display: block;
-  padding: 12px 24px 10px 24px;
-  border-radius: 5px;
-  border: 1px solid #000;
-  font-size: 16px;
+  padding: 1.2rem 2.4rem 1rem;
+  border-radius: .5rem;
+  border: 0.1rem solid #000;
+  font-size: 1.6rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 2.4rem;
   color: #000;
   text-decoration: none;
   text-align: center;
   background-color: transparent;
 }
-/* line 15, ../sass/modules/link-button.scss */
+/* line 15, ../sass/modules/buttons.scss */
 .link-button:hover {
   color: #fff;
   background-color: #00b9ff;
-  border: 1px solid #00b9ff;
+  border: 0.1rem solid #00b9ff;
 }
-/* line 21, ../sass/modules/link-button.scss */
+/* line 21, ../sass/modules/buttons.scss */
 .link-button--white-blue {
   color: #00b9ff;
-  border: 1px solid #00b9ff;
+  border: 0.1rem solid #00b9ff;
 }
-/* line 26, ../sass/modules/link-button.scss */
+/* line 26, ../sass/modules/buttons.scss */
 .link-button--white-grey {
   color: #828691;
-  border: 1px solid #828691;
+  border: 0.1rem solid #828691;
 }
-/* line 31, ../sass/modules/link-button.scss */
+/* line 31, ../sass/modules/buttons.scss */
 .link-button--small {
-  border-radius: 2px;
-  font-size: 14px;
-  padding: 4px 16px 2px 16px;
+  border-radius: .2rem;
+  font-size: 1.4rem;
+  padding: .4rem 1.6rem .2rem;
+}
+
+/* line 1, ../sass/modules/menu.scss */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  font-size: 1.4rem;
+  letter-spacing: normal;
+}
+/* line 10, ../sass/modules/menu.scss */
+.menu__item {
+  height: 5.6rem;
+  padding: .7rem 1rem .9rem 1rem;
+  margin-top: 1.3rem;
+  margin-bottom: .8rem;
+  color: #fff;
+  line-height: 4rem;
+  cursor: pointer;
+}
+/* line 19, ../sass/modules/menu.scss */
+.menu__item:hover {
+  color: #00b9ff;
 }
 
 /* line 1, ../sass/modules/navbar.scss */
 .navbar {
-  height: 56px;
+  height: 5.6rem;
   display: flex;
   justify-content: end;
   font-weight: 600;
   color: #fff;
   align-items: center;
 }
-/* line 11, ../sass/modules/navbar.scss */
+/* line 10, ../sass/modules/navbar.scss */
 .navbar__item--left {
   margin-right: auto;
 }
-/* line 16, ../sass/modules/navbar.scss */
+/* line 15, ../sass/modules/navbar.scss */
 .navbar__button {
-  margin: 13px 0 8px 10px;
+  margin: 1.3rem 0 .8rem 1rem;
+}
+
+/* line 20, ../sass/modules/navbar.scss */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+/* line 25, ../sass/modules/navbar.scss */
+.logo__link {
+  background-image: url(./../images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: transparent;
+  font-size: 1.8rem;
+  height: 2.4rem;
+  line-height: 4rem;
+  width: 11.8rem;
+  padding: .8rem 1.6rem .5rem;
+  margin-bottom: .8rem;
 }
 
 /* line 1, ../sass/modules/top-notification.scss */
 .top-notification {
-  position: relative;
-  display: block;
   width: 100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
   color: #f2f5f7;
   background-color: #253655;
 }
-/* line 9, ../sass/modules/top-notification.scss */
+/* line 8, ../sass/modules/top-notification.scss */
 .top-notification__content {
   padding: 0;
-  line-height: 24px;
+  line-height: 2.4rem;
+}
+/* line 12, ../sass/modules/top-notification.scss */
+.top-notification__content--bold {
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+/* line 1, ../sass/modules/small-elements.scss */
+.badge {
+  display: inline-block;
+  position: relative;
+  min-width: 1.6rem;
+  height: 2rem;
+  padding: .6rem .8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1em;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #000;
+  border-radius: 1rem;
+}
+/* line 16, ../sass/modules/small-elements.scss */
+.badge--green {
+  background-color: #2ed06e;
+}
+
+/* line 21, ../sass/modules/small-elements.scss */
+.dot {
+  color: #00b9ff;
+  user-select: none;
+}
+/* line 24, ../sass/modules/small-elements.scss */
+.dot--green {
+  color: #2ed06e;
+}
+
+/* line 29, ../sass/modules/small-elements.scss */
+.icon {
+  display: inline;
+  font-family: icons;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  vertical-align: middle;
+  fill: currentColor;
+  cursor: pointer;
+  speak: none;
+}
+/* line 44, ../sass/modules/small-elements.scss */
+.icon__arrow-down {
+  vertical-align: middle;
+  line-height: 4.5rem;
+  width: 1.6rem;
+}
+/* line 49, ../sass/modules/small-elements.scss */
+.icon__arrow-down:before {
+  content: '\f078';
+}
+/* line 54, ../sass/modules/small-elements.scss */
+.icon__close {
+  font-size: 24px;
+  color: #00b9ff;
+}
+/* line 58, ../sass/modules/small-elements.scss */
+.icon__close:before {
+  content: "\e900";
+}
+/* line 63, ../sass/modules/small-elements.scss */
+.icon__globe {
+  vertical-align: middle;
+  font-size: 1.3rem;
+  padding-top: .4rem;
+}
+/* line 67, ../sass/modules/small-elements.scss */
+.icon__globe:before {
+  content: "\e901";
 }

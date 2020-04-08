@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$navbarTextColor".
-        on line 7 of S:/JS/TransferWise/sass/modules/navbar.scss
+Error: Undefined variable: "$white".
+        on line 6 of S:/JS/TransferWise/sass/modules/navbar.scss
 
-2:     height: 56px;
+1: .navbar {
+2:     height: 5.6rem;
 3:     display: flex;
 4:     justify-content: end;
-5: 
-6:     font-weight: 600;
-7:     color: $navbarTextColor;
-8:     align-items: center;
-9: 
-10:     &__item {
-11:         &--left {
-12:             margin-right: auto;
+5:     font-weight: 600;
+6:     color: $white;
+7:     align-items: center;
+8: 
+9:     &__item {
+10:         &--left {
+11:             margin-right: auto;
 
 Backtrace:
-S:/JS/TransferWise/sass/modules/navbar.scss:7
+S:/JS/TransferWise/sass/modules/navbar.scss:6
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +68,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$navbarTextColor\".\A         on line 7 of S:/JS/TransferWise/sass/modules/navbar.scss\A \A 2:     height: 56px;\A 3:     display: flex;\A 4:     justify-content: end;\A 5: \A 6:     font-weight: 600;\A 7:     color: $navbarTextColor;\A 8:     align-items: center;\A 9: \A 10:     &__item {\A 11:         &--left {\A 12:             margin-right: auto;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 6 of S:/JS/TransferWise/sass/modules/navbar.scss\A \A 1: .navbar {\A 2:     height: 5.6rem;\A 3:     display: flex;\A 4:     justify-content: end;\A 5:     font-weight: 600;\A 6:     color: $white;\A 7:     align-items: center;\A 8: \A 9:     &__item {\A 10:         &--left {\A 11:             margin-right: auto;"; }

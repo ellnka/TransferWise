@@ -1,0 +1,71 @@
+.badge {
+    display: inline-block;
+    position: relative;
+    min-width: 1.6rem;
+    height: 2rem;
+    padding: .6rem .8rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1em;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $black;
+    border-radius: 1rem;
+
+    &--green {
+        background-color: $green;
+    }
+}
+
+.dot {
+    color: $blue;
+    user-select: none;
+    &--green {
+        color:$green;
+    }
+}
+
+.icon {
+    display: inline;
+    font-family: icons;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    text-align: center;
+    vertical-align: middle;
+    fill: currentColor;
+    cursor: pointer;
+    speak: none;
+    
+    &__arrow-down {
+        vertical-align: middle;
+        line-height: 4.5rem;
+        width: 1.6rem;
+
+        &:before {
+            content: '\f078';
+        }
+    }
+
+    &__close {
+        font-size: 24px;
+        color: $blue;
+
+        &:before {
+            content: "\e900";
+        }
+    }
+
+    &__globe {
+        vertical-align: middle;
+        font-size: 1.3rem;
+        padding-top: .4rem;
+        &:before {
+            content: "\e901";
+        }  
+    }
+}

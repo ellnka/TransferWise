@@ -1,21 +1,18 @@
 /*
 Error: Undefined variable: "$black".
-        on line 6 of S:/JS/TransferWise/sass/modules/common.scss
+        on line 3 of S:/JS/TransferWise/sass/modules/common.scss
 
-1: body {  
-2:     margin: 0;
-3:     min-width: 1164px;  
-4:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
-5:     font-size: 90%; 
-6:     color: $black;
-7:     font-size: 14px;
-8:     line-height: 24px;
-9:     font-weight: 500;
-10:     letter-spacing: .016em;
-11: }
+1: html {
+2:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+3:     color: $black;
+4:     font-size: 10px;
+5:     line-height: 2.5rem;
+6:     font-weight: 500;
+7:     letter-spacing: .016rem;
+8: }
 
 Backtrace:
-S:/JS/TransferWise/sass/modules/common.scss:6
+S:/JS/TransferWise/sass/modules/common.scss:3
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -68,4 +65,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 6 of S:/JS/TransferWise/sass/modules/common.scss\A \A 1: body {  \A 2:     margin: 0;\A 3:     min-width: 1164px;  \A 4:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;\A 5:     font-size: 90%; \A 6:     color: $black;\A 7:     font-size: 14px;\A 8:     line-height: 24px;\A 9:     font-weight: 500;\A 10:     letter-spacing: .016em;\A 11: }"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 3 of S:/JS/TransferWise/sass/modules/common.scss\A \A 1: html {\A 2:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;\A 3:     color: $black;\A 4:     font-size: 10px;\A 5:     line-height: 2.5rem;\A 6:     font-weight: 500;\A 7:     letter-spacing: .016rem;\A 8: }"; }
