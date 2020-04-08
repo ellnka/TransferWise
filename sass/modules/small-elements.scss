@@ -19,11 +19,15 @@
 }
 
 .dot {
-    color: $blue;
+    color: $black;
     user-select: none;
     &--green {
         color:$green;
     }
+    &--blue {
+        color:$blue;
+    }
+
 }
 
 .icon {

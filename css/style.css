@@ -151,6 +151,82 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-image: none;
   }
 }
+/* line 2, ../sass/modules/buttons.scss */
+.link-button {
+  display: block;
+  padding: 1.2rem 2.4rem 1rem;
+  border-radius: .5rem;
+  border: 0.1rem solid #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 15, ../sass/modules/buttons.scss */
+.link-button:hover {
+  color: #fff;
+  background-color: #00b9ff;
+  border: 0.1rem solid #00b9ff;
+}
+/* line 21, ../sass/modules/buttons.scss */
+.link-button--white-blue {
+  color: #00b9ff;
+  border: 0.1rem solid #00b9ff;
+}
+/* line 26, ../sass/modules/buttons.scss */
+.link-button--white-grey {
+  color: #828691;
+  border: 0.1rem solid #828691;
+}
+/* line 31, ../sass/modules/buttons.scss */
+.link-button--small {
+  border-radius: .2rem;
+  font-size: 1.4rem;
+  padding: .4rem 1.6rem .2rem;
+}
+
+/* line 38, ../sass/modules/buttons.scss */
+.button {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  min-height: 4.8rem;
+  padding: .8rem 2.4rem;
+  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+  background-color: transparent;
+  color: #f2f5f7;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: normal;
+  border-radius: .5rem;
+  border: 0.1rem solid #f2f5f7;
+  cursor: pointer;
+  white-space: nowrap;
+}
+/* line 57, ../sass/modules/buttons.scss */
+.button:hover {
+  color: #fff;
+  background-color: #00b9ff;
+  border: 0.1rem solid #00b9ff;
+}
+/* line 63, ../sass/modules/buttons.scss */
+.button__icon {
+  line-height: 3rem;
+  margin-right: 1.2rem;
+  line-height: 0;
+  fill: currentColor;
+}
+/* line 70, ../sass/modules/buttons.scss */
+.button--white-blue {
+  color: #00b9ff;
+  border: 0.1rem solid #00b9ff;
+}
+
 /* line 1, ../sass/modules/common.scss */
 html {
   font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
@@ -239,33 +315,53 @@ img {
 }
 
 /* line 73, ../sass/modules/common.scss */
-.m-b-24 {
-  margin-bottom: 2.4rem;
-}
-
-/* line 78, ../sass/modules/common.scss */
 .m-t-34 {
   margin-top: 3.4rem;
 }
 
-/* line 82, ../sass/modules/common.scss */
+/* line 77, ../sass/modules/common.scss */
+.p-b-16 {
+  padding-bottom: 1.6rem;
+}
+
+/* line 81, ../sass/modules/common.scss */
+.p-b-24 {
+  padding-bottom: 2.4rem;
+}
+
+/* line 85, ../sass/modules/common.scss */
+.p-b-35 {
+  padding-bottom: 3.5rem;
+}
+
+/* line 89, ../sass/modules/common.scss */
 .p-r-3 {
   padding-right: .3rem;
 }
 
-/* line 86, ../sass/modules/common.scss */
+/* line 93, ../sass/modules/common.scss */
 .p-r-5 {
   padding-right: .5rem;
 }
 
-/* line 90, ../sass/modules/common.scss */
+/* line 97, ../sass/modules/common.scss */
 .p-r-8 {
   padding-right: .8rem !important;
 }
 
-/* line 94, ../sass/modules/common.scss */
+/* line 101, ../sass/modules/common.scss */
+.p-r-40 {
+  padding-right: 4rem;
+}
+
+/* line 106, ../sass/modules/common.scss */
 .p-t-15 {
   padding-top: 1.5rem;
+}
+
+/* line 110, ../sass/modules/common.scss */
+.p-t-32 {
+  padding-top: 3.2rem;
 }
 
 /* line 1, ../sass/modules/content.scss */
@@ -288,7 +384,7 @@ img {
 }
 /* line 18, ../sass/modules/content.scss */
 .content__text {
-  color: #5d7079;
+  color: #f2f5f7;
   font-size: 1.6rem;
   line-height: 2.4rem;
   letter-spacing: .035rem;
@@ -298,80 +394,56 @@ img {
   color: #00b9ff;
 }
 /* line 28, ../sass/modules/content.scss */
+.content__text--grey {
+  color: #5d7079;
+}
+/* line 32, ../sass/modules/content.scss */
 .content__text--dark-blue {
   color: #2e4369;
 }
-/* line 33, ../sass/modules/content.scss */
+/* line 37, ../sass/modules/content.scss */
 .content__title {
   text-align: left;
   color: #fff;
+  font-weight: 800;
 }
-/* line 37, ../sass/modules/content.scss */
+/* line 42, ../sass/modules/content.scss */
 .content__title--h1 {
   font-size: 4.2rem;
   line-height: 5.6rem;
 }
-/* line 42, ../sass/modules/content.scss */
+/* line 47, ../sass/modules/content.scss */
 .content__title--h2 {
   font-size: 2.8rem;
-  font-weight: 800;
   color: #2e4369;
   line-height: 3.2rem;
 }
-/* line 49, ../sass/modules/content.scss */
+/* line 53, ../sass/modules/content.scss */
 .content__title--h4 {
   font-size: 1.8rem;
 }
+/* line 58, ../sass/modules/content.scss */
+.content__col {
+  width: 100%;
+}
+/* line 61, ../sass/modules/content.scss */
+.content__col--2 {
+  width: 50%;
+  padding-right: 4.4rem;
+}
 
 @media screen and (max-width: 992px) {
-  /* line 61, ../sass/modules/content.scss */
+  /* line 74, ../sass/modules/content.scss */
   .content {
     max-width: 992px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 67, ../sass/modules/content.scss */
+  /* line 80, ../sass/modules/content.scss */
   .content {
     max-width: 768px;
   }
 }
-/* line 2, ../sass/modules/buttons.scss */
-.link-button {
-  display: block;
-  padding: 1.2rem 2.4rem 1rem;
-  border-radius: .5rem;
-  border: 0.1rem solid #000;
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 2.4rem;
-  color: #000;
-  text-decoration: none;
-  text-align: center;
-  background-color: transparent;
-}
-/* line 15, ../sass/modules/buttons.scss */
-.link-button:hover {
-  color: #fff;
-  background-color: #00b9ff;
-  border: 0.1rem solid #00b9ff;
-}
-/* line 21, ../sass/modules/buttons.scss */
-.link-button--white-blue {
-  color: #00b9ff;
-  border: 0.1rem solid #00b9ff;
-}
-/* line 26, ../sass/modules/buttons.scss */
-.link-button--white-grey {
-  color: #828691;
-  border: 0.1rem solid #828691;
-}
-/* line 31, ../sass/modules/buttons.scss */
-.link-button--small {
-  border-radius: .2rem;
-  font-size: 1.4rem;
-  padding: .4rem 1.6rem .2rem;
-}
-
 /* line 1, ../sass/modules/menu.scss */
 .menu {
   list-style: none;
@@ -453,6 +525,11 @@ img {
   font-weight: 600;
 }
 
+/* line 2, ../sass/modules/transfer.scss */
+.transfer__container {
+  padding-top: 8rem;
+}
+
 /* line 1, ../sass/modules/small-elements.scss */
 .badge {
   display: inline-block;
@@ -476,15 +553,19 @@ img {
 
 /* line 21, ../sass/modules/small-elements.scss */
 .dot {
-  color: #00b9ff;
+  color: #000;
   user-select: none;
 }
 /* line 24, ../sass/modules/small-elements.scss */
 .dot--green {
   color: #2ed06e;
 }
+/* line 27, ../sass/modules/small-elements.scss */
+.dot--blue {
+  color: #00b9ff;
+}
 
-/* line 29, ../sass/modules/small-elements.scss */
+/* line 33, ../sass/modules/small-elements.scss */
 .icon {
   display: inline;
   font-family: icons;
@@ -499,32 +580,32 @@ img {
   cursor: pointer;
   speak: none;
 }
-/* line 44, ../sass/modules/small-elements.scss */
+/* line 48, ../sass/modules/small-elements.scss */
 .icon__arrow-down {
   vertical-align: top;
   font-size: 1.2rem;
   width: 1.6rem;
 }
-/* line 49, ../sass/modules/small-elements.scss */
+/* line 53, ../sass/modules/small-elements.scss */
 .icon__arrow-down:before {
   content: '\f078';
 }
-/* line 54, ../sass/modules/small-elements.scss */
+/* line 58, ../sass/modules/small-elements.scss */
 .icon__close {
   font-size: 24px;
   color: #00b9ff;
 }
-/* line 58, ../sass/modules/small-elements.scss */
+/* line 62, ../sass/modules/small-elements.scss */
 .icon__close:before {
   content: "\e900";
 }
-/* line 63, ../sass/modules/small-elements.scss */
+/* line 67, ../sass/modules/small-elements.scss */
 .icon__globe {
   vertical-align: top;
   font-size: 1.2rem;
   width: 1.6rem;
 }
-/* line 67, ../sass/modules/small-elements.scss */
+/* line 71, ../sass/modules/small-elements.scss */
 .icon__globe:before {
   content: "\e901";
 }
