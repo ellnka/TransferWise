@@ -384,15 +384,14 @@ img {
 }
 /* line 10, ../sass/modules/menu.scss */
 .menu__item {
-  height: 5.6rem;
-  padding: .7rem 1rem .9rem 1rem;
+  padding: .9rem 1rem .7rem 1rem;
   margin-top: 1.3rem;
   margin-bottom: .8rem;
   color: #fff;
   line-height: 4rem;
   cursor: pointer;
 }
-/* line 19, ../sass/modules/menu.scss */
+/* line 18, ../sass/modules/menu.scss */
 .menu__item:hover {
   color: #00b9ff;
 }
@@ -502,8 +501,8 @@ img {
 }
 /* line 44, ../sass/modules/small-elements.scss */
 .icon__arrow-down {
-  vertical-align: middle;
-  line-height: 4.5rem;
+  vertical-align: top;
+  font-size: 1.2rem;
   width: 1.6rem;
 }
 /* line 49, ../sass/modules/small-elements.scss */
@@ -521,9 +520,9 @@ img {
 }
 /* line 63, ../sass/modules/small-elements.scss */
 .icon__globe {
-  vertical-align: middle;
-  font-size: 1.3rem;
-  padding-top: .4rem;
+  vertical-align: top;
+  font-size: 1.2rem;
+  width: 1.6rem;
 }
 /* line 67, ../sass/modules/small-elements.scss */
 .icon__globe:before {
