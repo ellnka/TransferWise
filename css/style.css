@@ -105,23 +105,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/modules/banner.scss */
 .banner {
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding: 3rem 0;
   background-image: url(./../images/bg-white.svg), url(./../images/bg-grey.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: top left, top right;
   background-size: contain, contain;
 }
-/* line 9, ../sass/modules/banner.scss */
+/* line 8, ../sass/modules/banner.scss */
 .banner__header {
   display: flex;
   justify-content: space-between;
 }
-/* line 14, ../sass/modules/banner.scss */
+/* line 13, ../sass/modules/banner.scss */
 .banner__content {
-  padding-top: 1.2rem;
+  padding-top: 0;
+  width: 100%;
 }
 /* line 18, ../sass/modules/banner.scss */
+.banner__title {
+  width: 70%;
+}
+/* line 22, ../sass/modules/banner.scss */
+.banner__text {
+  width: 70%;
+}
+/* line 26, ../sass/modules/banner.scss */
 .banner__links {
   display: flex;
   justify-content: flex-start;
@@ -130,7 +138,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @media screen and (min-width: 992px) {
-  /* line 30, ../sass/modules/banner.scss */
+  /* line 38, ../sass/modules/banner.scss */
   .banner__content {
     background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
     background-size: 134px, auto 85%;
@@ -140,13 +148,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 42, ../sass/modules/banner.scss */
+  /* line 50, ../sass/modules/banner.scss */
   .banner__content {
     background-image: none;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 49, ../sass/modules/banner.scss */
+  /* line 57, ../sass/modules/banner.scss */
   .banner__content {
     background-image: none;
   }
@@ -154,41 +162,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 2, ../sass/modules/buttons.scss */
 .link-button {
   display: block;
-  padding: 1.2rem 2.4rem 1rem;
+  padding: 1rem 2.4rem;
   border-radius: .5rem;
   border: 0.1rem solid #000;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 2.4rem;
+  letter-spacing: normal;
   color: #000;
   text-decoration: none;
   text-align: center;
   background-color: transparent;
 }
-/* line 15, ../sass/modules/buttons.scss */
+/* line 16, ../sass/modules/buttons.scss */
 .link-button:hover {
   color: #fff;
   background-color: #00b9ff;
   border: 0.1rem solid #00b9ff;
 }
-/* line 21, ../sass/modules/buttons.scss */
+/* line 22, ../sass/modules/buttons.scss */
 .link-button--white-blue {
   color: #00b9ff;
   border: 0.1rem solid #00b9ff;
 }
-/* line 26, ../sass/modules/buttons.scss */
+/* line 27, ../sass/modules/buttons.scss */
 .link-button--white-grey {
   color: #828691;
   border: 0.1rem solid #828691;
 }
-/* line 31, ../sass/modules/buttons.scss */
+/* line 32, ../sass/modules/buttons.scss */
 .link-button--small {
   border-radius: .2rem;
   font-size: 1.4rem;
   padding: .4rem 1.6rem .2rem;
 }
 
-/* line 38, ../sass/modules/buttons.scss */
+/* line 39, ../sass/modules/buttons.scss */
 .button {
   display: inline-flex;
   align-items: center;
@@ -208,20 +217,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
   white-space: nowrap;
 }
-/* line 57, ../sass/modules/buttons.scss */
+/* line 58, ../sass/modules/buttons.scss */
 .button:hover {
   color: #fff;
   background-color: #00b9ff;
   border: 0.1rem solid #00b9ff;
 }
-/* line 63, ../sass/modules/buttons.scss */
+/* line 64, ../sass/modules/buttons.scss */
 .button__icon {
   line-height: 3rem;
   margin-right: 1.2rem;
   line-height: 0;
   fill: currentColor;
 }
-/* line 70, ../sass/modules/buttons.scss */
+/* line 71, ../sass/modules/buttons.scss */
 .button--white-blue {
   color: #00b9ff;
   border: 0.1rem solid #00b9ff;
@@ -296,7 +305,7 @@ img {
 
 /* line 57, ../sass/modules/common.scss */
 .m-l-4 {
-  margin-left: 0.4rem;
+  margin-left: 0.2rem;
 }
 
 /* line 61, ../sass/modules/common.scss */
@@ -453,21 +462,28 @@ img {
   display: flex;
   justify-content: end;
   font-size: 1.4rem;
-  letter-spacing: normal;
-  font-weight: 600;
 }
-/* line 11, ../sass/modules/menu.scss */
+/* line 9, ../sass/modules/menu.scss */
 .menu__item {
-  padding: .9rem 1rem .7rem 1rem;
+  padding: .9rem 1.3rem 1.1rem .9rem;
   margin-top: 1.3rem;
   margin-bottom: .8rem;
   color: #fff;
   line-height: 4rem;
   cursor: pointer;
 }
-/* line 19, ../sass/modules/menu.scss */
+/* line 17, ../sass/modules/menu.scss */
 .menu__item:hover {
   color: #00b9ff;
+}
+/* line 22, ../sass/modules/menu.scss */
+.menu__name {
+  padding-top: 0;
+  margin: 0;
+  font-weight: 600;
+  max-width: 164px;
+  vertical-align: middle;
+  letter-spacing: normal;
 }
 
 /* line 1, ../sass/modules/navbar.scss */
@@ -485,7 +501,7 @@ img {
 }
 /* line 15, ../sass/modules/navbar.scss */
 .navbar__button {
-  margin: 1.3rem 0 .8rem 1rem;
+  margin: 1.1rem 0 .9rem 1rem;
 }
 
 /* line 20, ../sass/modules/navbar.scss */
@@ -569,7 +585,7 @@ img {
 
 /* line 33, ../sass/modules/small-elements.scss */
 .icon {
-  display: inline;
+  display: inline-flex;
   font-family: icons;
   font-size: 1.3rem;
   font-style: normal;
@@ -582,20 +598,22 @@ img {
   cursor: pointer;
   speak: none;
 }
-/* line 48, ../sass/modules/small-elements.scss */
+/* line 47, ../sass/modules/small-elements.scss */
 .icon__arrow-down {
   vertical-align: top;
-  font-size: 1.2rem;
-  width: 1.6rem;
+  font-size: 1.4rem;
+  width: 1.2rem;
 }
-/* line 53, ../sass/modules/small-elements.scss */
+/* line 52, ../sass/modules/small-elements.scss */
 .icon__arrow-down:before {
   content: '\e902';
 }
-/* line 58, ../sass/modules/small-elements.scss */
+/* line 57, ../sass/modules/small-elements.scss */
 .icon__close {
   font-size: 24px;
   color: #00b9ff;
+  line-height: 3.2rem;
+  vertical-align: top;
 }
 /* line 62, ../sass/modules/small-elements.scss */
 .icon__close:before {
@@ -605,7 +623,7 @@ img {
 .icon__globe {
   vertical-align: top;
   font-size: 1.2rem;
-  width: 1.6rem;
+  width: 1.4rem;
 }
 /* line 71, ../sass/modules/small-elements.scss */
 .icon__globe:before {

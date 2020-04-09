@@ -5,14 +5,14 @@ Error: Undefined variable: "$black".
 1: 
 2: .link-button {
 3:     display: block;
-4:     padding: 1.2rem 2.4rem 1rem;
+4:     padding: 1rem 2.4rem;
 5:     border-radius: .5rem;
 6:     border: .1rem solid $black;
-7:     font-size: 1.6rem;
+7:     font-size: 1.4rem;
 8:     font-weight: 600;
 9:     line-height: 2.4rem;
-10:     color: $black;
-11:     text-decoration: none;
+10:     letter-spacing: normal;
+11:     color: $black;
 
 Backtrace:
 S:/JS/TransferWise/sass/modules/buttons.scss:6
@@ -72,4 +72,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 6 of S:/JS/TransferWise/sass/modules/buttons.scss\A \A 1: \A 2: .link-button {\A 3:     display: block;\A 4:     padding: 1.2rem 2.4rem 1rem;\A 5:     border-radius: .5rem;\A 6:     border: .1rem solid $black;\A 7:     font-size: 1.6rem;\A 8:     font-weight: 600;\A 9:     line-height: 2.4rem;\A 10:     color: $black;\A 11:     text-decoration: none;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 6 of S:/JS/TransferWise/sass/modules/buttons.scss\A \A 1: \A 2: .link-button {\A 3:     display: block;\A 4:     padding: 1rem 2.4rem;\A 5:     border-radius: .5rem;\A 6:     border: .1rem solid $black;\A 7:     font-size: 1.4rem;\A 8:     font-weight: 600;\A 9:     line-height: 2.4rem;\A 10:     letter-spacing: normal;\A 11:     color: $black;"; }

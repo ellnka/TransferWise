@@ -5,11 +5,9 @@
     display: flex;
     justify-content: end;
     font-size: 1.4rem;
-    letter-spacing: normal;
-    font-weight: 600;
 
     &__item {
-        padding: .9rem 1rem .7rem 1rem;
+        padding: .9rem 1.3rem 1.1rem .9rem;
         margin-top: 1.3rem;
         margin-bottom: .8rem;
         color: $white;
@@ -19,5 +17,14 @@
         &:hover {
             color: $blue;
         }
+    }
+
+    &__name {
+        padding-top: 0;
+        margin: 0;
+        font-weight: 600;
+        max-width: 164px;
+        vertical-align: middle;
+        letter-spacing: normal;
     }
 }
