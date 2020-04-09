@@ -8,11 +8,11 @@ Error: Undefined variable: "$blue1".
 4:     
 5:     &__link {
 6:         color: $blue1;
-7: 
-8:         &:hover {
-9:             color: $blue2;
-10:         }
-11:     
+7:         letter-spacing: normal;
+8: 
+9:         &:hover {
+10:             color: $blue2;
+11:         }
 
 Backtrace:
 S:/JS/TransferWise/sass/modules/content.scss:6
@@ -79,4 +79,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue1\".\A         on line 6 of S:/JS/TransferWise/sass/modules/content.scss\A \A 1: .content {\A 2:     margin: 0 auto;\A 3:     max-width: 1100px;\A 4:     \A 5:     &__link {\A 6:         color: $blue1;\A 7: \A 8:         &:hover {\A 9:             color: $blue2;\A 10:         }\A 11:     "; }
+  content: "Error: Undefined variable: \"$blue1\".\A         on line 6 of S:/JS/TransferWise/sass/modules/content.scss\A \A 1: .content {\A 2:     margin: 0 auto;\A 3:     max-width: 1100px;\A 4:     \A 5:     &__link {\A 6:         color: $blue1;\A 7:         letter-spacing: normal;\A 8: \A 9:         &:hover {\A 10:             color: $blue2;\A 11:         }"; }

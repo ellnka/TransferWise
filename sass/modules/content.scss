@@ -4,6 +4,7 @@
     
     &__link {
         color: $blue1;
+        letter-spacing: normal;
 
         &:hover {
             color: $blue2;
@@ -19,7 +20,6 @@
         color: $lightGrey;
         font-size: 1.6rem;
         line-height: 2.4rem;
-        letter-spacing: .035rem;
 
         &--blue {
             color: $blue;
@@ -38,6 +38,7 @@
         text-align: left;
         color: $white;
         font-weight: 800;
+        letter-spacing: normal;
 
         &--h1 {
             font-size: 4.2rem;

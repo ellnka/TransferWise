@@ -3,7 +3,7 @@ Error: Undefined variable: "$black".
         on line 3 of S:/JS/TransferWise/sass/modules/common.scss
 
 1: html {
-2:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+2:     font-family: averta, Helvetica,Arial,sans-serif;
 3:     color: $black;
 4:     font-size: 10px;
 5:     line-height: 2.5rem;
@@ -65,4 +65,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 3 of S:/JS/TransferWise/sass/modules/common.scss\A \A 1: html {\A 2:     font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;\A 3:     color: $black;\A 4:     font-size: 10px;\A 5:     line-height: 2.5rem;\A 6:     font-weight: 500;\A 7:     letter-spacing: .016rem;\A 8: }"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 3 of S:/JS/TransferWise/sass/modules/common.scss\A \A 1: html {\A 2:     font-family: averta, Helvetica,Arial,sans-serif;\A 3:     color: $black;\A 4:     font-size: 10px;\A 5:     line-height: 2.5rem;\A 6:     font-weight: 500;\A 7:     letter-spacing: .016rem;\A 8: }"; }

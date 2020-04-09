@@ -195,7 +195,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   min-height: 4.8rem;
   padding: .8rem 2.4rem;
-  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica,Arial,sans-serif;
   background-color: transparent;
   color: #f2f5f7;
   font-size: 1.6rem;
@@ -229,7 +229,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/modules/common.scss */
 html {
-  font-family: averta, avenir w02, avenir, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica,Arial,sans-serif;
   color: #000;
   font-size: 10px;
   line-height: 2.5rem;
@@ -280,8 +280,8 @@ img {
 }
 
 /* line 46, ../sass/modules/common.scss */
-.m-r-8 {
-  margin-right: 0.8rem;
+.m-r-5 {
+  margin-right: 0.5rem;
 }
 
 /* line 50, ../sass/modules/common.scss */
@@ -330,8 +330,8 @@ img {
 }
 
 /* line 85, ../sass/modules/common.scss */
-.p-b-35 {
-  padding-bottom: 3.5rem;
+.p-b-32 {
+  padding-bottom: 3.2rem;
 }
 
 /* line 89, ../sass/modules/common.scss */
@@ -350,8 +350,8 @@ img {
 }
 
 /* line 101, ../sass/modules/common.scss */
-.p-r-40 {
-  padding-right: 4rem;
+.p-r-48 {
+  padding-right: 4.8rem;
 }
 
 /* line 106, ../sass/modules/common.scss */
@@ -360,8 +360,8 @@ img {
 }
 
 /* line 110, ../sass/modules/common.scss */
-.p-t-32 {
-  padding-top: 3.2rem;
+.p-t-24 {
+  padding-top: 2.4rem;
 }
 
 /* line 1, ../sass/modules/content.scss */
@@ -372,22 +372,22 @@ img {
 /* line 5, ../sass/modules/content.scss */
 .content__link {
   color: #00b9ea;
+  letter-spacing: normal;
 }
-/* line 8, ../sass/modules/content.scss */
+/* line 9, ../sass/modules/content.scss */
 .content__link:hover {
   color: #00a4d5;
 }
-/* line 12, ../sass/modules/content.scss */
+/* line 13, ../sass/modules/content.scss */
 .content__link--underlined {
   text-decoration: underline;
   font-weight: 600;
 }
-/* line 18, ../sass/modules/content.scss */
+/* line 19, ../sass/modules/content.scss */
 .content__text {
   color: #f2f5f7;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  letter-spacing: .035rem;
 }
 /* line 24, ../sass/modules/content.scss */
 .content__text--blue {
@@ -406,40 +406,41 @@ img {
   text-align: left;
   color: #fff;
   font-weight: 800;
+  letter-spacing: normal;
 }
-/* line 42, ../sass/modules/content.scss */
+/* line 43, ../sass/modules/content.scss */
 .content__title--h1 {
   font-size: 4.2rem;
   line-height: 5.6rem;
 }
-/* line 47, ../sass/modules/content.scss */
+/* line 48, ../sass/modules/content.scss */
 .content__title--h2 {
   font-size: 2.8rem;
   color: #2e4369;
   line-height: 3.2rem;
 }
-/* line 53, ../sass/modules/content.scss */
+/* line 54, ../sass/modules/content.scss */
 .content__title--h4 {
   font-size: 1.8rem;
 }
-/* line 58, ../sass/modules/content.scss */
+/* line 59, ../sass/modules/content.scss */
 .content__col {
   width: 100%;
 }
-/* line 61, ../sass/modules/content.scss */
+/* line 62, ../sass/modules/content.scss */
 .content__col--2 {
   width: 50%;
   padding-right: 4.4rem;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 74, ../sass/modules/content.scss */
+  /* line 75, ../sass/modules/content.scss */
   .content {
     max-width: 992px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 80, ../sass/modules/content.scss */
+  /* line 81, ../sass/modules/content.scss */
   .content {
     max-width: 768px;
   }
@@ -453,8 +454,9 @@ img {
   justify-content: end;
   font-size: 1.4rem;
   letter-spacing: normal;
+  font-weight: 600;
 }
-/* line 10, ../sass/modules/menu.scss */
+/* line 11, ../sass/modules/menu.scss */
 .menu__item {
   padding: .9rem 1rem .7rem 1rem;
   margin-top: 1.3rem;
@@ -463,7 +465,7 @@ img {
   line-height: 4rem;
   cursor: pointer;
 }
-/* line 18, ../sass/modules/menu.scss */
+/* line 19, ../sass/modules/menu.scss */
 .menu__item:hover {
   color: #00b9ff;
 }
@@ -588,7 +590,7 @@ img {
 }
 /* line 53, ../sass/modules/small-elements.scss */
 .icon__arrow-down:before {
-  content: '\f078';
+  content: '\e902';
 }
 /* line 58, ../sass/modules/small-elements.scss */
 .icon__close {
