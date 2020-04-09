@@ -2,8 +2,13 @@ module.exports = {
     "plugins": [
         "css-modules"
     ],
-        "extends": [
-            "plugin:css-modules/recommended",
-            "standard"
+    "rules": { 
+        "indent": ["error", 4], 
+        "semi": ["error", "always"]
+    },
+
+    "extends": [
+        "plugin:css-modules/recommended",
+        "standard"
         ]
 } ;

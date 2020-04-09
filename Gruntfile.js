@@ -20,10 +20,10 @@ module.exports = function (grunt) {
                 files: 'sass/**/*.scss',
                 tasks: ['compass']
             },
-            /*cssmin: {
+            /* cssmin: {
                 files: ['css/*.css'],
                 tasks: ['cssmin']
-            },*/
+            }, */
             scripts: {
                 files: 'js/*.js',
                 tasks: ['concat']
@@ -31,17 +31,17 @@ module.exports = function (grunt) {
             babel: {
                 files: 'no-babel.js',
                 tasks: ['babel']
-            },
-            /*jsmin: {
+            }/*,
+      jsmin: {
                 files: 'scripts.js',
                 tasks: ['uglify']
-            }*/
+            } */
         },
         babel: {
             options: {
                 sourceMap: true,
-                presets: ["@babel/preset-env", "@babel/preset-react"],
-                plugins: ["@babel/plugin-transform-modules-commonjs", "@babel/plugin-transform-arrow-functions"]
+                presets: ['@babel/preset-env', '@babel/preset-react'],
+                plugins: ['@babel/plugin-transform-modules-commonjs', '@babel/plugin-transform-arrow-functions']
             },
             dist: {
                 files: {
@@ -66,7 +66,7 @@ module.exports = function (grunt) {
                     ext: '.css'
                 }]
             }
-        },
+        }
     });
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -75,4 +75,4 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-babel');
     grunt.registerTask('default', ['watch']);
-}
+};

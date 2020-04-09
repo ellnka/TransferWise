@@ -33,7 +33,7 @@
 
 
 // Responsive
-@media screen and (min-width: $breakPointSm) {
+@media screen and (min-width: $breakPointM) {
     .banner {
         &__content {
             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
@@ -45,14 +45,7 @@
     }
 }
 
-@media screen and (max-width: $breakPointSm) {
-    .banner {
-        &__content {
-             background-image: none;
-        }
-    }
-}
-@media screen and (max-width: $breakPointXs) {
+@media screen and (max-width: $breakPointM) {
     .banner {
         &__content {
              background-image: none;

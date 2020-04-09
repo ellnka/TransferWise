@@ -1,8 +1,0 @@
-/* line 1, ../sass/main.scss */
-.main {
-  position: relative;
-  background-image: url(./../images/bg-blue.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
-}

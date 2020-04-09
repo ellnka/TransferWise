@@ -1,6 +1,5 @@
 .content {
     margin: 0 auto;
-    max-width: 1100px;
     
     &__link {
         color: $blue1;
@@ -53,15 +52,27 @@
 
         &--h4 {
             font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: normal;
+            line-height: 2.4rem;
         }
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     &__col {
         width: 100%;
 
+        &--1{
+            width: 100%;
+        }
+
         &--2{
             width: 50%;
-            padding-right:4.4rem;
         }
     }
 }
@@ -69,16 +80,59 @@
 
 
 // Responsive
-// @media screen and (min-width: $breakPointSm) { }
-
-@media screen and (max-width: $breakPointSm) {
+@media screen and (min-width: $breakPointXL) {
     .content {
-        max-width: $breakPointSm;
+        max-width: 1100px;
+    }
+
+    .xl {
+        &--hidden {
+            display: none;
+        }
     }
 }
 
-@media screen and (max-width: $breakPointXs) {
+@media screen and (max-width: $breakPointL) {
+    .content {
+        max-width: 1100px;
+    }
+
+    .l {
+        &--hidden {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $breakPointM) {
+    .content {
+        max-width: $breakPointS;
+    }
+
+    .m {
+        &--hidden {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $breakPointS) {
     .content {
         max-width: $breakPointXs;
+    }
+
+    .s {
+        &--hidden {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: $breakPointXs) {
+    .xs {
+        &--hidden {
+            display: none;
+        }
     }
 }

@@ -54,7 +54,16 @@
         }
     }
 
-    &__close {
+    &__globe {
+        vertical-align: top;
+        font-size: 1.2rem;
+        width: 1.4rem;
+        &:before {
+            content: "\e901";
+        }  
+    }
+
+     &__close {
         font-size: 24px;
         color: $blue;
         line-height: 3.2rem;
@@ -64,12 +73,12 @@
         }
     }
 
-    &__globe {
+    &__video-play {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
         vertical-align: top;
-        font-size: 1.2rem;
-        width: 1.4rem;
         &:before {
-            content: "\e901";
-        }  
+            content: "\e905";
+        }
     }
 }

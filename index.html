@@ -8,6 +8,7 @@
     <title>TransferWise</title>
     <meta name="description" content="The TransferWise Herald">
     <meta name="author" content="Elena Y">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -47,25 +48,25 @@
                     <a href="#transferwise" class="logo__link"></a>
                 </div>
 
-                <ul class="navbar__item menu">
+                <ul class="navbar__item menu s--hidden">
                     <li class="menu__item">
                         <span class="menu__name">Money transfer </span>
-                        <div class="icon m-l-4"><span class="icon__arrow-down"></span></div>
+                        <div class="icon m-l-2"><span class="icon__arrow-down"></span></div>
                     </li>
                     <li class="menu__item">
                         <span class="badge badge--green m-r-5">New</span>
                         <span class="menu__name">Multi-currency account</span>
-                        <div class="icon m-l-4"><span class="icon__arrow-down"></span></div>
+                        <div class="icon m-l-2"><span class="icon__arrow-down"></span></div>
                     </li>
                     <li class="menu__item">
                         <span class="menu__name">Business</span>
-                        <div class="icon m-l-4"><span class="icon__arrow-down"></span></div>
+                        <div class="icon m-l-2"><span class="icon__arrow-down"></span></div>
                     </li>
                     <li class="menu__item">Help</li>
                     <li class="menu__item">
                         <div class="icon"><span class="icon__globe"></span></div>
                         <span class="menu__name">EN</span>
-                        <div class="icon m-l-4"><span class="icon__arrow-down"></span></div>
+                        <div class="icon m-l-2"><span class="icon__arrow-down"></span></div>
                     </li>
                     <li class="menu__item"><span class="menu__name">Log in</span></li>
                 </ul>
@@ -78,7 +79,7 @@
 
         <section class="transfer">
             <div class="content">
-                <div class="content__col content__col--2">
+                <div class="content__col content__col--2 p-r-44">
                     <div class="content__row">     
                         <div class="content__col content__col--1 transfer__container howto">
                             <div class="howto__title content__title content__title--h1 p-t-24 p-b-24">
@@ -89,23 +90,27 @@
                                 high street banks.
                             </p>
                             <button class="howto__button button button--white-blue">
-                                <div class="icon"><span class="icon__video"></span></div>
+                                <div class="icon m-r-12"><span class="icon__video-play"></span></div>
                                 See how we send money
                             </button>
                         </div>
                     </div>
                     
                     <div class="content__row">
-                        <div class="content__col content__col--2 transfer__container">
-                            <div class="transfer__img" />
-                            <div class="content__title content__title--h4">Millions of happy customers</div>
-                            <a href="#" class="link link--blue">See what they have to say</a>
+                        <div class="content__col content__col--2 transfer__container p-r-12">
+                            <div class="transfer__img">
+                                <img  class="img" src="./images/stars.png" />
+                            </div>
+                            <div class="content__title content__title--h4 p-t-8">Over 7 millions customers</div>
+                            <a href="#" class="link link--blue">Read on Trustpilot</a>
                         </div>
 
-                        <div class="content__col content__col--2 transfer__container">
-                            <div class="transfer__img" />
-                            <div class="content__title content__title--h4">Is TransferWise safe?</div>
-                            <a href="#" class="link link--blue">Yes, here's why</a>
+                        <div class="content__col content__col--2 transfer__container p-r-12">
+                            <div class="transfer__img">
+                                <img class="img" src="./images/magnifying-glass.png" />
+                            </div>
+                            <div class="content__title content__title--h4  p-t-8">FCA regulated</div>
+                            <a href="#" class="link link--blue">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +136,7 @@
 
     </div>
     
-    <script src="no-babel.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

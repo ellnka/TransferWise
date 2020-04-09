@@ -6,6 +6,7 @@ $green: #2ed06e;
 $blue: #00b9ff;    // main blue
 $blue1: #00b9ea;   // link
 $blue2: #00a4d5;   // hovered link
+$blue3: #00a4df;
 
 $darkBlue: #253655;
 $darkBlue2: #2e4369; // text
@@ -18,6 +19,9 @@ $lightGrey: #f2f5f7;
 $transparent: rgba(0, 0, 0, 0);
 
 // breakpoints
-$breakPointXs: 768px;
-$breakPointSm: 992px;
-$breakPointMd: 1200px;
+$breakPointXs: 480px;
+$breakPointS: 576px;
+$breakPointM: 768px;
+$breakPointL: 992px;
+$breakPointXL: 1200px;
+

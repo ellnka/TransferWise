@@ -73,3 +73,44 @@
         border: .1rem solid $blue;   
     }
 }
+
+.link {
+    color: $black;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-decoration: none;
+
+    &:hover {
+        color: $blue3;
+        outline: 0;
+    }
+
+    &::after {
+        display: inline-block;
+        margin-left: .8rem;
+        font-family: glyphicons halflings;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        color: $blue;
+        pointer-events: none;
+        content: "\E080";
+    }
+
+    &--blue {
+        color: $blue;
+    }
+    &:hover::after,
+    &:focus::after,
+    &-container:hover &::after,
+    &-container:focus &::after {
+        -webkit-transform: translateX(.4rem);
+        -ms-transform: translateX(.4rem);
+        -o-transform: translateX(.4rem);
+        transform: translateX(.4rem)
+    }
+
+}
+

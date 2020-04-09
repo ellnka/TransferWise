@@ -137,7 +137,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   /* line 38, ../sass/modules/banner.scss */
   .banner__content {
     background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
@@ -147,14 +147,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-position: 82% bottom, right top;
   }
 }
-@media screen and (max-width: 992px) {
-  /* line 50, ../sass/modules/banner.scss */
-  .banner__content {
-    background-image: none;
-  }
-}
 @media screen and (max-width: 768px) {
-  /* line 57, ../sass/modules/banner.scss */
+  /* line 50, ../sass/modules/banner.scss */
   .banner__content {
     background-image: none;
   }
@@ -236,6 +230,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 0.1rem solid #00b9ff;
 }
 
+/* line 77, ../sass/modules/buttons.scss */
+.link {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+/* line 84, ../sass/modules/buttons.scss */
+.link:hover {
+  color: #00a4df;
+  outline: 0;
+}
+/* line 89, ../sass/modules/buttons.scss */
+.link::after {
+  display: inline-block;
+  margin-left: .8rem;
+  font-family: glyphicons halflings;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: #00b9ff;
+  pointer-events: none;
+  content: "\E080";
+}
+/* line 102, ../sass/modules/buttons.scss */
+.link--blue {
+  color: #00b9ff;
+}
+/* line 105, ../sass/modules/buttons.scss */
+.link:hover::after, .link:focus::after, .link-container:hover .link::after, .link-container:focus .link::after {
+  -webkit-transform: translateX(0.4rem);
+  -ms-transform: translateX(0.4rem);
+  -o-transform: translateX(0.4rem);
+  transform: translateX(0.4rem);
+}
+
 /* line 1, ../sass/modules/common.scss */
 html {
   font-family: averta, Helvetica,Arial,sans-serif;
@@ -288,170 +320,270 @@ img {
   max-height: 100%;
 }
 
-/* line 46, ../sass/modules/common.scss */
-.m-r-5 {
-  margin-right: 0.5rem;
+/*** hiding elements from a view ***/
+/* line 47, ../sass/modules/common.scss */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-/* line 50, ../sass/modules/common.scss */
-.m-r-10 {
-  margin-right: 1rem;
-}
-
-/* line 54, ../sass/modules/common.scss */
-.m-r-16 {
-  margin-right: 1.6rem;
-}
-
-/* line 57, ../sass/modules/common.scss */
-.m-l-4 {
-  margin-left: 0.2rem;
-}
-
-/* line 61, ../sass/modules/common.scss */
-.m-l-8 {
-  margin-left: 0.8rem;
-}
-
-/* line 65, ../sass/modules/common.scss */
-.m-b-16 {
-  margin-bottom: 1.6rem;
-}
-
-/* line 69, ../sass/modules/common.scss */
-.m-b-18 {
-  margin-bottom: 1.8rem;
-}
-
-/* line 73, ../sass/modules/common.scss */
+/*** margin-top ***/
+/* line 58, ../sass/modules/common.scss */
 .m-t-34 {
   margin-top: 3.4rem;
 }
 
-/* line 77, ../sass/modules/common.scss */
-.p-b-16 {
-  padding-bottom: 1.6rem;
+/*** margin-right ***/
+/* line 63, ../sass/modules/common.scss */
+.m-r-5 {
+  margin-right: 0.5rem;
 }
 
-/* line 81, ../sass/modules/common.scss */
-.p-b-24 {
-  padding-bottom: 2.4rem;
+/* line 67, ../sass/modules/common.scss */
+.m-r-10 {
+  margin-right: 1rem;
 }
 
-/* line 85, ../sass/modules/common.scss */
-.p-b-32 {
-  padding-bottom: 3.2rem;
+/* line 71, ../sass/modules/common.scss */
+.m-r-12 {
+  margin-right: 1.2rem !important;
 }
 
+/* line 75, ../sass/modules/common.scss */
+.m-r-16 {
+  margin-right: 1.6rem;
+}
+
+/*** margin-bottom ***/
+/* line 80, ../sass/modules/common.scss */
+.m-b-16 {
+  margin-bottom: 1.6rem;
+}
+
+/* line 84, ../sass/modules/common.scss */
+.m-b-18 {
+  margin-bottom: 1.8rem;
+}
+
+/*** margin-left ***/
 /* line 89, ../sass/modules/common.scss */
-.p-r-3 {
-  padding-right: .3rem;
+.m-l-2 {
+  margin-left: 0.2rem;
 }
 
 /* line 93, ../sass/modules/common.scss */
-.p-r-5 {
-  padding-right: .5rem;
+.m-l-8 {
+  margin-left: 0.8rem;
 }
 
-/* line 97, ../sass/modules/common.scss */
-.p-r-8 {
-  padding-right: .8rem !important;
+/*** padding-top ***/
+/* line 98, ../sass/modules/common.scss */
+.p-t-8 {
+  padding-top: .8rem;
 }
 
-/* line 101, ../sass/modules/common.scss */
-.p-r-48 {
-  padding-right: 4.8rem;
-}
-
-/* line 106, ../sass/modules/common.scss */
+/* line 103, ../sass/modules/common.scss */
 .p-t-15 {
   padding-top: 1.5rem;
 }
 
-/* line 110, ../sass/modules/common.scss */
+/* line 107, ../sass/modules/common.scss */
 .p-t-24 {
   padding-top: 2.4rem;
+}
+
+/*** padding-right ***/
+/* line 113, ../sass/modules/common.scss */
+.p-r-3 {
+  padding-right: .3rem;
+}
+
+/* line 117, ../sass/modules/common.scss */
+.p-r-5 {
+  padding-right: .5rem;
+}
+
+/* line 121, ../sass/modules/common.scss */
+.p-r-8 {
+  padding-right: .8rem !important;
+}
+
+/* line 125, ../sass/modules/common.scss */
+.p-r-12 {
+  padding-right: 1.2rem !important;
+}
+
+/* line 129, ../sass/modules/common.scss */
+.p-r-44 {
+  padding-right: 4.4rem;
+}
+
+/* line 133, ../sass/modules/common.scss */
+.p-r-48 {
+  padding-right: 4.8rem;
+}
+
+/*** padding-bottom ***/
+/* line 139, ../sass/modules/common.scss */
+.p-b-16 {
+  padding-bottom: 1.6rem;
+}
+
+/* line 143, ../sass/modules/common.scss */
+.p-b-24 {
+  padding-bottom: 2.4rem;
+}
+
+/* line 147, ../sass/modules/common.scss */
+.p-b-32 {
+  padding-bottom: 3.2rem;
+}
+
+/*** padding-left ***/
+/* line 152, ../sass/modules/common.scss */
+.p-l-12 {
+  padding-left: 1.2rem;
+}
+
+/** imgs ***/
+/* line 158, ../sass/modules/common.scss */
+.img {
+  vertical-align: middle;
 }
 
 /* line 1, ../sass/modules/content.scss */
 .content {
   margin: 0 auto;
-  max-width: 1100px;
 }
-/* line 5, ../sass/modules/content.scss */
+/* line 4, ../sass/modules/content.scss */
 .content__link {
   color: #00b9ea;
   letter-spacing: normal;
 }
-/* line 9, ../sass/modules/content.scss */
+/* line 8, ../sass/modules/content.scss */
 .content__link:hover {
   color: #00a4d5;
 }
-/* line 13, ../sass/modules/content.scss */
+/* line 12, ../sass/modules/content.scss */
 .content__link--underlined {
   text-decoration: underline;
   font-weight: 600;
 }
-/* line 19, ../sass/modules/content.scss */
+/* line 18, ../sass/modules/content.scss */
 .content__text {
   color: #f2f5f7;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
-/* line 24, ../sass/modules/content.scss */
+/* line 23, ../sass/modules/content.scss */
 .content__text--blue {
   color: #00b9ff;
 }
-/* line 28, ../sass/modules/content.scss */
+/* line 27, ../sass/modules/content.scss */
 .content__text--grey {
   color: #5d7079;
 }
-/* line 32, ../sass/modules/content.scss */
+/* line 31, ../sass/modules/content.scss */
 .content__text--dark-blue {
   color: #2e4369;
 }
-/* line 37, ../sass/modules/content.scss */
+/* line 36, ../sass/modules/content.scss */
 .content__title {
   text-align: left;
   color: #fff;
   font-weight: 800;
   letter-spacing: normal;
 }
-/* line 43, ../sass/modules/content.scss */
+/* line 42, ../sass/modules/content.scss */
 .content__title--h1 {
   font-size: 4.2rem;
   line-height: 5.6rem;
 }
-/* line 48, ../sass/modules/content.scss */
+/* line 47, ../sass/modules/content.scss */
 .content__title--h2 {
   font-size: 2.8rem;
   color: #2e4369;
   line-height: 3.2rem;
 }
-/* line 54, ../sass/modules/content.scss */
+/* line 53, ../sass/modules/content.scss */
 .content__title--h4 {
   font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 2.4rem;
 }
-/* line 59, ../sass/modules/content.scss */
+/* line 61, ../sass/modules/content.scss */
+.content__row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/* line 67, ../sass/modules/content.scss */
 .content__col {
   width: 100%;
 }
-/* line 62, ../sass/modules/content.scss */
+/* line 70, ../sass/modules/content.scss */
+.content__col--1 {
+  width: 100%;
+}
+/* line 74, ../sass/modules/content.scss */
 .content__col--2 {
   width: 50%;
-  padding-right: 4.4rem;
 }
 
-@media screen and (max-width: 992px) {
-  /* line 75, ../sass/modules/content.scss */
+@media screen and (min-width: 1200px) {
+  /* line 84, ../sass/modules/content.scss */
   .content {
-    max-width: 992px;
+    max-width: 1100px;
+  }
+
+  /* line 89, ../sass/modules/content.scss */
+  .xl--hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 96, ../sass/modules/content.scss */
+  .content {
+    max-width: 1100px;
+  }
+
+  /* line 101, ../sass/modules/content.scss */
+  .l--hidden {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 81, ../sass/modules/content.scss */
+  /* line 108, ../sass/modules/content.scss */
   .content {
-    max-width: 768px;
+    max-width: 576px;
+  }
+
+  /* line 113, ../sass/modules/content.scss */
+  .m--hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* line 120, ../sass/modules/content.scss */
+  .content {
+    max-width: 480px;
+  }
+
+  /* line 125, ../sass/modules/content.scss */
+  .s--hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 134, ../sass/modules/content.scss */
+  .xs--hidden {
+    display: none;
   }
 }
 /* line 1, ../sass/modules/menu.scss */
@@ -547,6 +679,17 @@ img {
 .transfer__container {
   padding-top: 8rem;
 }
+/* line 5, ../sass/modules/transfer.scss */
+.transfer__img {
+  display: baseline;
+  height: 70px;
+  vertical-align: middle;
+}
+/* line 13, ../sass/modules/transfer.scss */
+.transfer__img {
+  display: baseline;
+  height: 70px;
+}
 
 /* line 1, ../sass/modules/small-elements.scss */
 .badge {
@@ -609,23 +752,33 @@ img {
   content: '\e902';
 }
 /* line 57, ../sass/modules/small-elements.scss */
+.icon__globe {
+  vertical-align: top;
+  font-size: 1.2rem;
+  width: 1.4rem;
+}
+/* line 61, ../sass/modules/small-elements.scss */
+.icon__globe:before {
+  content: "\e901";
+}
+/* line 66, ../sass/modules/small-elements.scss */
 .icon__close {
   font-size: 24px;
   color: #00b9ff;
   line-height: 3.2rem;
   vertical-align: top;
 }
-/* line 62, ../sass/modules/small-elements.scss */
+/* line 71, ../sass/modules/small-elements.scss */
 .icon__close:before {
   content: "\e900";
 }
-/* line 67, ../sass/modules/small-elements.scss */
-.icon__globe {
+/* line 76, ../sass/modules/small-elements.scss */
+.icon__video-play {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
   vertical-align: top;
-  font-size: 1.2rem;
-  width: 1.4rem;
 }
-/* line 71, ../sass/modules/small-elements.scss */
-.icon__globe:before {
-  content: "\e901";
+/* line 80, ../sass/modules/small-elements.scss */
+.icon__video-play:before {
+  content: "\e905";
 }

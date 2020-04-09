@@ -1,10 +1,9 @@
-"use strict"
+'use strict';
 
-/*** banner ***/
-
-const $banner = document.querySelector(".banner");
-const $bannerBtnClose = $banner.querySelector(".banner__close-icon");
-
-$bannerBtnClose.onclick = () => {
-    $banner.style.display = "none";
+/** * banner ***/
+function bannerToggle () {
+    const btnClose = document.querySelector('.banner__close-icon');
+    btnClose.addEventListener('click', (e) => { e.target.closest('.banner').hidden = true; });
 }
+
+bannerToggle();

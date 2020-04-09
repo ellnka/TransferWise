@@ -2,3 +2,14 @@
 .transfer__container {
   padding-top: 8rem;
 }
+/* line 5, ../../sass/modules/transfer.scss */
+.transfer__img {
+  display: baseline;
+  height: 70px;
+  vertical-align: middle;
+}
+/* line 13, ../../sass/modules/transfer.scss */
+.transfer__img {
+  display: baseline;
+  height: 70px;
+}

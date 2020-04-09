@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$breakPointSm".
+Error: Undefined variable: "$breakPointM".
         on line 36 of S:/JS/TransferWise/sass/modules/banner.scss
 
 31:     }
@@ -7,7 +7,7 @@ Error: Undefined variable: "$breakPointSm".
 33: 
 34: 
 35: // Responsive
-36: @media screen and (min-width: $breakPointSm) {
+36: @media screen and (min-width: $breakPointM) {
 37:     .banner {
 38:         &__content {
 39:             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);
@@ -61,4 +61,4 @@ C:/Ruby27-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$breakPointSm\".\A         on line 36 of S:/JS/TransferWise/sass/modules/banner.scss\A \A 31:     }\A 32: }\A 33: \A 34: \A 35: // Responsive\A 36: @media screen and (min-width: $breakPointSm) {\A 37:     .banner {\A 38:         &__content {\A 39:             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);\A 40:             background-size: 134px, auto 85%;\A 41:             background-repeat: no-repeat, no-repeat;"; }
+  content: "Error: Undefined variable: \"$breakPointM\".\A         on line 36 of S:/JS/TransferWise/sass/modules/banner.scss\A \A 31:     }\A 32: }\A 33: \A 34: \A 35: // Responsive\A 36: @media screen and (min-width: $breakPointM) {\A 37:     .banner {\A 38:         &__content {\A 39:             background-image: url(./../images/banner_1.png), url(./../images/banner_2.png);\A 40:             background-size: 134px, auto 85%;\A 41:             background-repeat: no-repeat, no-repeat;"; }
