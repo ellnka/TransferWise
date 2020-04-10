@@ -1,10 +1,17 @@
 "use strict";
-/*** banner ***/
 
-var banner = document.querySelector(".banner");
-var bannerBtnClose = banner.querySelector(".banner__close-icon");
+/** banner **/
+function bannerClose() {
+  var btnClose = document.querySelector('.banner__close-icon');
+  btnClose.addEventListener('click', function (e) {
+    // e.target.closest('.banner').classList.add('hidden');
+    e.target.closest('.banner').hidden = true;
+  });
+}
+/** common js */
 
-bannerBtnClose.onclick = function () {
-  banner.style.display = "none";
-};
+
+document.addEventListener('DOMContentLoaded', function (e) {
+  bannerClose();
+});
 //# sourceMappingURL=scripts.js.map

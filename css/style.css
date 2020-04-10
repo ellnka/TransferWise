@@ -370,88 +370,108 @@ img {
   margin-bottom: 1.8rem;
 }
 
+/* line 88, ../sass/modules/common.scss */
+.m-b-80 {
+  margin-bottom: 8rem;
+}
+
 /*** margin-left ***/
-/* line 89, ../sass/modules/common.scss */
+/* line 94, ../sass/modules/common.scss */
 .m-l-2 {
   margin-left: 0.2rem;
 }
 
-/* line 93, ../sass/modules/common.scss */
+/* line 98, ../sass/modules/common.scss */
 .m-l-8 {
   margin-left: 0.8rem;
 }
 
 /*** padding-top ***/
-/* line 98, ../sass/modules/common.scss */
+/* line 103, ../sass/modules/common.scss */
 .p-t-8 {
   padding-top: .8rem;
 }
 
-/* line 103, ../sass/modules/common.scss */
+/* line 108, ../sass/modules/common.scss */
 .p-t-15 {
   padding-top: 1.5rem;
 }
 
-/* line 107, ../sass/modules/common.scss */
+/* line 112, ../sass/modules/common.scss */
 .p-t-24 {
   padding-top: 2.4rem;
 }
 
+/* line 116, ../sass/modules/common.scss */
+.p-t-64 {
+  padding-top: 6.4rem;
+}
+
+/* line 120, ../sass/modules/common.scss */
+.p-t-80 {
+  padding-top: 8rem;
+}
+
 /*** padding-right ***/
-/* line 113, ../sass/modules/common.scss */
+/* line 128, ../sass/modules/common.scss */
 .p-r-3 {
   padding-right: .3rem;
 }
 
-/* line 117, ../sass/modules/common.scss */
+/* line 132, ../sass/modules/common.scss */
 .p-r-5 {
   padding-right: .5rem;
 }
 
-/* line 121, ../sass/modules/common.scss */
+/* line 136, ../sass/modules/common.scss */
 .p-r-8 {
   padding-right: .8rem !important;
 }
 
-/* line 125, ../sass/modules/common.scss */
+/* line 140, ../sass/modules/common.scss */
 .p-r-12 {
   padding-right: 1.2rem !important;
 }
 
-/* line 129, ../sass/modules/common.scss */
+/* line 144, ../sass/modules/common.scss */
 .p-r-44 {
   padding-right: 4.4rem;
 }
 
-/* line 133, ../sass/modules/common.scss */
+/* line 148, ../sass/modules/common.scss */
 .p-r-48 {
   padding-right: 4.8rem;
 }
 
 /*** padding-bottom ***/
-/* line 139, ../sass/modules/common.scss */
+/* line 154, ../sass/modules/common.scss */
 .p-b-16 {
   padding-bottom: 1.6rem;
 }
 
-/* line 143, ../sass/modules/common.scss */
+/* line 158, ../sass/modules/common.scss */
 .p-b-24 {
   padding-bottom: 2.4rem;
 }
 
-/* line 147, ../sass/modules/common.scss */
+/* line 162, ../sass/modules/common.scss */
 .p-b-32 {
   padding-bottom: 3.2rem;
 }
 
 /*** padding-left ***/
-/* line 152, ../sass/modules/common.scss */
+/* line 167, ../sass/modules/common.scss */
 .p-l-12 {
   padding-left: 1.2rem;
 }
 
+/* line 171, ../sass/modules/common.scss */
+.p-l-24 {
+  padding-left: 2.4rem;
+}
+
 /** imgs ***/
-/* line 158, ../sass/modules/common.scss */
+/* line 177, ../sass/modules/common.scss */
 .img {
   vertical-align: middle;
 }
@@ -676,16 +696,12 @@ img {
 }
 
 /* line 2, ../sass/modules/transfer.scss */
-.transfer__container {
-  padding-top: 8rem;
-}
-/* line 5, ../sass/modules/transfer.scss */
 .transfer__img {
   display: baseline;
   height: 70px;
   vertical-align: middle;
 }
-/* line 13, ../sass/modules/transfer.scss */
+/* line 10, ../sass/modules/transfer.scss */
 .transfer__img {
   display: baseline;
   height: 70px;
