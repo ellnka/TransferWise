@@ -1,0 +1,30 @@
+/* line 1, ../../sass/modules/slider.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 2, ../../sass/modules/slider.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 7, ../../sass/modules/slider.scss */
+.bx-wrapper {
+  width: 440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 12, ../../sass/modules/slider.scss */
+.bx-wrapper img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+/* line 17, ../../sass/modules/slider.scss */
+.bx-prev, .bx-next {
+  visibility: hidden;
+}

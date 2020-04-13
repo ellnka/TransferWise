@@ -10,6 +10,10 @@
     <meta name="author" content="Elena Y">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link href="bxslider/css/jquery.bxslider.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="bxslider/js/jquery.bxslider.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -226,7 +230,7 @@
                         <div class="exchange-rate__desc">
                             <img class="exchange-rate__icon exchange-rate__icon--pre" src="images/graph-line.svg" />
                             Mid market rate
-                            <img class="exchange-rate__icon" src="images/graph-help.svg" />
+                            <img class="exchange-rate__icon exchange-rate__icon--after" src="images/graph-help.svg" />
                         </div>
                     </div>
                     <div class="exchange-rate__row">
@@ -332,29 +336,90 @@
                     </div>
                 </div>
                 <div class="content__row">
-                    <div class="publications__card card">
-                        <img class="publications__photo" src="./images/publications_1.jpg" />
-                        <div class="card__content">
-                            <p class="card__text content__title content__title--h2">I’ve probably saved two or three thousand dollars, and I’ll continue to save as I continue to use it.</p>
-                            <p class="card__address">Sophie, Sydney, Australia</p>
-                            
-                            <button class="card__button button button--white-blue">
-                                <div class="icon m-r-12"><span class="icon__video-play"></span></div>
-                                See Sophie's story
-                            </button>
-                            
-                        </div>
-                    </div>
-                    <img class="publications__decor" src="./images/circle.svg" />
-                </div>
-                <div class="content__row">
-                    <ul class="publications__pages">
+                    <!-- <ul class="publications__pages">
                         <li class="publications__page publications__page--active"></li>
                         <li class="publications__page"></li>
                         <li class="publications__page"></li>
                         <li class="publications__page"></li>
                         <li class="publications__page"></li>
+                    </ul> -->
+                    <ul class="bxslider">
+                        <li>
+                            <div class="publications__card card">
+                                <img class="publications__photo" src="./images/publications_1.jpg" />
+                                <div class="card__content">
+                                    <p class="card__text content__title content__title--h2">I’ve probably saved two or three thousand dollars, and
+                                        I’ll continue to save as I continue to use it.</p>
+                                    <p class="card__address">Sophie, Sydney, Australia</p>
+                                        
+                                    <button class="card__button button button--white-blue">
+                                        <div class="icon m-r-12"><span class="icon__video-play"></span></div>
+                                        See Sophie's story
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="publications__card card">
+                                <img class="publications__photo" src="./images/publications_2.jpg" />
+                                <div class="card__content">
+                                    <p class="card__text content__title content__title--h2">With TransferWise it's just so easy and effortless.</p>
+                                    <p class="card__address">Ejiro, Toronto, Canada</p>
+                        
+                                    <button class="card__button button button--white-blue">
+                                        <div class="icon m-r-12"><span class="icon__video-play"></span></div>
+                                        See Ejiro's story
+                                    </button>
+                        
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="publications__card card">
+                                <img class="publications__photo" src="./images/publications_3.jpg" />
+                                <div class="card__content">
+                                    <p class="card__text content__title content__title--h2">Using TransferWise for international payments just makes life really easy.</p>
+                                    <p class="card__address">Lucy and Yak, Brighton, UK</p>
+                        
+                                    <button class="card__button button button--white-blue">
+                                        <div class="icon m-r-12"><span class="icon__video-play"></span></div>
+                                        See Lucy and Yak's story
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="publications__card card">
+                                <img class="publications__photo" src="./images/publications_4.jpg" />
+                                <div class="card__content">
+                                    <p class="card__text content__title content__title--h2">I use TransferWise to send money back to my American bank account. Using TransferWise is easy, efficient, and
+                                    transparent. It's that simple.</p>
+                                    <p class="card__address">Mathew, Würzburg, Germany</p>
+                        
+                                    <button class="card__button button button--white-blue">
+                                        <div class="icon m-r-12"><span class="icon__video-play"></span></div>
+                                        See Mathew's story
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="publications__card card">
+                                <img class="publications__photo" src="./images/publications_5.jpg" />
+                                <div class="card__content">
+                                    <p class="card__text content__title content__title--h2">I use TransferWise to send money to support my family back home.</p>
+                                    <p class="card__address">Justin, Ghent, Belgium</p>
+                        
+                                    <button class="card__button button button--white-blue">
+                                        <div class="icon m-r-12"><span class="icon__video-play"></span></div>
+                                        See Justin's story
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
+                    <img class="publications__decor" src="./images/circle.svg" />
                 </div>
             </div>
         </section>

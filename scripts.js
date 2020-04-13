@@ -13,4 +13,7 @@ function bannerClose() {
 document.addEventListener('DOMContentLoaded', function (e) {
   bannerClose();
 });
+jQuery(document).ready(function () {
+  jQuery('.bxslider').bxSlider();
+});
 //# sourceMappingURL=scripts.js.map

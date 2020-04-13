@@ -13,3 +13,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     bannerClose();
 });
 
+
+jQuery(document).ready(function () {
+    jQuery('.bxslider').bxSlider();
+});

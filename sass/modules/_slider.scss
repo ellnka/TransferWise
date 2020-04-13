@@ -1,0 +1,36 @@
+.bx {
+  &-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    background-color: $transparent;
+    z-index: 2;
+    
+    img {
+      width: 60rem;
+      height: 52rem;
+    }
+  }
+
+  &-prev, &-next {
+    visibility: hidden;
+  }
+
+  &-pager, &-default-pager {
+      bottom: -7rem !important;
+    }
+
+  &-pager-link {
+    width: 1.6rem !important;
+    height: 1.6rem !important;
+    background-color: $lightGrey2 !important;
+    border-radius: 50% !important;
+    margin-right: 1.2rem !important;
+
+    &.active, 
+    &:hover {
+      background-color: $darkBlue !important;
+    }
+  }
+}

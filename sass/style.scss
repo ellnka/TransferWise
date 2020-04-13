@@ -4,20 +4,11 @@
 @import "_fonts";
 @import "_vars";
 
-@import "mixins/clearfix";
+// @import "mixins/clearfix";
 @import "modules/main";
 @import "modules/banner";
-@import "modules/buttons";
 @import "modules/common";
 @import "modules/content";
-@import "modules/form";
-@import "modules/exchange-rate";
-@import "modules/instructions";
-@import "modules/menu";
-@import "modules/navbar";
-@import "modules/publications";
-@import "modules/small-elements";
-@import "modules/support";
-@import "modules/top-notification";
-@import "modules/transfer";
-
+@import "modules/sections";
+@import "modules/elements";
+@import "modules/slider";
