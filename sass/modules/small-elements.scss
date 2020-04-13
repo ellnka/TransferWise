@@ -81,4 +81,27 @@
             content: "\e905";
         }
     }
+
+    &--blue {
+        color: $blue;
+    }
+}
+
+
+
+.flag {
+    width: 2.4rem;
+    height: 1.6rem;
+    background-size: cover;
+    background-color: $transparent;
+    -webkit-box-shadow: 0 0 .1rem 0 $shadow;
+    box-shadow: 0 0 .1rem 0 $shadow;
+
+    &--eu {
+        background-image: url(./../images/flags/eu.svg);
+    }
+
+    &--ua {
+        background-image: url(./../images/flags/ua.svg);
+    }
 }

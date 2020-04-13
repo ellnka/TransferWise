@@ -1,0 +1,53 @@
+.support {
+    padding: 9.6rem 0;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding-right: 11rem;
+    }
+
+    &__title {
+        color: $darkBlue2;
+    }
+
+    &__text {
+        padding-top: 1.6rem;
+        padding-bottom: 2.4rem;
+    }
+
+    &__button {
+        width: fit-content;
+        padding: 1rem 2.4rem;    
+    }
+
+}
+
+.illustration {
+    width: 100%;
+    position: relative;
+
+    &__img1 {
+        width: 70%;
+        max-width: 68rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__img2 {
+        width: 50%;
+        max-width: 39rem;
+        margin-top: -15%;
+        left: 30%;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__img3 {
+        position: absolute;
+        left: 20%;
+        bottom: 13%;
+        color: $orange;
+        width: 15rem;
+        height: 15rem;
+    }
+}

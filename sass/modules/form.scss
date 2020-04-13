@@ -1,0 +1,211 @@
+.form-group {
+    font-family: averta, Helvetica,Arial,sans-serif;
+    background-color: $transparent;
+    display: relative;
+
+    &__form-row {
+        display: flex;
+        flex-direction: row;
+        min-height: 7.2rem;
+
+        &--rounded {
+            color: $lightGrey;
+            border-radius: .5rem;
+            border: .1rem solid $lightGrey;
+        }
+    }
+
+    &__drop-down {
+        padding: .4rem 1.2rem .2rem 1.2rem;
+        background-color: $grey3;
+        border: .1rem solid $grey3;
+
+        &:hover {
+            border-color: $grey4;
+            background-color: $grey5;
+        }
+
+        &--appended {
+            padding: 1.3rem 2rem 1.1rem 1.6rem;
+            border-left-width: 0;
+            border-top-right-radius: .5rem;
+            border-bottom-right-radius: .5rem;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+
+    &__input {
+        background-color: $white;
+        border-color: $grey4;
+        border-width: .1rem;
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+        width: 70%;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    &__list-item {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .8rem 0;
+        font-size: 1.6rem;
+        font-weight: 100;
+        color: $white;
+        min-height: 3.2rem;    
+    }
+
+    &__list-content {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-left: .3rem solid $grey5;
+        left: 1rem;
+        padding-left: 2rem;
+        z-index: 1;
+        min-height: 4rem;
+        height: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__list-icon {
+        margin-right: 1.2rem;
+        margin-top: .3rem;
+        background-color: $grey5;
+        font-size: 1.8rem;
+        color: $white;
+        border: 0.1rem solid $grey5;
+        border-radius: 50%;
+        line-height: 2.3rem;
+        width: 2.4rem;
+        height: 2.4rem;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+        
+    }
+
+    &__list-label {
+        min-width: 9.6rem;
+        font-weight: 600;
+    }
+
+    &__list-text {
+        min-width: 9.6rem;
+        font-size: 1.6rem;
+        color: $lightGrey2;
+        font-weight: 200;
+        line-height: 2.4rem;
+        margin: auto 0;
+
+    }
+
+    &__button {
+        max-height: 2.4rem;
+    }
+
+    &__box {
+        display: flex;
+        padding: 0 1.2rem;
+        margin: 1.2rem 0;
+        height: 4.8rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__graph {
+        height: 2.4rem;
+        width: 1.7rem;
+        margin: 0rem .5rem;
+    }
+}
+
+.input-group {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+        padding-left: 1.4rem;
+        padding-top: .7rem;
+        color: $grey;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        user-select: none;
+    }
+
+    &__input {
+        font-family: averta, Helvetica,Arial,sans-serif;
+        margin: 0px 0px;
+        padding: .4rem 1.2rem;
+        color: $darkBlue2;
+        font-size: 2.2rem;
+        border: none;
+    }
+}
+
+
+.drop-down {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    cursor: pointer;
+    user-select: none;
+    border-collapse: separate;
+
+    &--big {
+        font-size: 2rem;
+        line-height: 3.2rem;
+        font-weight: 500;
+    }
+
+    &--small {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+        letter-spacing: normal;
+    }
+
+    &__selected-icon {
+        margin-right:.7rem;
+    }
+
+    &__selected-label {
+        margin-right: 1rem;
+    }
+
+    &__selected-text {
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height:3.2rem;
+    }
+}
+
+
+.list-icon {
+        margin-right: 1.2rem;
+        background-color: $grey5;
+        font-size: 1.8rem;
+        color: $white;
+        border: 0.1rem solid $grey5;
+        border-radius: 50%;
+        line-height: 2.3rem;
+        width: 2.4rem;
+        height: 2.4rem;
+        text-align: center;
+        vertical-align: middle;
+        
+    }
