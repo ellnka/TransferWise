@@ -86,7 +86,6 @@
     }
 }
 
-
 .instructions {
     padding: 9.2rem 0 7.2rem;
     background-image: url(./../images/bg_grey_instruction.svg);
@@ -301,5 +300,93 @@
         color: $orange;
         width: 15rem;
         height: 15rem;
+    }
+}
+
+.map {
+    position: relative;
+    background-image: url('./../images/bg-blue-map.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9.6rem 0;
+
+    &__title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__subtitle {
+        width:50%;
+    }
+
+    &__text {
+        width: 78%;
+        padding-top: 2rem;
+    }
+
+    &__countries {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 3.2rem;
+    }
+
+    &__country {
+        position: relative;
+        padding-left: 2.4rem;
+        margin-right: 2.4rem;
+        margin-bottom: 1.5rem;
+        min-height: 4.8rem;
+        width: 25.5rem;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        background-color: $darkBlue3;
+        border: .1rem solid $transparent;
+        border-radius: .3rem;
+        cursor: pointer;
+        user-select: none;
+
+        &-link {
+            font-size: 1.6rem;
+            font-weight: 600;
+            line-height: 2.4rem;
+            margin-left: 2.4rem;
+            text-decoration: none;
+            color: $white;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+        &::after {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 6.4rem;
+            height: 4.8rem;
+            border-radius: .3rem;
+            background: linear-gradient(to bottom, $darkBlue3, $darkBlue4);
+            content: '';
+        }
+    }
+
+    &__footer {
+        padding-top: 3.2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }

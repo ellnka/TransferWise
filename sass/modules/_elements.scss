@@ -273,7 +273,7 @@
 .flag {
     width: 2.4rem;
     height: 1.6rem;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: $transparent;
     -webkit-box-shadow: 0 0 .1rem 0 $shadow;
     box-shadow: 0 0 .1rem 0 $shadow;
@@ -284,5 +284,33 @@
 
     &--ua {
         background-image: url(./../images/flags/ua.svg);
+    }
+
+    &--uk {
+        background-image: url(./../images/flags/gb.svg);
+    }
+
+    &--id {
+        background-image: url(./../images/flags/id.svg);
+    }
+
+    &--us {
+        background-image: url(./../images/flags/us.svg);
+    }
+
+    &--br {
+        background-image: url(./../images/flags/br.svg);
+    }
+
+    &--au {
+        background-image: url(./../images/flags/au.svg);
+    }
+
+    &--ca {
+        background-image: url(./../images/flags/ca.svg);
+    }
+
+    &--th {
+        background-image: url(./../images/flags/th.svg);
     }
 }
