@@ -15,5 +15,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 
 jQuery(document).ready(function () {
-    jQuery('.bxslider').bxSlider();
+    jQuery('.bxslider').bxSlider({
+        auto: true
+    });
 });
