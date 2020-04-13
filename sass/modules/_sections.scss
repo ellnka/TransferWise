@@ -139,7 +139,7 @@
     }
 }
 
-.publications {
+.reviews {
     padding: 9.2rem 0 7.2rem;
     background-image: url(./../images/bg_grey_instruction.svg);
     background-repeat: no-repeat;
@@ -388,5 +388,49 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+}
+
+.mobile-app {
+    padding: 10rem 0;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+    }
+
+    &__title {
+        color: $darkBlue2;
+    }
+
+    &__button {
+        width: fit-content;
+        padding: 1rem 2.4rem;    
+    }
+
+    &__img {
+        margin-left: 20rem;
+        width: 36rem;
+        height: 42rem;
+    }
+
+    &__app-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-right: 2.5rem;
+    }
+
+    &__app-img {
+        height: 5.6rem;
+        width: auto;
+    }
+
+    &__google-rating, &__apple-rating {
+        height: 3.6rem;
+        width: auto;
+        padding-top: 2rem;
     }
 }
