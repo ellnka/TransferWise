@@ -193,39 +193,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 100, ../sass/modules/_main.scss */
 .transfer__img {
-  display: baseline;
   height: 70px;
 }
 
-/* line 106, ../sass/modules/_main.scss */
+/* line 105, ../sass/modules/_main.scss */
 .form-group {
   font-family: averta, Helvetica, Arial, sans-serif;
   background-color: transparent;
 }
-/* line 110, ../sass/modules/_main.scss */
+/* line 109, ../sass/modules/_main.scss */
 .form-group__form-row {
   display: flex;
   flex-direction: row;
   min-height: 7.2rem;
 }
-/* line 115, ../sass/modules/_main.scss */
+/* line 114, ../sass/modules/_main.scss */
 .form-group__form-row--rounded {
   color: #f2f5f7;
   border-radius: .5rem;
   border: 0.1rem solid #f2f5f7;
 }
-/* line 122, ../sass/modules/_main.scss */
+/* line 121, ../sass/modules/_main.scss */
 .form-group__drop-down {
   padding: .4rem 1.2rem .2rem 1.2rem;
   background-color: #2e4369;
   border: 0.1rem solid #2e4369;
 }
-/* line 127, ../sass/modules/_main.scss */
+/* line 126, ../sass/modules/_main.scss */
 .form-group__drop-down:hover {
   border-color: #829ca9;
   background-color: #253655;
 }
-/* line 132, ../sass/modules/_main.scss */
+/* line 131, ../sass/modules/_main.scss */
 .form-group__drop-down--appended {
   padding: 1.3rem 2rem 1.1rem 1.6rem;
   border-left-width: 0;
@@ -234,7 +233,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 142, ../sass/modules/_main.scss */
+/* line 141, ../sass/modules/_main.scss */
 .form-group__input {
   background-color: #fff;
   border-color: #829ca9;
@@ -243,13 +242,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom-left-radius: .5rem;
   width: 70%;
 }
-/* line 151, ../sass/modules/_main.scss */
+/* line 150, ../sass/modules/_main.scss */
 .form-group__list {
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
 }
-/* line 157, ../sass/modules/_main.scss */
+/* line 156, ../sass/modules/_main.scss */
 .form-group__list-item {
   position: relative;
   display: flex;
@@ -261,7 +260,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   min-height: 3.2rem;
 }
-/* line 169, ../sass/modules/_main.scss */
+/* line 168, ../sass/modules/_main.scss */
 .form-group__list-content {
   position: absolute;
   display: flex;
@@ -276,7 +275,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 184, ../sass/modules/_main.scss */
+/* line 183, ../sass/modules/_main.scss */
 .form-group__list-icon {
   margin-right: 1.2rem;
   margin-top: .3rem;
@@ -292,12 +291,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: middle;
   z-index: 2;
 }
-/* line 201, ../sass/modules/_main.scss */
+/* line 200, ../sass/modules/_main.scss */
 .form-group__list-label {
   min-width: 9.6rem;
   font-weight: 600;
 }
-/* line 206, ../sass/modules/_main.scss */
+/* line 205, ../sass/modules/_main.scss */
 .form-group__list-text {
   min-width: 9.6rem;
   font-size: 1.6rem;
@@ -306,11 +305,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2.4rem;
   margin: auto 0;
 }
-/* line 216, ../sass/modules/_main.scss */
+/* line 215, ../sass/modules/_main.scss */
 .form-group__button {
   max-height: 2.4rem;
 }
-/* line 220, ../sass/modules/_main.scss */
+/* line 219, ../sass/modules/_main.scss */
 .form-group__box {
   display: flex;
   padding: 0 1.2rem;
@@ -320,20 +319,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: center;
   align-items: center;
 }
-/* line 230, ../sass/modules/_main.scss */
+/* line 229, ../sass/modules/_main.scss */
 .form-group__graph {
   height: 2.4rem;
   width: 1.7rem;
   margin: 0rem .5rem;
 }
 
-/* line 237, ../sass/modules/_main.scss */
+/* line 236, ../sass/modules/_main.scss */
 .input-group {
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
-/* line 242, ../sass/modules/_main.scss */
+/* line 241, ../sass/modules/_main.scss */
 .input-group__label {
   padding-left: 1.4rem;
   padding-top: .7rem;
@@ -342,7 +341,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2rem;
   user-select: none;
 }
-/* line 251, ../sass/modules/_main.scss */
+/* line 250, ../sass/modules/_main.scss */
 .input-group__input {
   font-family: averta, Helvetica, Arial, sans-serif;
   margin: 0px 0px;
@@ -352,7 +351,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
 }
 
-/* line 262, ../sass/modules/_main.scss */
+/* line 261, ../sass/modules/_main.scss */
 .drop-down {
   margin: 0;
   display: flex;
@@ -363,28 +362,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   user-select: none;
   border-collapse: separate;
 }
-/* line 272, ../sass/modules/_main.scss */
+/* line 271, ../sass/modules/_main.scss */
 .drop-down--big {
   font-size: 2rem;
   line-height: 3.2rem;
   font-weight: 500;
 }
-/* line 278, ../sass/modules/_main.scss */
+/* line 277, ../sass/modules/_main.scss */
 .drop-down--small {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 500;
   letter-spacing: normal;
 }
-/* line 285, ../sass/modules/_main.scss */
+/* line 284, ../sass/modules/_main.scss */
 .drop-down__selected-icon {
   margin-right: .7rem;
 }
-/* line 289, ../sass/modules/_main.scss */
+/* line 288, ../sass/modules/_main.scss */
 .drop-down__selected-label {
   margin-right: 1rem;
 }
-/* line 293, ../sass/modules/_main.scss */
+/* line 292, ../sass/modules/_main.scss */
 .drop-down__selected-text {
   font-size: 2rem;
   font-weight: 500;
@@ -392,7 +391,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 3.2rem;
 }
 
-/* line 302, ../sass/modules/_main.scss */
+/* line 301, ../sass/modules/_main.scss */
 .list-icon {
   margin-right: 1.2rem;
   background-color: #253655;
@@ -1565,7 +1564,7 @@ img {
 .link:after {
   display: inline-block;
   margin-left: .8rem;
-  font-family: glyphicons halflings;
+  font-family: "glyphicons halflings";
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
