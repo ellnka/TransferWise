@@ -82,7 +82,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(./../fonts/TW-Averta-Bold.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Bold.woff2) format("woff2"), url(./../fonts/TW-Averta-Bold.woff) format("woff"), url(./../fonts/TW-Averta-Bold.ttf) format("truetype");
 }
 @font-face {
-  font-family: glyphicons halflings;
+  font-family: "glyphicons halflings";
   src: url(./../fonts/glyphicons-halflings-regular.eot);
   src: url(./../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(./../fonts/glyphicons-halflings-regular.woff) format("woff"), url(./../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(./../images/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
