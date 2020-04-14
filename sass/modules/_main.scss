@@ -23,7 +23,7 @@
     height: 5.6rem;
     display: flex;
     justify-content: end;
-    font-weight: 600;
+    font-weight: $fontWeight600;
     color: $white;
     align-items: center;
 
@@ -62,7 +62,7 @@
     &__name {
         padding-top: 0;
         margin: 0;
-        font-weight: 600;
+        font-weight: $fontWeight600;
         max-width: 164px;
         vertical-align: middle;
         letter-spacing: normal;
@@ -160,7 +160,7 @@
         align-items: center;
         padding: .8rem 0;
         font-size: 1.6rem;
-        font-weight: 100;
+        font-weight: $fontWeight100;
         color: $white;
         min-height: 3.2rem;    
     }
@@ -199,14 +199,14 @@
 
     &__list-label {
         min-width: 9.6rem;
-        font-weight: 600;
+        font-weight: $fontWeight600;
     }
 
     &__list-text {
         min-width: 9.6rem;
         font-size: 1.6rem;
         color: $lightGrey2;
-        font-weight: 200;
+        font-weight: $fontWeight200;
         line-height: 2.4rem;
         margin: auto 0;
 
@@ -271,13 +271,13 @@
     &--big {
         font-size: 2rem;
         line-height: 3.2rem;
-        font-weight: 500;
+        font-weight: $fontWeight500;
     }
 
     &--small {
         font-size: 1.4rem;
         line-height: 2.4rem;
-        font-weight: 500;
+        font-weight: $fontWeight500;
         letter-spacing: normal;
     }
 
@@ -291,7 +291,7 @@
 
     &__selected-text {
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: $fontWeight500;
         letter-spacing: normal;
         line-height:3.2rem;
     }

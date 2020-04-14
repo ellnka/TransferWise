@@ -11,7 +11,7 @@
 
         &--bold{
             letter-spacing: normal;
-            font-weight: 600;
+            font-weight: $fontWeight600;
         }
     } 
 }
@@ -46,13 +46,13 @@
         letter-spacing: normal;
         line-height: 3rem;
         font-size: 2.2rem;
-        font-weight: 600;
+        font-weight: $fontWeight600;
     }
 
     &__desc {
         font-size: 1.4rem;
         line-height: 2.4rem;
-        font-weight: 600;
+        font-weight: $fontWeight600;
         color: $grey;
     }
 
@@ -128,7 +128,7 @@
 
     &__title {
         color: $darkBlue2;
-        font-weight: 800;
+        font-weight: $fontWeight800;
         text-align: center;
     }
 
@@ -228,7 +228,7 @@
     &__address {
         color: $white;
         font-size: 1.4rem;
-        font-weight: 600;
+        font-weight: $fontWeight600;
         line-height: 2.4rem;
         padding-top: 1.2rem;
     }
@@ -355,7 +355,7 @@
 
         &-link {
             font-size: 1.6rem;
-            font-weight: 600;
+            font-weight: $fontWeight600;
             line-height: 2.4rem;
             margin-left: 2.4rem;
             text-decoration: none;
@@ -452,7 +452,7 @@
     &__item {
         color: $white;
         font-size: 1.6rem;
-        font-weight: 700;
+        font-weight: $fontWeight700;
         line-height: 2.4rem;
         padding-top: 1.8rem;
     }
@@ -468,13 +468,13 @@
 
     &__title{
         padding-bottom: 1.6rem;
-        font-weight: 600;
+        font-weight: $fontWeight600;
     }
 
     &__link {
         font-size: 1.4rem;
         color: $lightGrey;
-        font-weight: 400;
+        font-weight: $fontWeight400;
         &:hover {
             color: $grey4;
         }

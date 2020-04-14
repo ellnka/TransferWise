@@ -3,7 +3,7 @@ html {
     color: $black;
     font-size: 10px;
     line-height: 2.5rem;
-    font-weight: 500;
+    font-weight: $fontWeight500;
     letter-spacing: .016rem;
 }
 
@@ -33,7 +33,7 @@ span {
 
 
 a {
-    font-weight: 500;
+    font-weight: $fontWeight500;
     padding: 0;
     margin: 0;
 }
@@ -257,7 +257,7 @@ img {
 }
 
 .bold {
-    font-weight: 800 !important;
+    font-weight: $fontWeight800 !important;
 }
 
 .align-center {

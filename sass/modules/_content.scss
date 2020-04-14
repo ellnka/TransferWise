@@ -11,7 +11,7 @@
     
         &--underlined {
             text-decoration: underline;
-            font-weight: 600;
+            font-weight: $fontWeight600;
         }
     }
 
@@ -21,7 +21,7 @@
         line-height: 2.4rem;
 
         &--bold {
-            font-weight: 600;
+            font-weight: $fontWeight600;
         }
 
         &--blue {
@@ -43,7 +43,7 @@
 
     &__title {
         color: $white;
-        font-weight: 800;
+        font-weight: $fontWeight800;
         letter-spacing: normal;
 
         &--h1 {
@@ -59,7 +59,7 @@
 
         &--h4 {
             font-size: 1.8rem;
-            font-weight: 600;
+            font-weight: $fontWeight600;
             letter-spacing: normal;
             line-height: 2.4rem;
         }

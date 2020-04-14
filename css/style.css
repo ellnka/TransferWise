@@ -65,19 +65,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: averta;
-  font-weight: 500;
+  font-weight: normal;
   src: url(./../fonts/TW-Averta-Regular.eot);
   src: url(./../fonts/TW-Averta-Regular.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Regular.woff2) format("woff2"), url(./../fonts/TW-Averta-Regular.woff) format("woff"), url(./../fonts/TW-Averta-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: averta;
-  font-weight: 600;
+  font-weight: bold;
   src: url(./../fonts/TW-Averta-Semibold.eot);
   src: url(./../fonts/TW-Averta-Semibold.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Semibold.woff2) format("woff2"), url(./../fonts/TW-Averta-Semibold.woff) format("woff"), url(./../fonts/TW-Averta-Semibold.ttf) format("truetype");
 }
 @font-face {
   font-family: averta;
-  font-weight: 800;
+  font-weight: bolder;
   src: url(./../fonts/TW-Averta-Bold.eot);
   src: url(./../fonts/TW-Averta-Bold.eot?#iefix) format("embedded-opentype"), url(./../fonts/TW-Averta-Bold.woff2) format("woff2"), url(./../fonts/TW-Averta-Bold.woff) format("woff"), url(./../fonts/TW-Averta-Bold.ttf) format("truetype");
 }
@@ -121,7 +121,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 5.6rem;
   display: flex;
   justify-content: end;
-  font-weight: 600;
+  font-weight: bold;
   color: #fff;
   align-items: center;
 }
@@ -160,7 +160,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .menu__name {
   padding-top: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: bold;
   max-width: 164px;
   vertical-align: middle;
   letter-spacing: normal;
@@ -256,7 +256,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: center;
   padding: .8rem 0;
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: lighter;
   color: #fff;
   min-height: 3.2rem;
 }
@@ -294,14 +294,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 200, ../sass/modules/_main.scss */
 .form-group__list-label {
   min-width: 9.6rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 /* line 205, ../sass/modules/_main.scss */
 .form-group__list-text {
   min-width: 9.6rem;
   font-size: 1.6rem;
   color: #d3d5d8;
-  font-weight: 200;
+  font-weight: lighter;
   line-height: 2.4rem;
   margin: auto 0;
 }
@@ -366,13 +366,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .drop-down--big {
   font-size: 2rem;
   line-height: 3.2rem;
-  font-weight: 500;
+  font-weight: normal;
 }
 /* line 277, ../sass/modules/_main.scss */
 .drop-down--small {
   font-size: 1.4rem;
   line-height: 2.4rem;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: normal;
 }
 /* line 284, ../sass/modules/_main.scss */
@@ -386,7 +386,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 292, ../sass/modules/_main.scss */
 .drop-down__selected-text {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: normal;
   line-height: 3.2rem;
 }
@@ -462,7 +462,7 @@ html {
   color: #000;
   font-size: 10px;
   line-height: 2.5rem;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: .016rem;
 }
 
@@ -497,7 +497,7 @@ span {
 
 /* line 35, ../sass/modules/_common.scss */
 a {
-  font-weight: 500;
+  font-weight: normal;
   padding: 0;
   margin: 0;
 }
@@ -761,7 +761,7 @@ img {
 
 /* line 259, ../sass/modules/_common.scss */
 .bold {
-  font-weight: 800 !important;
+  font-weight: bolder !important;
 }
 
 /* line 263, ../sass/modules/_common.scss */
@@ -786,7 +786,7 @@ img {
 /* line 12, ../sass/modules/_content.scss */
 .content__link--underlined {
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: bold;
 }
 /* line 18, ../sass/modules/_content.scss */
 .content__text {
@@ -796,7 +796,7 @@ img {
 }
 /* line 23, ../sass/modules/_content.scss */
 .content__text--bold {
-  font-weight: 600;
+  font-weight: bold;
 }
 /* line 27, ../sass/modules/_content.scss */
 .content__text--blue {
@@ -817,7 +817,7 @@ img {
 /* line 44, ../sass/modules/_content.scss */
 .content__title {
   color: #fff;
-  font-weight: 800;
+  font-weight: bolder;
   letter-spacing: normal;
 }
 /* line 49, ../sass/modules/_content.scss */
@@ -834,7 +834,7 @@ img {
 /* line 60, ../sass/modules/_content.scss */
 .content__title--h4 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: normal;
   line-height: 2.4rem;
 }
@@ -939,7 +939,7 @@ img {
 /* line 12, ../sass/modules/_sections.scss */
 .top-notification__content--bold {
   letter-spacing: normal;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 /* line 19, ../sass/modules/_sections.scss */
@@ -974,13 +974,13 @@ img {
   letter-spacing: normal;
   line-height: 3rem;
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 /* line 52, ../sass/modules/_sections.scss */
 .exchange-rate__desc {
   font-size: 1.4rem;
   line-height: 2.4rem;
-  font-weight: 600;
+  font-weight: bold;
   color: #5d7079;
 }
 /* line 60, ../sass/modules/_sections.scss */
@@ -1057,7 +1057,7 @@ img {
 /* line 129, ../sass/modules/_sections.scss */
 .block__title {
   color: #2e4369;
-  font-weight: 800;
+  font-weight: bolder;
   text-align: center;
 }
 /* line 135, ../sass/modules/_sections.scss */
@@ -1156,7 +1156,7 @@ img {
 .card__address {
   color: #fff;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 2.4rem;
   padding-top: 1.2rem;
 }
@@ -1287,7 +1287,7 @@ img {
 /* line 356, ../sass/modules/_sections.scss */
 .map__country-link {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 2.4rem;
   margin-left: 2.4rem;
   text-decoration: none;
@@ -1385,7 +1385,7 @@ img {
 .facilities__item {
   color: #fff;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 2.4rem;
   padding-top: 1.8rem;
 }
@@ -1402,13 +1402,13 @@ img {
 /* line 469, ../sass/modules/_sections.scss */
 .footer__title {
   padding-bottom: 1.6rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 /* line 474, ../sass/modules/_sections.scss */
 .footer__link {
   font-size: 1.4rem;
   color: #f2f5f7;
-  font-weight: 400;
+  font-weight: normal;
 }
 /* line 478, ../sass/modules/_sections.scss */
 .footer__link:hover {
@@ -1449,7 +1449,7 @@ img {
   border-radius: .5rem;
   border: 0.1rem solid #000;
   font-size: 1.6rem;
-  font-weight: 800;
+  font-weight: bolder;
   line-height: 2.4rem;
   letter-spacing: normal;
   color: #000;
@@ -1477,7 +1477,7 @@ img {
 .link-button--small {
   border-radius: .2rem;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: bold;
   padding: .4rem 1.6rem .2rem;
 }
 
@@ -1493,7 +1493,7 @@ img {
   background-color: transparent;
   color: #f2f5f7;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 2.4rem;
   text-align: center;
   letter-spacing: normal;
@@ -1551,7 +1551,7 @@ img {
 .link {
   color: #000;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 2.4rem;
   text-decoration: none;
 }
@@ -1567,7 +1567,7 @@ img {
   font-family: "glyphicons halflings";
   font-size: 1rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1;
   color: #00b9ff;
   pointer-events: none;
@@ -1592,7 +1592,7 @@ img {
   color: #f2f5f7;
   border: none;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.8rem;
   text-align: center;
   display: inline-flex;
@@ -1609,7 +1609,7 @@ img {
 /* line 167, ../sass/modules/_elements.scss */
 .button-link--dotted {
   color: #d3d5d8;
-  font-weight: 100;
+  font-weight: lighter;
 }
 /* line 171, ../sass/modules/_elements.scss */
 .button-link--dotted:hover {
@@ -1629,7 +1629,7 @@ img {
   height: 2rem;
   padding: .6rem .8rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1em;
   color: #fff;
   text-align: center;

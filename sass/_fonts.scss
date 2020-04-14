@@ -1,6 +1,6 @@
 @font-face {
     font-family: averta;
-    font-weight: 500;
+    font-weight: $fontWeight500;
     src: url(./../fonts/TW-Averta-Regular.eot);
     src: url(./../fonts/TW-Averta-Regular.eot?#iefix) format('embedded-opentype'),
     url(./../fonts/TW-Averta-Regular.woff2) format('woff2'),
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: averta;
-    font-weight: 600;
+    font-weight: $fontWeight600;
     src: url(./../fonts/TW-Averta-Semibold.eot);
     src: url(./../fonts/TW-Averta-Semibold.eot?#iefix) format('embedded-opentype'),
     url(./../fonts/TW-Averta-Semibold.woff2) format('woff2'),
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: averta;
-    font-weight: 800;
+    font-weight: $fontWeight800;
     src: url(./../fonts/TW-Averta-Bold.eot);
     src: url(./../fonts/TW-Averta-Bold.eot?#iefix) format('embedded-opentype'),
     url(./../fonts/TW-Averta-Bold.woff2) format('woff2'),
