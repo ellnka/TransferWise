@@ -1323,11 +1323,12 @@ img {
 }
 /* line 412, ../sass/modules/_sections.scss */
 .mobile-app__img {
+  margin-top: 20rem;
   margin-left: 20rem;
   width: 36rem;
   height: 42rem;
 }
-/* line 418, ../sass/modules/_sections.scss */
+/* line 419, ../sass/modules/_sections.scss */
 .mobile-app__app-info {
   display: flex;
   flex-direction: column;
@@ -1335,34 +1336,34 @@ img {
   align-items: start;
   padding-right: 2.5rem;
 }
-/* line 426, ../sass/modules/_sections.scss */
+/* line 427, ../sass/modules/_sections.scss */
 .mobile-app__app-img {
   height: 5.6rem;
   width: auto;
 }
-/* line 431, ../sass/modules/_sections.scss */
+/* line 432, ../sass/modules/_sections.scss */
 .mobile-app__google-rating, .mobile-app__apple-rating {
   height: 3.6rem;
   width: auto;
   padding-top: 2rem;
 }
 
-/* line 438, ../sass/modules/_sections.scss */
+/* line 439, ../sass/modules/_sections.scss */
 .facilities {
   padding: 10rem 0;
   background-color: #253655;
 }
-/* line 442, ../sass/modules/_sections.scss */
+/* line 443, ../sass/modules/_sections.scss */
 .facilities__content {
   display: flex;
   flex-direction: column;
   padding-right: 2rem;
 }
-/* line 448, ../sass/modules/_sections.scss */
+/* line 449, ../sass/modules/_sections.scss */
 .facilities__list {
   list-style-type: none;
 }
-/* line 452, ../sass/modules/_sections.scss */
+/* line 453, ../sass/modules/_sections.scss */
 .facilities__item {
   color: #fff;
   font-size: 1.6rem;
