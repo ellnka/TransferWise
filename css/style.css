@@ -619,137 +619,158 @@ img {
 }
 
 /* line 137, ../sass/modules/_common.scss */
+.p-t-40 {
+  padding-top: 4rem;
+}
+
+/* line 142, ../sass/modules/_common.scss */
 .p-t-64 {
   padding-top: 6.4rem;
 }
 
-/* line 141, ../sass/modules/_common.scss */
+/* line 146, ../sass/modules/_common.scss */
 .p-t-72 {
   padding-top: 7.2rem;
 }
 
-/* line 145, ../sass/modules/_common.scss */
+/* line 150, ../sass/modules/_common.scss */
 .p-t-80 {
   padding-top: 8rem;
 }
 
 /*** padding-right ***/
-/* line 153, ../sass/modules/_common.scss */
+/* line 158, ../sass/modules/_common.scss */
 .p-r-3 {
   padding-right: .3rem;
 }
 
-/* line 157, ../sass/modules/_common.scss */
+/* line 162, ../sass/modules/_common.scss */
 .p-r-5 {
   padding-right: .5rem;
 }
 
-/* line 161, ../sass/modules/_common.scss */
+/* line 166, ../sass/modules/_common.scss */
 .p-r-8 {
   padding-right: .8rem !important;
 }
 
-/* line 165, ../sass/modules/_common.scss */
+/* line 170, ../sass/modules/_common.scss */
 .p-r-12 {
   padding-right: 1.2rem !important;
 }
 
-/* line 169, ../sass/modules/_common.scss */
+/* line 174, ../sass/modules/_common.scss */
 .p-r-18 {
   padding-right: 1.8rem;
 }
 
-/* line 173, ../sass/modules/_common.scss */
+/* line 178, ../sass/modules/_common.scss */
 .p-r-44 {
   padding-right: 4.4rem;
 }
 
-/* line 177, ../sass/modules/_common.scss */
+/* line 182, ../sass/modules/_common.scss */
 .p-r-48 {
   padding-right: 4.8rem;
 }
 
 /*** padding-bottom ***/
-/* line 183, ../sass/modules/_common.scss */
+/* line 188, ../sass/modules/_common.scss */
 .p-b-12 {
   padding-bottom: 1.2rem;
 }
 
-/* line 187, ../sass/modules/_common.scss */
+/* line 192, ../sass/modules/_common.scss */
 .p-b-16 {
   padding-bottom: 1.6rem;
 }
 
-/* line 191, ../sass/modules/_common.scss */
+/* line 196, ../sass/modules/_common.scss */
 .p-b-20 {
   padding-bottom: 2rem;
 }
 
-/* line 195, ../sass/modules/_common.scss */
+/* line 200, ../sass/modules/_common.scss */
 .p-b-24 {
   padding-bottom: 2.4rem;
 }
 
-/* line 199, ../sass/modules/_common.scss */
+/* line 204, ../sass/modules/_common.scss */
 .p-b-32 {
   padding-bottom: 3.2rem;
 }
 
-/* line 203, ../sass/modules/_common.scss */
+/* line 208, ../sass/modules/_common.scss */
 .p-b-40 {
   padding-bottom: 4rem;
 }
 
-/* line 207, ../sass/modules/_common.scss */
+/* line 212, ../sass/modules/_common.scss */
 .p-b-48 {
   padding-bottom: 4.8rem;
 }
 
-/* line 211, ../sass/modules/_common.scss */
+/* line 216, ../sass/modules/_common.scss */
 .p-b-100 {
   padding-bottom: 10rem;
 }
 
 /*** padding-left ***/
-/* line 216, ../sass/modules/_common.scss */
+/* line 221, ../sass/modules/_common.scss */
 .p-l-3 {
   padding-left: .3rem;
 }
 
-/* line 220, ../sass/modules/_common.scss */
+/* line 225, ../sass/modules/_common.scss */
 .p-l-8 {
   padding-left: .8rem;
 }
 
-/* line 224, ../sass/modules/_common.scss */
+/* line 229, ../sass/modules/_common.scss */
 .p-l-12 {
   padding-left: 1.2rem;
 }
 
-/* line 228, ../sass/modules/_common.scss */
+/* line 233, ../sass/modules/_common.scss */
 .p-l-24 {
   padding-left: 2.4rem;
 }
 
-/* line 232, ../sass/modules/_common.scss */
+/* line 237, ../sass/modules/_common.scss */
 .p-l-64 {
   padding-left: 6.4rem;
 }
 
 /** imgs ***/
-/* line 238, ../sass/modules/_common.scss */
+/* line 243, ../sass/modules/_common.scss */
 .img {
   vertical-align: middle;
 }
 
-/* line 242, ../sass/modules/_common.scss */
+/* line 247, ../sass/modules/_common.scss */
 .border-separator {
   border-left: 0.2rem solid #253655;
 }
 
-/* line 246, ../sass/modules/_common.scss */
+/* line 251, ../sass/modules/_common.scss */
+.border-bottom {
+  border-bottom: 0.1rem solid #486089;
+}
+
+/* line 255, ../sass/modules/_common.scss */
 .blue-text {
   color: #00b9ff;
+}
+
+/* line 259, ../sass/modules/_common.scss */
+.bold {
+  font-weight: 800 !important;
+}
+
+/* line 263, ../sass/modules/_common.scss */
+.align-center {
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 /* line 1, ../sass/modules/_content.scss */
@@ -1372,6 +1393,58 @@ img {
   padding-top: 1.8rem;
 }
 
+/* line 462, ../sass/modules/_sections.scss */
+.footer {
+  padding-top: 16.5rem;
+  padding-bottom: 9rem;
+  background-color: #37517e;
+  font-size: 1.4rem;
+  color: #f2f5f7;
+  line-height: 2.4rem;
+}
+/* line 470, ../sass/modules/_sections.scss */
+.footer__title {
+  padding-bottom: 1.6rem;
+  font-weight: 600;
+}
+/* line 475, ../sass/modules/_sections.scss */
+.footer__link {
+  font-size: 1.4rem;
+  color: #f2f5f7;
+  font-weight: 400;
+}
+/* line 479, ../sass/modules/_sections.scss */
+.footer__link:hover {
+  color: #5d7079;
+}
+/* line 483, ../sass/modules/_sections.scss */
+.footer__follow-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+/* line 489, ../sass/modules/_sections.scss */
+.footer__icon {
+  width: 2rem;
+  height: 2rem;
+  color: #f2f5f7;
+}
+/* line 495, ../sass/modules/_sections.scss */
+.footer__text {
+  width: 65%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* line 501, ../sass/modules/_sections.scss */
+.footer__tiny-link {
+  font-size: 1.2rem;
+  color: #f2f5f7;
+}
+/* line 504, ../sass/modules/_sections.scss */
+.footer__tiny-link:hover {
+  color: #5d7079;
+}
+
 /* line 1, ../sass/modules/_elements.scss */
 .link-button {
   display: block;
@@ -1643,11 +1716,29 @@ img {
   content: "\e905";
 }
 /* line 266, ../sass/modules/_elements.scss */
+.icon__social-network {
+  font-size: 2rem;
+  line-height: 2rem;
+  vertical-align: top;
+}
+/* line 272, ../sass/modules/_elements.scss */
+.icon__social-network--facebook:before {
+  content: "\e903";
+}
+/* line 277, ../sass/modules/_elements.scss */
+.icon__social-network--instagram:before {
+  content: "\e904";
+}
+/* line 282, ../sass/modules/_elements.scss */
+.icon__social-network--twitter:before {
+  content: "\e906";
+}
+/* line 289, ../sass/modules/_elements.scss */
 .icon--blue {
   color: #00b9ff;
 }
 
-/* line 273, ../sass/modules/_elements.scss */
+/* line 296, ../sass/modules/_elements.scss */
 .flag {
   width: 2.4rem;
   height: 1.6rem;
@@ -1656,39 +1747,39 @@ img {
   -webkit-box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.6);
 }
-/* line 281, ../sass/modules/_elements.scss */
+/* line 304, ../sass/modules/_elements.scss */
 .flag--eu {
   background-image: url(./../images/flags/eu.svg);
 }
-/* line 285, ../sass/modules/_elements.scss */
+/* line 308, ../sass/modules/_elements.scss */
 .flag--ua {
   background-image: url(./../images/flags/ua.svg);
 }
-/* line 289, ../sass/modules/_elements.scss */
+/* line 312, ../sass/modules/_elements.scss */
 .flag--uk {
   background-image: url(./../images/flags/gb.svg);
 }
-/* line 293, ../sass/modules/_elements.scss */
+/* line 316, ../sass/modules/_elements.scss */
 .flag--id {
   background-image: url(./../images/flags/id.svg);
 }
-/* line 297, ../sass/modules/_elements.scss */
+/* line 320, ../sass/modules/_elements.scss */
 .flag--us {
   background-image: url(./../images/flags/us.svg);
 }
-/* line 301, ../sass/modules/_elements.scss */
+/* line 324, ../sass/modules/_elements.scss */
 .flag--br {
   background-image: url(./../images/flags/br.svg);
 }
-/* line 305, ../sass/modules/_elements.scss */
+/* line 328, ../sass/modules/_elements.scss */
 .flag--au {
   background-image: url(./../images/flags/au.svg);
 }
-/* line 309, ../sass/modules/_elements.scss */
+/* line 332, ../sass/modules/_elements.scss */
 .flag--ca {
   background-image: url(./../images/flags/ca.svg);
 }
-/* line 313, ../sass/modules/_elements.scss */
+/* line 336, ../sass/modules/_elements.scss */
 .flag--th {
   background-image: url(./../images/flags/th.svg);
 }

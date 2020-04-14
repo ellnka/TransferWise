@@ -263,6 +263,29 @@
         }
     }
 
+    &__social-network {
+        font-size: 2rem;
+        line-height: 2rem;
+        vertical-align: top;
+
+        &--facebook {
+            &:before {
+                content: "\e903";
+            }
+        }
+        &--instagram {
+            &:before {
+                content: "\e904";
+            }
+        }
+        &--twitter {
+            &:before {
+                content: "\e906";
+            }
+        }
+    }
+    
+
     &--blue {
         color: $blue;
     }

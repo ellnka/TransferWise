@@ -134,6 +134,11 @@ img {
     padding-top: 2.4rem;
 }
 
+.p-t-40 {
+    padding-top: 4rem;
+}
+
+
 .p-t-64 {
     padding-top: 6.4rem;
 }
@@ -240,9 +245,22 @@ img {
 }
 
 .border-separator {
-    border-left: .2rem solid $grey5;
+    border-left: .2rem solid $darkBlue;
+}
+
+.border-bottom {
+    border-bottom: .1rem solid $darkBlue5;
 }
 
 .blue-text {
     color: $blue;
+}
+
+.bold {
+    font-weight: 800 !important;
+}
+
+.align-center {
+    justify-content: center !important;
+    align-items: center !important;
 }

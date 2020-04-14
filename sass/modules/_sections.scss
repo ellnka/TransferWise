@@ -458,3 +458,51 @@
         padding-top: 1.8rem;
     }
 }
+
+.footer {
+    padding-top:16.5rem;
+    padding-bottom: 9rem;
+    background-color: $darkBlue3;
+    font-size: 1.4rem;
+    color: $lightGrey;
+    line-height: 2.4rem;
+
+    &__title{
+        padding-bottom: 1.6rem;
+        font-weight: 600;
+    }
+
+    &__link {
+        font-size: 1.4rem;
+        color: $lightGrey;
+        font-weight: 400;
+        &:hover {
+            color: $grey;
+        }
+    }
+    &__follow-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        color: $lightGrey;
+    }
+
+    &__text {
+        width: 65%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    &__tiny-link {
+        font-size: 1.2rem;
+        color: $lightGrey;
+        &:hover {
+            color: $grey;
+        }
+    }
+}
