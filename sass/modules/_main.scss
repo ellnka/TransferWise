@@ -91,7 +91,6 @@
 
 .transfer {
     &__img {
-        display: baseline;
         height: 70px;
         vertical-align: middle;
 
@@ -107,7 +106,6 @@
 .form-group {
     font-family: $fontFamily;
     background-color: $transparent;
-    display: relative;
 
     &__form-row {
         display: flex;

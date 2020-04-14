@@ -188,46 +188,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 93, ../sass/modules/_main.scss */
 .transfer__img {
-  display: baseline;
   height: 70px;
   vertical-align: middle;
 }
-/* line 101, ../sass/modules/_main.scss */
+/* line 100, ../sass/modules/_main.scss */
 .transfer__img {
   display: baseline;
   height: 70px;
 }
 
-/* line 107, ../sass/modules/_main.scss */
+/* line 106, ../sass/modules/_main.scss */
 .form-group {
   font-family: averta, Helvetica, Arial, sans-serif;
   background-color: transparent;
-  display: relative;
 }
-/* line 112, ../sass/modules/_main.scss */
+/* line 110, ../sass/modules/_main.scss */
 .form-group__form-row {
   display: flex;
   flex-direction: row;
   min-height: 7.2rem;
 }
-/* line 117, ../sass/modules/_main.scss */
+/* line 115, ../sass/modules/_main.scss */
 .form-group__form-row--rounded {
   color: #f2f5f7;
   border-radius: .5rem;
   border: 0.1rem solid #f2f5f7;
 }
-/* line 124, ../sass/modules/_main.scss */
+/* line 122, ../sass/modules/_main.scss */
 .form-group__drop-down {
   padding: .4rem 1.2rem .2rem 1.2rem;
   background-color: #2e4369;
   border: 0.1rem solid #2e4369;
 }
-/* line 129, ../sass/modules/_main.scss */
+/* line 127, ../sass/modules/_main.scss */
 .form-group__drop-down:hover {
   border-color: #829ca9;
   background-color: #253655;
 }
-/* line 134, ../sass/modules/_main.scss */
+/* line 132, ../sass/modules/_main.scss */
 .form-group__drop-down--appended {
   padding: 1.3rem 2rem 1.1rem 1.6rem;
   border-left-width: 0;
@@ -236,7 +234,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 144, ../sass/modules/_main.scss */
+/* line 142, ../sass/modules/_main.scss */
 .form-group__input {
   background-color: #fff;
   border-color: #829ca9;
@@ -245,13 +243,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom-left-radius: .5rem;
   width: 70%;
 }
-/* line 153, ../sass/modules/_main.scss */
+/* line 151, ../sass/modules/_main.scss */
 .form-group__list {
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
 }
-/* line 159, ../sass/modules/_main.scss */
+/* line 157, ../sass/modules/_main.scss */
 .form-group__list-item {
   position: relative;
   display: flex;
@@ -263,7 +261,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   min-height: 3.2rem;
 }
-/* line 171, ../sass/modules/_main.scss */
+/* line 169, ../sass/modules/_main.scss */
 .form-group__list-content {
   position: absolute;
   display: flex;
@@ -278,7 +276,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 186, ../sass/modules/_main.scss */
+/* line 184, ../sass/modules/_main.scss */
 .form-group__list-icon {
   margin-right: 1.2rem;
   margin-top: .3rem;
@@ -294,12 +292,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: middle;
   z-index: 2;
 }
-/* line 203, ../sass/modules/_main.scss */
+/* line 201, ../sass/modules/_main.scss */
 .form-group__list-label {
   min-width: 9.6rem;
   font-weight: 600;
 }
-/* line 208, ../sass/modules/_main.scss */
+/* line 206, ../sass/modules/_main.scss */
 .form-group__list-text {
   min-width: 9.6rem;
   font-size: 1.6rem;
@@ -308,11 +306,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2.4rem;
   margin: auto 0;
 }
-/* line 218, ../sass/modules/_main.scss */
+/* line 216, ../sass/modules/_main.scss */
 .form-group__button {
   max-height: 2.4rem;
 }
-/* line 222, ../sass/modules/_main.scss */
+/* line 220, ../sass/modules/_main.scss */
 .form-group__box {
   display: flex;
   padding: 0 1.2rem;
@@ -322,20 +320,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: center;
   align-items: center;
 }
-/* line 232, ../sass/modules/_main.scss */
+/* line 230, ../sass/modules/_main.scss */
 .form-group__graph {
   height: 2.4rem;
   width: 1.7rem;
   margin: 0rem .5rem;
 }
 
-/* line 239, ../sass/modules/_main.scss */
+/* line 237, ../sass/modules/_main.scss */
 .input-group {
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
-/* line 244, ../sass/modules/_main.scss */
+/* line 242, ../sass/modules/_main.scss */
 .input-group__label {
   padding-left: 1.4rem;
   padding-top: .7rem;
@@ -344,7 +342,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2rem;
   user-select: none;
 }
-/* line 253, ../sass/modules/_main.scss */
+/* line 251, ../sass/modules/_main.scss */
 .input-group__input {
   font-family: averta, Helvetica, Arial, sans-serif;
   margin: 0px 0px;
@@ -354,7 +352,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
 }
 
-/* line 264, ../sass/modules/_main.scss */
+/* line 262, ../sass/modules/_main.scss */
 .drop-down {
   margin: 0;
   display: flex;
@@ -365,28 +363,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   user-select: none;
   border-collapse: separate;
 }
-/* line 274, ../sass/modules/_main.scss */
+/* line 272, ../sass/modules/_main.scss */
 .drop-down--big {
   font-size: 2rem;
   line-height: 3.2rem;
   font-weight: 500;
 }
-/* line 280, ../sass/modules/_main.scss */
+/* line 278, ../sass/modules/_main.scss */
 .drop-down--small {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 500;
   letter-spacing: normal;
 }
-/* line 287, ../sass/modules/_main.scss */
+/* line 285, ../sass/modules/_main.scss */
 .drop-down__selected-icon {
   margin-right: .7rem;
 }
-/* line 291, ../sass/modules/_main.scss */
+/* line 289, ../sass/modules/_main.scss */
 .drop-down__selected-label {
   margin-right: 1rem;
 }
-/* line 295, ../sass/modules/_main.scss */
+/* line 293, ../sass/modules/_main.scss */
 .drop-down__selected-text {
   font-size: 2rem;
   font-weight: 500;
@@ -394,7 +392,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 3.2rem;
 }
 
-/* line 304, ../sass/modules/_main.scss */
+/* line 302, ../sass/modules/_main.scss */
 .list-icon {
   margin-right: 1.2rem;
   background-color: #253655;
@@ -1672,73 +1670,72 @@ img {
   vertical-align: middle;
   fill: currentColor;
   cursor: pointer;
-  speak: none;
 }
-/* line 228, ../sass/modules/_elements.scss */
+/* line 227, ../sass/modules/_elements.scss */
 .icon__arrow-down {
   vertical-align: top;
   font-size: 1.4rem;
   width: 1.2rem;
 }
-/* line 233, ../sass/modules/_elements.scss */
+/* line 232, ../sass/modules/_elements.scss */
 .icon__arrow-down:before {
   content: '\e902';
 }
-/* line 238, ../sass/modules/_elements.scss */
+/* line 237, ../sass/modules/_elements.scss */
 .icon__globe {
   vertical-align: top;
   font-size: 1.2rem;
   width: 1.4rem;
 }
-/* line 242, ../sass/modules/_elements.scss */
+/* line 241, ../sass/modules/_elements.scss */
 .icon__globe:before {
   content: "\e901";
 }
-/* line 247, ../sass/modules/_elements.scss */
+/* line 246, ../sass/modules/_elements.scss */
 .icon__close {
   font-size: 24px;
   color: #00b9ff;
   line-height: 3.2rem;
   vertical-align: top;
 }
-/* line 252, ../sass/modules/_elements.scss */
+/* line 251, ../sass/modules/_elements.scss */
 .icon__close:before {
   content: "\e900";
 }
-/* line 257, ../sass/modules/_elements.scss */
+/* line 256, ../sass/modules/_elements.scss */
 .icon__video-play {
   font-size: 3.2rem;
   line-height: 3.2rem;
   vertical-align: top;
 }
-/* line 261, ../sass/modules/_elements.scss */
+/* line 260, ../sass/modules/_elements.scss */
 .icon__video-play:before {
   content: "\e905";
 }
-/* line 266, ../sass/modules/_elements.scss */
+/* line 265, ../sass/modules/_elements.scss */
 .icon__social-network {
   font-size: 2rem;
   line-height: 2rem;
   vertical-align: top;
 }
-/* line 272, ../sass/modules/_elements.scss */
+/* line 271, ../sass/modules/_elements.scss */
 .icon__social-network--facebook:before {
   content: "\e903";
 }
-/* line 277, ../sass/modules/_elements.scss */
+/* line 276, ../sass/modules/_elements.scss */
 .icon__social-network--instagram:before {
   content: "\e904";
 }
-/* line 282, ../sass/modules/_elements.scss */
+/* line 281, ../sass/modules/_elements.scss */
 .icon__social-network--twitter:before {
   content: "\e906";
 }
-/* line 289, ../sass/modules/_elements.scss */
+/* line 288, ../sass/modules/_elements.scss */
 .icon--blue {
   color: #00b9ff;
 }
 
-/* line 296, ../sass/modules/_elements.scss */
+/* line 295, ../sass/modules/_elements.scss */
 .flag {
   width: 2.4rem;
   height: 1.6rem;
@@ -1747,39 +1744,39 @@ img {
   -webkit-box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.6);
 }
-/* line 304, ../sass/modules/_elements.scss */
+/* line 303, ../sass/modules/_elements.scss */
 .flag--eu {
   background-image: url(./../images/flags/eu.svg);
 }
-/* line 308, ../sass/modules/_elements.scss */
+/* line 307, ../sass/modules/_elements.scss */
 .flag--ua {
   background-image: url(./../images/flags/ua.svg);
 }
-/* line 312, ../sass/modules/_elements.scss */
+/* line 311, ../sass/modules/_elements.scss */
 .flag--uk {
   background-image: url(./../images/flags/gb.svg);
 }
-/* line 316, ../sass/modules/_elements.scss */
+/* line 315, ../sass/modules/_elements.scss */
 .flag--id {
   background-image: url(./../images/flags/id.svg);
 }
-/* line 320, ../sass/modules/_elements.scss */
+/* line 319, ../sass/modules/_elements.scss */
 .flag--us {
   background-image: url(./../images/flags/us.svg);
 }
-/* line 324, ../sass/modules/_elements.scss */
+/* line 323, ../sass/modules/_elements.scss */
 .flag--br {
   background-image: url(./../images/flags/br.svg);
 }
-/* line 328, ../sass/modules/_elements.scss */
+/* line 327, ../sass/modules/_elements.scss */
 .flag--au {
   background-image: url(./../images/flags/au.svg);
 }
-/* line 332, ../sass/modules/_elements.scss */
+/* line 331, ../sass/modules/_elements.scss */
 .flag--ca {
   background-image: url(./../images/flags/ca.svg);
 }
-/* line 336, ../sass/modules/_elements.scss */
+/* line 335, ../sass/modules/_elements.scss */
 .flag--th {
   background-image: url(./../images/flags/th.svg);
 }
