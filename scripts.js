@@ -10,7 +10,7 @@ function bannerClose() {
 /** common js */
 
 
-document.addEventListener('DOMContentLoaded', function (e) {
+document.addEventListener('DOMContentLoaded', function () {
   bannerClose();
   loadFirebase();
 });
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
 function loadFirebase() {
   var instructionBlocksDiv = document.querySelector('.instructions__blocks');
-  var blockDivInnerHTML = '';
+  console.log(instructionBlocksDiv);
   var config = {
     apiKey: 'AIzaSyAl8cG6NY0q0gnIPyXBw_n_jJEJ2P7G02g',
     authDomain: 'transferwise-ac780.firebaseapp.com',
@@ -29,17 +29,23 @@ function loadFirebase() {
   };
   firebase.initializeApp(config);
   firebase.database().ref('/blocks').once('value').then(function (snapshot) {
+    instructionBlocksDiv.classList.remove('align-center');
+    instructionBlocksDiv.querySelector('.loader').remove();
     var blockCount = snapshot.numChildren();
 
     for (var i = 0; i < blockCount; i++) {
       var block = snapshot.child(i).val();
       if (!block) continue;
-      blockDivInnerHTML += "\n                <div class=\"instructions__block block\">\n                    <img class=\"block__img\" src=\"".concat(block.image, "\" alt=\"").concat(block.name, "\">\n                    <div class=\"block__title content__title content__title--h4\">").concat(block.index, ". ").concat(block.name, "</div>\n                    <p class=\"block__text content__text content__text--grey\">").concat(block.text, "</p>\n                </div>\n            ");
+      var blockDiv = createBlockDiv(block);
+      instructionBlocksDiv.append(blockDiv);
     }
-
-    instructionBlocksDiv.innerHTML = blockDivInnerHTML;
-    instructionBlocksDiv.classList.remove('align-center');
   });
+}
+
+function createBlockDiv(block) {
+  var blockDiv = document.createElement('div');
+  blockDiv.innerHTML = "<div class=\"instructions__block block\">\n                    <img class=\"block__img\" src=\"".concat(block.image, "\" alt=\"").concat(block.name, "\">\n                    <div class=\"block__title content__title content__title--h4\">").concat(block.index, ". ").concat(block.name, "</div>\n                    <p class=\"block__text content__text content__text--grey\">").concat(block.text, "</p>\n                </div>");
+  return blockDiv.firstElementChild;
 }
 
 jQuery(document).ready(function () {
