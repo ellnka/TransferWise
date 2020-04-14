@@ -93,15 +93,17 @@
     background-position: left center;
 
     &__title {
-        width: 100%;
+        width: 95%;
         text-align: center;
         margin-bottom: 4.8rem;
+        margin-right: 2.4rem;
         color: $darkBlue2;
     }
 
     &__blocks {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 

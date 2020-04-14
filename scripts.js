@@ -12,7 +12,36 @@ function bannerClose() {
 
 document.addEventListener('DOMContentLoaded', function (e) {
   bannerClose();
+  loadFirebase();
 });
+/* eslint-disable no-undef */
+
+/* eslint-disable no-unused-vars */
+
+function loadFirebase() {
+  var instructionBlocksDiv = document.querySelector('.instructions__blocks');
+  var blockDivInnerHTML = '';
+  var config = {
+    apiKey: 'AIzaSyAl8cG6NY0q0gnIPyXBw_n_jJEJ2P7G02g',
+    authDomain: 'transferwise-ac780.firebaseapp.com',
+    databaseURL: 'https://transferwise-ac780.firebaseio.com/',
+    storageBucket: 'bucket.appspot.com'
+  };
+  firebase.initializeApp(config);
+  firebase.database().ref('/blocks').once('value').then(function (snapshot) {
+    var blockCount = snapshot.numChildren();
+
+    for (var i = 0; i < blockCount; i++) {
+      var block = snapshot.child(i).val();
+      if (!block) continue;
+      blockDivInnerHTML += "\n                <div class=\"instructions__block block\">\n                    <img class=\"block__img\" src=\"".concat(block.image, "\" alt=\"").concat(block.name, "\">\n                    <div class=\"block__title content__title content__title--h4\">").concat(block.index, ". ").concat(block.name, "</div>\n                    <p class=\"block__text content__text content__text--grey\">").concat(block.text, "</p>\n                </div>\n            ");
+    }
+
+    instructionBlocksDiv.innerHTML = blockDivInnerHTML;
+    instructionBlocksDiv.classList.remove('align-center');
+  });
+}
+
 jQuery(document).ready(function () {
   jQuery('.bxslider').bxSlider({
     auto: true

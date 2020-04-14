@@ -1,19 +1,3 @@
-/** banner **/
-function bannerClose () {
-    const btnClose = document.querySelector('.banner__close-icon');
-    btnClose.addEventListener('click',
-        (e) => {
-            e.target.closest('.banner').classList.add('hidden');
-            //e.target.closest('.banner').hidden = true;
-        });
-}
-
-/** common js */
-document.addEventListener('DOMContentLoaded', (e) => {
-    bannerClose();
-    loadFirebase();
-});
-
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 
@@ -46,10 +30,3 @@ function loadFirebase () {
         instructionBlocksDiv.classList.remove('align-center');
     });
 }
-
-
-jQuery(document).ready(function () {
-    jQuery('.bxslider').bxSlider({
-        auto: true
-    });
-});

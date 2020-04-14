@@ -16,6 +16,10 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
 </head>
 
 <body>
@@ -263,44 +267,8 @@
             <div class="instructions__title content__title content__title--h1">
                 How to send money from EUR to UAH<span class="dot dot--blue">.</span>
             </div>
-            <div class="instructions__blocks">
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_1.svg" alt="Register for free">
-                    <div class="block__title content__title content__title--h4">1. Register for free. </div>
-                    <p class="block__text content__text content__text--grey">Sign up online or in our app for free. All you need is an email address, or a Google or Facebook account.</p>
-                </div>
-
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_2.svg" alt="Choose an amount to send">
-                    <div class="block__title content__title content__title--h4">2. Choose an amount to send.</div>
-                    <p class="block__text content__text content__text--grey">Tell us how much you want to send. We’ll show you our fees upfront, and tell you when your money should arrive.</p>
-                </div>
-
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_3.svg" alt="Add recipient’s bank details">
-                    <div class="block__title content__title content__title--h4">3. Add recipient’s bank details.</div>
-                    <p class="block__text content__text content__text--grey">Fill in the details of your recipient’s bank account.</p>
-                </div>
-
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_4.svg" alt="Verify your identity">
-                    <div class="block__title content__title content__title--h4">4. Verify your identity.</div>
-                    <p class="block__text content__text content__text--grey">For some currencies, or for large transfers, we need a photo of your ID. This helps us keep your money safe.</p>
-                </div>
-                
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_5.svg" alt="Pay for your transfer">
-                    <div class="block__title content__title content__title--h4">5. Pay for your transfer.</div>
-                    <p class="block__text content__text content__text--grey">Send your money with a bank transfer, or a debit or credit card.</p>
-                </div>
-                
-                <div class="instructions__block block">
-                    <img class="block__img" src="./images/block_6.svg" alt="That’s it">
-                    <div class="block__title content__title content__title--h4">6. That’s it.</div>
-                    <p class="block__text content__text content__text--grey">We’ll handle the rest. You can track your transfer in your account, and we'll tell your recipient it's coming.</p>
-                </div>
-
-
+            <div class="instructions__blocks align-center">
+                <div class="loader"></div>
             </div>
         </div>
     </div>
@@ -644,6 +612,7 @@
         </div>
     </footer>
     
+
     <script src="scripts.js"></script>
 </body>
 
