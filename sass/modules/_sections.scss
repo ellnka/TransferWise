@@ -434,3 +434,26 @@
         padding-top: 2rem;
     }
 }
+
+.facilities {
+    padding: 10rem 0;
+    background-color: $darkBlue;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+
+    &__item {
+        color: $white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        padding-top: 1.8rem;
+    }
+}
