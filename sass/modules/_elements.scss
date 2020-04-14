@@ -45,7 +45,7 @@
     justify-content: center;
     position: relative;
     min-height: 4.8rem;
-    font-family: averta, Helvetica,Arial,sans-serif;
+    font-family: $fontFamily;
     background-color: $transparent;
     color: $lightGrey;   
     font-size: 1.6rem;
@@ -115,7 +115,7 @@
         outline: 0;
     }
 
-    &::after {
+    &:after {
         display: inline-block;
         margin-left: .8rem;
         font-family: glyphicons halflings;
@@ -131,10 +131,10 @@
     &--blue {
         color: $blue;
     }
-    &:hover::after,
-    &:focus::after,
-    &-container:hover &::after,
-    &-container:focus &::after {
+    &:hover:after,
+    &:focus:after,
+    &-container:hover &:after,
+    &-container:focus &:after {
         -webkit-transform: translateX(.4rem);
         -ms-transform: translateX(.4rem);
         -o-transform: translateX(.4rem);
@@ -145,7 +145,7 @@
 
 
 .button-link {
-    font-family: averta, Helvetica,Arial,sans-serif;
+    font-family: $fontFamily;
     background-color: $transparent;
     color: $lightGrey;
     border: none;

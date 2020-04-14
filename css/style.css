@@ -200,7 +200,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 107, ../sass/modules/_main.scss */
 .form-group {
-  font-family: averta, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica, Arial, sans-serif;
   background-color: transparent;
   display: relative;
 }
@@ -346,7 +346,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 253, ../sass/modules/_main.scss */
 .input-group__input {
-  font-family: averta, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica, Arial, sans-serif;
   margin: 0px 0px;
   padding: .4rem 1.2rem;
   color: #2e4369;
@@ -461,7 +461,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 1, ../sass/modules/_common.scss */
 html {
-  font-family: averta, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica, Arial, sans-serif;
   color: #000;
   font-size: 10px;
   line-height: 2.5rem;
@@ -926,7 +926,7 @@ img {
     display: none;
   }
 }
-/* line 2, ../sass/modules/_sections.scss */
+/* line 1, ../sass/modules/_sections.scss */
 .top-notification {
   width: 100%;
   padding: 1.6rem 3.2rem;
@@ -934,29 +934,29 @@ img {
   color: #f2f5f7;
   background-color: #253655;
 }
-/* line 9, ../sass/modules/_sections.scss */
+/* line 8, ../sass/modules/_sections.scss */
 .top-notification__content {
   padding: 0;
   line-height: 2.4rem;
 }
-/* line 13, ../sass/modules/_sections.scss */
+/* line 12, ../sass/modules/_sections.scss */
 .top-notification__content--bold {
   letter-spacing: normal;
   font-weight: 600;
 }
 
-/* line 20, ../sass/modules/_sections.scss */
+/* line 19, ../sass/modules/_sections.scss */
 .exchange-rate {
   position: relative;
 }
-/* line 23, ../sass/modules/_sections.scss */
+/* line 22, ../sass/modules/_sections.scss */
 .exchange-rate__container {
   position: absolute;
   top: 1rem;
   display: block;
   width: 100%;
 }
-/* line 30, ../sass/modules/_sections.scss */
+/* line 29, ../sass/modules/_sections.scss */
 .exchange-rate__widget {
   background-color: #fff;
   border-radius: .3rem;
@@ -965,13 +965,13 @@ img {
   margin: 0 auto;
   padding: 2.4rem;
 }
-/* line 39, ../sass/modules/_sections.scss */
+/* line 38, ../sass/modules/_sections.scss */
 .exchange-rate__row {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-/* line 45, ../sass/modules/_sections.scss */
+/* line 44, ../sass/modules/_sections.scss */
 .exchange-rate__title {
   color: #2e4369;
   letter-spacing: normal;
@@ -979,42 +979,42 @@ img {
   font-size: 2.2rem;
   font-weight: 600;
 }
-/* line 53, ../sass/modules/_sections.scss */
+/* line 52, ../sass/modules/_sections.scss */
 .exchange-rate__desc {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 600;
   color: #5d7079;
 }
-/* line 61, ../sass/modules/_sections.scss */
+/* line 60, ../sass/modules/_sections.scss */
 .exchange-rate__icon--pre {
   width: 3rem;
   height: .4rem;
   margin-right: .9rem;
   margin-bottom: .3rem;
 }
-/* line 67, ../sass/modules/_sections.scss */
+/* line 66, ../sass/modules/_sections.scss */
 .exchange-rate__icon--after {
   margin-left: .8rem;
   width: 1.3rem;
   height: 1.3rem;
 }
-/* line 74, ../sass/modules/_sections.scss */
+/* line 73, ../sass/modules/_sections.scss */
 .exchange-rate__graph {
   margin-bottom: 1.6rem;
 }
-/* line 78, ../sass/modules/_sections.scss */
+/* line 77, ../sass/modules/_sections.scss */
 .exchange-rate__button {
   margin: 0 auto;
 }
-/* line 82, ../sass/modules/_sections.scss */
+/* line 81, ../sass/modules/_sections.scss */
 .exchange-rate__footer {
   max-width: 912px;
   padding: 5.5rem 1.2rem 10rem 0rem;
   margin: 0 auto;
 }
 
-/* line 89, ../sass/modules/_sections.scss */
+/* line 88, ../sass/modules/_sections.scss */
 .instructions {
   padding: 9.2rem 0 7.2rem;
   background-image: url(./../images/bg_grey_instruction.svg);
@@ -1022,20 +1022,20 @@ img {
   background-size: cover;
   background-position: left center;
 }
-/* line 96, ../sass/modules/_sections.scss */
+/* line 95, ../sass/modules/_sections.scss */
 .instructions__title {
   width: 100%;
   text-align: center;
   margin-bottom: 4.8rem;
   color: #2e4369;
 }
-/* line 103, ../sass/modules/_sections.scss */
+/* line 102, ../sass/modules/_sections.scss */
 .instructions__blocks {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-/* line 109, ../sass/modules/_sections.scss */
+/* line 108, ../sass/modules/_sections.scss */
 .instructions__block {
   padding: 2.4rem 3.2rem 4.8rem;
   margin: 1.2rem 2.4rem 1.2rem 0;
@@ -1046,30 +1046,30 @@ img {
   background-color: #fff;
 }
 
-/* line 120, ../sass/modules/_sections.scss */
+/* line 119, ../sass/modules/_sections.scss */
 .block {
   display: block;
   min-width: 35rem;
   width: 35rem;
 }
-/* line 125, ../sass/modules/_sections.scss */
+/* line 124, ../sass/modules/_sections.scss */
 .block__img {
   width: 100%;
   margin-bottom: 2.4rem;
 }
-/* line 130, ../sass/modules/_sections.scss */
+/* line 129, ../sass/modules/_sections.scss */
 .block__title {
   color: #2e4369;
   font-weight: 800;
   text-align: center;
 }
-/* line 136, ../sass/modules/_sections.scss */
+/* line 135, ../sass/modules/_sections.scss */
 .block__text {
   text-align: center;
   padding-top: .8rem;
 }
 
-/* line 142, ../sass/modules/_sections.scss */
+/* line 141, ../sass/modules/_sections.scss */
 .reviews {
   padding: 9.2rem 0 7.2rem;
   background-image: url(./../images/bg_grey_instruction.svg);
@@ -1078,24 +1078,24 @@ img {
   background-position: left center;
   position: relative;
 }
-/* line 150, ../sass/modules/_sections.scss */
+/* line 149, ../sass/modules/_sections.scss */
 .reviews__title {
   width: 100%;
   padding-bottom: 5rem;
   color: #2e4369;
   text-align: center;
 }
-/* line 157, ../sass/modules/_sections.scss */
+/* line 156, ../sass/modules/_sections.scss */
 .reviews__photo {
   width: 60rem;
   height: 52rem;
 }
-/* line 162, ../sass/modules/_sections.scss */
+/* line 161, ../sass/modules/_sections.scss */
 .reviews__card {
   position: relative;
   width: 100%;
 }
-/* line 167, ../sass/modules/_sections.scss */
+/* line 166, ../sass/modules/_sections.scss */
 .reviews__pages {
   width: 100%;
   height: 3rem;
@@ -1103,7 +1103,7 @@ img {
   justify-content: center;
   margin-top: 6rem;
 }
-/* line 175, ../sass/modules/_sections.scss */
+/* line 174, ../sass/modules/_sections.scss */
 .reviews__page {
   list-style-type: none;
   display: inline-block;
@@ -1122,12 +1122,12 @@ img {
   display: block;
   margin-right: 1.2rem;
 }
-/* line 193, ../sass/modules/_sections.scss */
+/* line 192, ../sass/modules/_sections.scss */
 .reviews__page--active {
   background-color: #253655;
 }
 
-/* line 201, ../sass/modules/_sections.scss */
+/* line 200, ../sass/modules/_sections.scss */
 .card__wrapper {
   max-width: 598px;
   margin: 0;
@@ -1137,25 +1137,25 @@ img {
   right: 0;
   position: absolute;
 }
-/* line 211, ../sass/modules/_sections.scss */
+/* line 210, ../sass/modules/_sections.scss */
 .card__decor-wrapper {
   max-width: 598px;
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 218, ../sass/modules/_sections.scss */
+/* line 217, ../sass/modules/_sections.scss */
 .card__content {
   width: 100%;
   background-color: #253655;
   padding: 6.4rem;
   z-index: 10;
 }
-/* line 225, ../sass/modules/_sections.scss */
+/* line 224, ../sass/modules/_sections.scss */
 .card__text {
   color: #fff;
 }
-/* line 229, ../sass/modules/_sections.scss */
+/* line 228, ../sass/modules/_sections.scss */
 .card__address {
   color: #fff;
   font-size: 1.4rem;
@@ -1163,11 +1163,11 @@ img {
   line-height: 2.4rem;
   padding-top: 1.2rem;
 }
-/* line 237, ../sass/modules/_sections.scss */
+/* line 236, ../sass/modules/_sections.scss */
 .card__button {
   margin-top: 1.2rem;
 }
-/* line 241, ../sass/modules/_sections.scss */
+/* line 240, ../sass/modules/_sections.scss */
 .card__decor {
   position: absolute;
   border-radius: 50%;
@@ -1178,44 +1178,44 @@ img {
   height: 16rem !important;
 }
 
-/* line 252, ../sass/modules/_sections.scss */
+/* line 251, ../sass/modules/_sections.scss */
 .support {
   padding: 9.6rem 0;
 }
-/* line 254, ../sass/modules/_sections.scss */
+/* line 253, ../sass/modules/_sections.scss */
 .support__content {
   display: flex;
   flex-direction: column;
   padding-right: 11rem;
 }
-/* line 260, ../sass/modules/_sections.scss */
+/* line 259, ../sass/modules/_sections.scss */
 .support__title {
   color: #2e4369;
 }
-/* line 264, ../sass/modules/_sections.scss */
+/* line 263, ../sass/modules/_sections.scss */
 .support__text {
   padding-top: 1.6rem;
   padding-bottom: 2.4rem;
 }
-/* line 269, ../sass/modules/_sections.scss */
+/* line 268, ../sass/modules/_sections.scss */
 .support__button {
   width: fit-content;
   padding: 1rem 2.4rem;
 }
 
-/* line 276, ../sass/modules/_sections.scss */
+/* line 275, ../sass/modules/_sections.scss */
 .illustration {
   width: 100%;
   position: relative;
 }
-/* line 280, ../sass/modules/_sections.scss */
+/* line 279, ../sass/modules/_sections.scss */
 .illustration__img1 {
   width: 70%;
   max-width: 68rem;
   position: relative;
   z-index: 1;
 }
-/* line 287, ../sass/modules/_sections.scss */
+/* line 286, ../sass/modules/_sections.scss */
 .illustration__img2 {
   width: 50%;
   max-width: 39rem;
@@ -1224,7 +1224,7 @@ img {
   position: relative;
   z-index: 2;
 }
-/* line 296, ../sass/modules/_sections.scss */
+/* line 295, ../sass/modules/_sections.scss */
 .illustration__img3 {
   position: absolute;
   left: 20%;
@@ -1234,7 +1234,7 @@ img {
   height: 15rem;
 }
 
-/* line 306, ../sass/modules/_sections.scss */
+/* line 305, ../sass/modules/_sections.scss */
 .map {
   position: relative;
   background-image: url("./../images/bg-blue-map.svg");
@@ -1242,7 +1242,7 @@ img {
   background-repeat: no-repeat;
   padding: 9.6rem 0;
 }
-/* line 313, ../sass/modules/_sections.scss */
+/* line 312, ../sass/modules/_sections.scss */
 .map__title {
   width: 100%;
   display: flex;
@@ -1251,23 +1251,23 @@ img {
   align-items: center;
   text-align: center;
 }
-/* line 322, ../sass/modules/_sections.scss */
+/* line 321, ../sass/modules/_sections.scss */
 .map__subtitle {
   width: 50%;
 }
-/* line 326, ../sass/modules/_sections.scss */
+/* line 325, ../sass/modules/_sections.scss */
 .map__text {
   width: 78%;
   padding-top: 2rem;
 }
-/* line 331, ../sass/modules/_sections.scss */
+/* line 330, ../sass/modules/_sections.scss */
 .map__countries {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 3.2rem;
 }
-/* line 338, ../sass/modules/_sections.scss */
+/* line 337, ../sass/modules/_sections.scss */
 .map__country {
   position: relative;
   padding-left: 2.4rem;
@@ -1287,7 +1287,7 @@ img {
   cursor: pointer;
   user-select: none;
 }
-/* line 357, ../sass/modules/_sections.scss */
+/* line 356, ../sass/modules/_sections.scss */
 .map__country-link {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1296,12 +1296,12 @@ img {
   text-decoration: none;
   color: #fff;
 }
-/* line 365, ../sass/modules/_sections.scss */
+/* line 364, ../sass/modules/_sections.scss */
 .map__country-link:hover {
   color: #00b9ff;
 }
-/* line 370, ../sass/modules/_sections.scss */
-.map__country::after {
+/* line 369, ../sass/modules/_sections.scss */
+.map__country:after {
   display: block;
   position: absolute;
   left: 0;
@@ -1312,7 +1312,7 @@ img {
   background: linear-gradient(to bottom, #37517e, #2f4468);
   content: '';
 }
-/* line 383, ../sass/modules/_sections.scss */
+/* line 382, ../sass/modules/_sections.scss */
 .map__footer {
   padding-top: 3.2rem;
   width: 100%;
@@ -1323,33 +1323,33 @@ img {
   text-align: center;
 }
 
-/* line 394, ../sass/modules/_sections.scss */
+/* line 393, ../sass/modules/_sections.scss */
 .mobile-app {
   padding: 10rem 0;
 }
-/* line 397, ../sass/modules/_sections.scss */
+/* line 396, ../sass/modules/_sections.scss */
 .mobile-app__content {
   display: flex;
   flex-direction: column;
   padding-right: 2rem;
 }
-/* line 403, ../sass/modules/_sections.scss */
+/* line 402, ../sass/modules/_sections.scss */
 .mobile-app__title {
   color: #2e4369;
 }
-/* line 407, ../sass/modules/_sections.scss */
+/* line 406, ../sass/modules/_sections.scss */
 .mobile-app__button {
   width: fit-content;
   padding: 1rem 2.4rem;
 }
-/* line 412, ../sass/modules/_sections.scss */
+/* line 411, ../sass/modules/_sections.scss */
 .mobile-app__img {
   margin-top: 5rem;
   margin-left: 20rem;
   width: 36rem;
   height: 42rem;
 }
-/* line 419, ../sass/modules/_sections.scss */
+/* line 418, ../sass/modules/_sections.scss */
 .mobile-app__app-info {
   display: flex;
   flex-direction: column;
@@ -1357,34 +1357,34 @@ img {
   align-items: start;
   padding-right: 2.5rem;
 }
-/* line 427, ../sass/modules/_sections.scss */
+/* line 426, ../sass/modules/_sections.scss */
 .mobile-app__app-img {
   height: 5.6rem;
   width: auto;
 }
-/* line 432, ../sass/modules/_sections.scss */
+/* line 431, ../sass/modules/_sections.scss */
 .mobile-app__google-rating, .mobile-app__apple-rating {
   height: 3.6rem;
   width: auto;
   padding-top: 2rem;
 }
 
-/* line 439, ../sass/modules/_sections.scss */
+/* line 438, ../sass/modules/_sections.scss */
 .facilities {
   padding: 10rem 0;
   background-color: #253655;
 }
-/* line 443, ../sass/modules/_sections.scss */
+/* line 442, ../sass/modules/_sections.scss */
 .facilities__content {
   display: flex;
   flex-direction: column;
   padding-right: 2rem;
 }
-/* line 449, ../sass/modules/_sections.scss */
+/* line 448, ../sass/modules/_sections.scss */
 .facilities__list {
   list-style-type: none;
 }
-/* line 453, ../sass/modules/_sections.scss */
+/* line 452, ../sass/modules/_sections.scss */
 .facilities__item {
   color: #fff;
   font-size: 1.6rem;
@@ -1393,7 +1393,7 @@ img {
   padding-top: 1.8rem;
 }
 
-/* line 462, ../sass/modules/_sections.scss */
+/* line 461, ../sass/modules/_sections.scss */
 .footer {
   padding-top: 16.5rem;
   padding-bottom: 9rem;
@@ -1402,45 +1402,45 @@ img {
   color: #f2f5f7;
   line-height: 2.4rem;
 }
-/* line 470, ../sass/modules/_sections.scss */
+/* line 469, ../sass/modules/_sections.scss */
 .footer__title {
   padding-bottom: 1.6rem;
   font-weight: 600;
 }
-/* line 475, ../sass/modules/_sections.scss */
+/* line 474, ../sass/modules/_sections.scss */
 .footer__link {
   font-size: 1.4rem;
   color: #f2f5f7;
   font-weight: 400;
 }
-/* line 479, ../sass/modules/_sections.scss */
+/* line 478, ../sass/modules/_sections.scss */
 .footer__link:hover {
   color: #829ca9;
 }
-/* line 483, ../sass/modules/_sections.scss */
+/* line 482, ../sass/modules/_sections.scss */
 .footer__follow-us {
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
-/* line 489, ../sass/modules/_sections.scss */
+/* line 488, ../sass/modules/_sections.scss */
 .footer__icon {
   width: 2rem;
   height: 2rem;
   color: #f2f5f7;
 }
-/* line 495, ../sass/modules/_sections.scss */
+/* line 494, ../sass/modules/_sections.scss */
 .footer__text {
   width: 65%;
   text-align: center;
   font-size: 1.2rem;
 }
-/* line 501, ../sass/modules/_sections.scss */
+/* line 500, ../sass/modules/_sections.scss */
 .footer__tiny-link {
   font-size: 1.2rem;
   color: #f2f5f7;
 }
-/* line 504, ../sass/modules/_sections.scss */
+/* line 503, ../sass/modules/_sections.scss */
 .footer__tiny-link:hover {
   color: #829ca9;
 }
@@ -1492,7 +1492,7 @@ img {
   justify-content: center;
   position: relative;
   min-height: 4.8rem;
-  font-family: averta, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica, Arial, sans-serif;
   background-color: transparent;
   color: #f2f5f7;
   font-size: 1.6rem;
@@ -1564,7 +1564,7 @@ img {
   outline: 0;
 }
 /* line 118, ../sass/modules/_elements.scss */
-.link::after {
+.link:after {
   display: inline-block;
   margin-left: .8rem;
   font-family: glyphicons halflings;
@@ -1581,7 +1581,7 @@ img {
   color: #00b9ff;
 }
 /* line 134, ../sass/modules/_elements.scss */
-.link:hover::after, .link:focus::after, .link-container:hover .link::after, .link-container:focus .link::after {
+.link:hover:after, .link:focus:after, .link-container:hover .link:after, .link-container:focus .link:after {
   -webkit-transform: translateX(0.4rem);
   -ms-transform: translateX(0.4rem);
   -o-transform: translateX(0.4rem);
@@ -1590,7 +1590,7 @@ img {
 
 /* line 147, ../sass/modules/_elements.scss */
 .button-link {
-  font-family: averta, Helvetica,Arial,sans-serif;
+  font-family: averta, Helvetica, Arial, sans-serif;
   background-color: transparent;
   color: #f2f5f7;
   border: none;
