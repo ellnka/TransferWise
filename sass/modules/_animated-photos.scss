@@ -1,0 +1,80 @@
+.animated-photos {
+    height: 100%;
+    margin-left: 10rem;
+    &__col {
+        position: relative;
+
+        width: 20%;
+        
+        min-height: 400px;
+        overflow: hidden;
+
+        &--1 {
+            animation-name: photo-col-1;
+        }
+
+        &--2 {
+            animation-name: photo-col-2;
+        }
+
+        &--3 {
+            animation-name: photo-col-1;
+        }
+
+        &--4 {
+            animation-name: photo-col-2;
+        }
+
+        &--5 {
+            animation-name: photo-col-1;
+        }
+        
+    }
+
+    &__photo {
+
+        position: absolute;
+        width: 100%;
+        max-width: 10rem;
+        opacity: .3;
+        margin-bottom: 3rem;
+        animation: 30s linear infinite;
+        transform: translateY(-20rem);
+        animation-name: inherit;
+
+        &--1 {
+            animation-delay: 0s;
+        }
+
+        &--2 {
+            animation-delay: 8s;
+        }
+
+        &--3 {
+            animation-delay: 21s;
+        }
+
+        &--4 {
+            animation-delay: 34s;
+        }
+
+        &--5 {
+            animation-delay: 48s;
+        }
+
+        &--6 {
+            animation-delay: 65s;
+        }
+    }   
+}
+
+
+@keyframes photo-col-1 {
+  from   { left: 0px; top: -100px; }
+  to { left: 0px; top: 800px; }
+}
+
+@keyframes photo-col-2 {
+  from { left: 0px; top: 800px; }
+  to   { left: 0px; top: -100px; }
+}
