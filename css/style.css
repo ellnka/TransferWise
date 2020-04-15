@@ -1846,27 +1846,27 @@ img {
   min-height: 400px;
   overflow: hidden;
 }
-/* line 12, ../sass/modules/_animated-photos.scss */
+/* line 10, ../sass/modules/_animated-photos.scss */
 .animated-photos__col--1 {
   animation-name: photo-col-1;
 }
-/* line 16, ../sass/modules/_animated-photos.scss */
+/* line 14, ../sass/modules/_animated-photos.scss */
 .animated-photos__col--2 {
   animation-name: photo-col-2;
 }
-/* line 20, ../sass/modules/_animated-photos.scss */
+/* line 18, ../sass/modules/_animated-photos.scss */
 .animated-photos__col--3 {
-  animation-name: photo-col-1;
+  animation-name: photo-col-3;
 }
-/* line 24, ../sass/modules/_animated-photos.scss */
+/* line 22, ../sass/modules/_animated-photos.scss */
 .animated-photos__col--4 {
   animation-name: photo-col-2;
 }
-/* line 28, ../sass/modules/_animated-photos.scss */
+/* line 26, ../sass/modules/_animated-photos.scss */
 .animated-photos__col--5 {
   animation-name: photo-col-1;
 }
-/* line 34, ../sass/modules/_animated-photos.scss */
+/* line 32, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo {
   position: absolute;
   width: 100%;
@@ -1877,27 +1877,27 @@ img {
   transform: translateY(-20rem);
   animation-name: inherit;
 }
-/* line 45, ../sass/modules/_animated-photos.scss */
+/* line 43, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--1 {
   animation-delay: 0s;
 }
-/* line 49, ../sass/modules/_animated-photos.scss */
+/* line 47, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--2 {
   animation-delay: 8s;
 }
-/* line 53, ../sass/modules/_animated-photos.scss */
+/* line 51, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--3 {
   animation-delay: 21s;
 }
-/* line 57, ../sass/modules/_animated-photos.scss */
+/* line 55, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--4 {
   animation-delay: 34s;
 }
-/* line 61, ../sass/modules/_animated-photos.scss */
+/* line 59, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--5 {
   animation-delay: 48s;
 }
-/* line 65, ../sass/modules/_animated-photos.scss */
+/* line 63, ../sass/modules/_animated-photos.scss */
 .animated-photos__photo--6 {
   animation-delay: 65s;
 }
@@ -1905,20 +1905,40 @@ img {
 @keyframes photo-col-1 {
   from {
     left: 0px;
-    top: -100px;
+    top: -50px;
   }
   to {
     left: 0px;
-    top: 800px;
+    top: 1000px;
   }
 }
 @keyframes photo-col-2 {
   from {
     left: 0px;
-    top: 800px;
+    top: 1000px;
   }
   to {
     left: 0px;
-    top: -100px;
+    top: -300px;
+  }
+}
+@keyframes photo-col-3 {
+  from {
+    left: 0px;
+    top: -250px;
+  }
+  to {
+    left: 0px;
+    top: 525px;
+  }
+}
+@keyframes photo-col-3 {
+  from {
+    left: 0px;
+    top: -250px;
+  }
+  to {
+    left: 0px;
+    top: 525px;
   }
 }

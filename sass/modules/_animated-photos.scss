@@ -3,9 +3,7 @@
     margin-left: 10rem;
     &__col {
         position: relative;
-
-        width: 20%;
-        
+        width: 20%; 
         min-height: 400px;
         overflow: hidden;
 
@@ -18,7 +16,7 @@
         }
 
         &--3 {
-            animation-name: photo-col-1;
+            animation-name: photo-col-3;
         }
 
         &--4 {
@@ -70,11 +68,21 @@
 
 
 @keyframes photo-col-1 {
-  from   { left: 0px; top: -100px; }
-  to { left: 0px; top: 800px; }
+  from   { left: 0px; top: -50px; }
+  to { left: 0px; top: 1000px; }
 }
 
 @keyframes photo-col-2 {
-  from { left: 0px; top: 800px; }
-  to   { left: 0px; top: -100px; }
+  from { left: 0px; top: 1000px; }
+  to   { left: 0px; top: -300px; }
+}
+
+@keyframes photo-col-3 {
+  from { left: 0px; top: -250px; }
+  to   { left: 0px; top: 525px; }
+}
+
+@keyframes photo-col-3 {
+  from { left: 0px; top: -250px; }
+  to   { left: 0px; top: 525px; }
 }
