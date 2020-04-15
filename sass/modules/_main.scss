@@ -93,8 +93,6 @@
     &__img {
         height: 70px;
         vertical-align: middle;
-
-
     }
 
     &__img {
@@ -299,16 +297,78 @@
 
 
 .list-icon {
-        margin-right: 1.2rem;
-        background-color: $darkBlue;
-        font-size: 1.8rem;
-        color: $white;
-        border: 0.1rem solid $darkBlue;
-        border-radius: 50%;
-        line-height: 2.3rem;
-        width: 2.4rem;
-        height: 2.4rem;
-        text-align: center;
-        vertical-align: middle;
+    margin-right: 1.2rem;
+    background-color: $darkBlue;
+    font-size: 1.8rem;
+    color: $white;
+    border: 0.1rem solid $darkBlue;
+    border-radius: 50%;
+    line-height: 2.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    text-align: center;
+    vertical-align: middle;
         
+}
+
+// Responsive
+@media screen and (min-width: $breakPointM) {
+    .menu {
+        visibility: visible;
     }
+}
+
+@media screen and (max-width: $breakPointM) {
+    .main {
+        margin-bottom: 50rem;    
+    }
+    .navbar {
+        &__button {
+            margin: 0;
+        }
+    }
+    
+    .howto {
+        &__title {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .form-group {
+         &__input {
+            width: 60%;
+        }
+
+        &__list-label {
+            font-size: 1.4rem;
+            min-width: 3.2rem;
+            
+        }
+
+        &__list-text {
+            font-size: 1.4rem;
+            min-width: 3.2rem;
+        }
+
+        &__list-content {
+            flex-wrap: wrap;    
+        }
+
+        &__form-row {
+            justify-content: center;
+            &--dir-col{
+                flex-direction: column;
+            }
+        }
+    }
+    
+    .drop-down {
+        &--small {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            white-space: nowrap;
+        }
+    }
+    
+}

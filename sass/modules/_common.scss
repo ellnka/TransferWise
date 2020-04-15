@@ -264,3 +264,75 @@ img {
     justify-content: center !important;
     align-items: center !important;
 }
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+// Responsive
+@media screen and (min-width: $breakPointM) {
+    .menu {
+        visibility: visible;
+        .desktop-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: $breakPointM) {
+
+    .menu {
+        visibility: hidden;
+    }
+
+    .mobile-hidden {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        margin: -1px !important;
+        padding: 0 !important;
+        clip: rect(0, 0, 0, 0) !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
+    }
+
+    .m-l-8 {
+        margin-left: 0.08rem;
+    }
+
+    .p-r-8 {
+        padding-right: .8rem;
+    }
+
+    .p-l-8 {
+        padding-left: .8rem;
+    }
+    
+    .p-r-18 {
+        padding-right: .18rem;
+    }
+
+    .p-r-44 {
+        padding-right: .44rem;
+    }
+
+    .p-t-80 {
+        padding-top: .8rem;
+    }
+
+    .p-l-64{
+        padding-left: .64rem;
+    }
+
+    .p-l-3 {
+        padding-left: .03rem;
+    }
+}

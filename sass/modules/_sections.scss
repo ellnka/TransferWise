@@ -85,6 +85,20 @@
     }
 }
 
+@media screen and (max-width: $breakPointM) {
+    .exchange-rate {
+        text-align: center;
+
+        &__row {
+            flex-direction: column;
+        }
+
+         &__footer {
+            padding-bottom: 1rem;
+         }
+    }
+}
+
 .instructions {
     padding: 9.2rem 0 7.2rem;
     background-image: url(./../images/bg_grey_instruction.svg);
@@ -272,6 +286,15 @@
         padding: 1rem 2.4rem;    
     }
 
+}
+
+@media screen and (max-width: $breakPointM) {
+    .support {
+        padding: 1rem 0;
+        &__content {
+            padding-right: 0;
+        }
+    }
 }
 
 .illustration {

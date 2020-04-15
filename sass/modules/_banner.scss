@@ -47,8 +47,21 @@
 
 @media screen and (max-width: $breakPointM) {
     .banner {
+        padding: 1rem;
         &__content {
              background-image: none;
+        }
+        &__title {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__text {
+            width: 100%;
+            text-align: center;
+        }
+        &__links {
+            justify-content: space-around;
         }
     }
 }

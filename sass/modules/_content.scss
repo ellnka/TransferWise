@@ -109,11 +109,10 @@
 @media screen and (min-width: $breakPointXL) {
     .content {
         max-width: 1164px;
-    }
-
-    .xl {
-        &--hidden {
-            display: none;
+        &__col {
+            &--50 {
+                width: 50%;
+            }
         }
     }
 }
@@ -121,44 +120,58 @@
 @media screen and (max-width: $breakPointL) {
     .content {
         max-width: 1164px;
-    }
-
-    .l {
-        &--hidden {
-            display: none;
+        &__col {
+            &--50 {
+                width: 50%;
+            }
         }
     }
 }
 
 @media screen and (max-width: $breakPointM) {
     .content {
-        max-width: $breakPointS;
-    }
+        max-width: 90vw;
 
-    .m {
-        &--hidden {
-            display: none;
+        &__title {
+            color: $white;
+            font-weight: $fontWeight800;
+            letter-spacing: normal;
+
+            &--h1 {
+                font-size: 2.8rem;
+                line-height: 3.2rem;
+            }
+
+            &--h2 {
+                font-size: 1.8rem;   
+                color: $darkBlue2;
+                line-height: 2.4rem;
+            }
+
+            &--h4 {
+                font-size: 1.4rem;
+                font-weight: $fontWeight600;
+                letter-spacing: normal;
+            }
+        }
+
+        &__row {
+            flex-direction: column;
+        }
+        &__col {
+
+            &--30 {
+                width: 100%;
+            }
+
+            &--50 {
+                width: 100%;
+            }
+
+            &--65 {
+                width: 100%;
+            }
         }
     }
-}
 
-@media screen and (max-width: $breakPointS) {
-    .content {
-        max-width: $breakPointXs;
-    }
-
-    .s {
-        &--hidden {
-            display: none;
-        }
-    }
-}
-
-
-@media screen and (max-width: $breakPointXs) {
-    .xs {
-        &--hidden {
-            display: none;
-        }
-    }
 }

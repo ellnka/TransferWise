@@ -9,10 +9,11 @@
     <meta name="description" content="The TransferWise Herald">
     <meta name="author" content="Elena Y">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+   
     <link href="bxslider/css/jquery.bxslider.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="bxslider/js/jquery.bxslider.js"></script>
+
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -56,7 +57,7 @@
                     <a href="#transferwise" class="logo__link"></a>
                 </div>
 
-                <ul class="navbar__item menu s--hidden">
+                <ul class="navbar__item menu mobile-hidden">
                     <li class="menu__item">
                         <span class="menu__name">Money transfer </span>
                         <span class="icon m-l-2"><i class="icon__arrow-down"></i></span>
@@ -93,19 +94,19 @@
                             <div class="howto__title content__title content__title--h1 p-t-24 p-b-24">
                                 The cheap, fast way to send money abroad<span class="dot dot--blue">.</span>
                             </div>
-                            <p class="howto__text content__text p-b-32 p-r-48">
+                            <p class="howto__text content__text p-b-32 p-r-48 mobile-hidden">
                                 Join over 7 million people who get the real exchange rate with TransferWise. We’re <a href="#" class="content__link content__link--underlined">on average 9x cheaper</a> than leading UK
                                 high street banks.
                             </p>
-                            <button class="howto__button button button--white-blue">
+                            <button class="howto__button button button--white-blue mobile-hidden">
                                 <span class="icon m-r-12"><i class="icon__video-play"></i></span>
                                 See how we send money
                             </button>
                         </div>
                     </div>
                     
-                    <div class="content__row  p-t-64">
-                        <div class="content__col content__col--50 transfer__container p-r-12">
+                    <div class="content__row  p-t-64 mobile-hidden">
+                        <div class="content__col content__col--50 transfer__container transfer__articles p-r-12">
                             <div class="transfer__img">
                                 <img  class="img" src="./images/stars.png" alt="stars"/>
                             </div>
@@ -133,7 +134,7 @@
                             
                             <div class="form-group__drop-down form-group__drop-down--appended drop-down drop-down--big">
                                 <div class="drop-down drop-down__selected-label p-r-18">
-                                    <span class="drop-down drop-down__selected-icon flag flag--eu"></span>
+                                    <span class="drop-down drop-down__selected-icon flag flag--eu mobile-hidden"></span>
                                     <span class="drop-down__selected-text p-l-3">EUR</span>
                                 </div>
                                 <span class="icon icon--blue"><i class="icon__arrow-down"></i></span>
@@ -168,10 +169,12 @@
                                         29.6813
                                         <img src="./images/graph-arrow.png" class="form-group__graph"  alt="graph arrow" />
                                     </button>
-                                    <button class="button-link button-link--dotted form-group__button m-l-8">
-                                        <span class="button-link__text--dotted"> Guaranteed rate </span>
-                                    </button> 
-                                    <span class="form-group__list-text p-l-8"> (57 hours) </span>
+                                    <div class="wrap">
+                                        <button class="button-link button-link--dotted form-group__button m-l-8">
+                                            <span class="button-link__text--dotted"> Guaranteed rate </span>
+                                        </button> 
+                                        <span class="form-group__list-text p-l-8"> (57 hours) </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -184,13 +187,13 @@
                             
                             <div class="form-group__drop-down form-group__drop-down--appended drop-down drop-down--big">
                                 <span class="drop-down drop-down__selected-label p-r-18">
-                                    <i class="drop-down drop-down__selected-icon flag flag--ua"></i>
+                                    <i class="drop-down drop-down__selected-icon flag flag--ua mobile-hidden"></i>
                                     <span class="drop-down__selected-text p-l-3">UAH</span>
                                 </span>
                                 <span class="icon icon--blue"><i class="icon__arrow-down"></i></span>
                             </div>
                         </div>
-                        <div class="form-group__form-row m-t-12">
+                        <div class="form-group__form-row m-t-12  mobile-hidden">
                             <div class="content__col content__col--50 form-group__box">
                                 <p class="content__text">You could save vs banks</p>
                                 <p class="content__text content__text--bold">21.63 EUR</p>
@@ -200,7 +203,7 @@
                                 <p class="content__text content__text--bold">by April 10th</p>
                             </div>
                         </div>
-                        <div class="form-group__form-row">
+                        <div class="form-group__form-row form-group__form-row--dir-col">
                             <div class="content__col content__col--50 form-group__box">
                                 <button class="button button--blue button--wide">
                                     Compare price
@@ -262,7 +265,7 @@
     </div>
 
     
-    <div class="instructions">
+    <div class="instructions mobile-hidden">
         <div class="content">
             <div class="instructions__title content__title content__title--h1">
                 How to send money from EUR to UAH<span class="dot dot--blue">.</span>
@@ -294,7 +297,7 @@
         </div>
     </div>
 
-    <div class="map">
+    <div class="map mobile-hidden">
         <div class="content">
             <div class="content__row map__title">
                 <div class="content__title content__title--h1">Trusted all over the world<span class="dot dot--blue">.</span></div>
@@ -374,7 +377,7 @@
         </div>
     </div>
 
-    <div class="reviews">
+    <div class="reviews mobile-hidden">
         <div class="reviews__content content">
             <div class="content__row">
                 <div class="reviews__title content__title content__title--h1">
@@ -486,7 +489,7 @@
         </div>
     </div>
 
-    <div class="mobile-app">
+    <div class="mobile-app mobile-hidden">
         <div class="content">
             <div class="content__row">
                 <div class="content__col content__col--40 mobile-app__content">.
@@ -510,14 +513,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="content__col content__col--50">
+                <div class="content__col content__col--50 mobile-hidden">
                     <img class="mobile-app__img" src="./images/mobile_app.jpg" alt="">        
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="facilities">
+    <div class="facilities mobile-hidden">
         <div class="content">
             <div class="content__row">
                 <div class="content__col content__col--40 facilities__content">.
@@ -532,7 +535,7 @@
                     <a href="#facilities" class="mobile-app__button link-button link-button--white-blue">Find out more</a>
                 </div>
 
-                <div class="content__col content__col--50">
+                <div class="content__col content__col--50  mobile-hidden">
                    <!--  <img class="facilities__gallery" src="" alt=""> -->
                    <div class="content__row animated-photos">
                        <div class="animated-photos__col animated-photos__col--1">
@@ -540,35 +543,30 @@
                             <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
                             <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
                             <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
-                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
                        </div>
                        <div class="animated-photos__col animated-photos__col--2">
-                            <img src="./images/reviews_1.jpg" alt="" class="animated-photos__photo animated-photos__photo--1">
-                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
-                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
-                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
-                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_1.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
+                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--6">
+                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--8">
                        </div>
                         <div class="animated-photos__col animated-photos__col--3">
                             <img src="./images/reviews_1.jpg" alt="" class="animated-photos__photo animated-photos__photo--1">
-                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
-                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
-                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
-                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
+                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--8">
                         </div>
                         <div class="animated-photos__col animated-photos__col--4">
                             <img src="./images/reviews_1.jpg" alt="" class="animated-photos__photo animated-photos__photo--1">
-                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
-                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
-                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
-                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
+                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--6">
+                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--9">
                         </div>
                         <div class="animated-photos__col animated-photos__col--5">
                             <img src="./images/reviews_1.jpg" alt="" class="animated-photos__photo animated-photos__photo--1">
-                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--2">
-                            <img src="./images/reviews_3.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
-                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--4">
-                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--5">
+                            <img src="./images/reviews_2.jpg" alt="" class="animated-photos__photo animated-photos__photo--3">
+                            <img src="./images/reviews_4.jpg" alt="" class="animated-photos__photo animated-photos__photo--6">
+                            <img src="./images/reviews_5.jpg" alt="" class="animated-photos__photo animated-photos__photo--9">
                         </div>
                     </div>
                 </div>
@@ -576,7 +574,7 @@
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer mobile-hidden">
         <div class="content">
             <div class="content__row border-bottom p-b-24">
                 <div class="content__col content__col--25">

@@ -26,11 +26,11 @@ function loadFirebase () {
 
 function createBlockDiv (block) {
     const blockDiv = document.createElement('div');
-    blockDiv.innerHTML = `<div class="instructions__block block">
+    blockDiv.innerHTML = `
+                <div class="instructions__block block">
                     <img class="block__img" src="${block.image}" alt="${block.name}">
                     <div class="block__title content__title content__title--h4">${block.index}. ${block.name}</div>
                     <p class="block__text content__text content__text--grey">${block.text}</p>
                 </div>`;
-                
     return blockDiv.firstElementChild;
 }

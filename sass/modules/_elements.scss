@@ -33,10 +33,10 @@
         font-size: 1.4rem;
         font-weight: $fontWeight600;
         padding: .4rem 1.6rem .2rem; 
-    }
-
-    
+    } 
 }
+
+
 
 .button {
     display: inline-flex;
@@ -176,6 +176,12 @@
     &__text--dotted {
         padding: .1rem;
         border-bottom: .1rem dotted $blue;
+    }
+}
+
+@media screen and (max-width: $breakPointM) {
+    .button-link {
+        font-size: 1.4rem;
     }
 }
 
@@ -350,3 +356,6 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+
