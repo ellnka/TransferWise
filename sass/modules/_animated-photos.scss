@@ -1,7 +1,21 @@
 .animated-photos {
     height: 100%;
+    width: 100%;
     margin-left: 10rem;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    &__photo-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
     &__col {
         position: relative;
         width: 20%; 
@@ -32,6 +46,60 @@
             z-index: 1;
         }
         
+    }
+
+    &__titles {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        z-index: 4;
+    }
+
+    &__text{
+        visibility: hidden;
+        color: $white;
+        height: 0;
+        animation: 80s play-text infinite;
+        text-align: right;
+        width: 100%;
+
+        &--1 {
+            animation-delay: 10s;
+        }
+
+        &--2 {
+            animation-delay: 20s;
+        }
+
+        &--3 {
+            animation-delay: 30s;
+        }
+
+        &--4 {
+            animation-delay: 40s;
+        }
+
+        &--5 {
+            animation-delay: 50s;
+        }
+
+        &--6 {
+            animation-delay: 60s;
+        }
+
+        &--7 {
+            animation-delay: 70s;
+        }
+
+        &--8 {
+            animation-delay: 80s;
+        }
+
+        &--9 {
+            animation-delay: 90s;
+        }
     }
 
     &__photo {
@@ -151,3 +219,13 @@
   from   { left: 0px; top: -300px; }
   to { left: 0px; top: 800px; }
 }
+
+@keyframes play-text {
+    0%, 19%, 31%, 50% {
+        visibility: hidden;
+    }
+    20%, 30% {
+        visibility: visible;
+    }
+}
+
