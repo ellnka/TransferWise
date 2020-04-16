@@ -50,39 +50,41 @@
 
     &__titles {
         position: absolute;
-        bottom: 0;
+        bottom: 5rem;
         right: 0;
-        width: 100%;
+        width: 80%;
         visibility: hidden;
         z-index: 4;
     }
 
     &__text{
+        position: absolute;
+        bottom: 0;
+        left: 0;
         visibility: hidden;
         color: $white;
-        height: 0;
-        animation: 80s play-text infinite;
+        animation: 35s play-text infinite;
         text-align: right;
         width: 100%;
 
         &--1 {
-            animation-delay: 10s;
+            animation-delay: 11s;
         }
 
         &--2 {
-            animation-delay: 20s;
+            animation-delay: 23s;
         }
 
         &--3 {
-            animation-delay: 30s;
+            animation-delay: 33s;
         }
 
         &--4 {
-            animation-delay: 40s;
+            animation-delay: 51s;
         }
 
         &--5 {
-            animation-delay: 50s;
+            animation-delay: 55s;
         }
 
         &--6 {
@@ -221,10 +223,10 @@
 }
 
 @keyframes play-text {
-    0%, 19%, 31%, 50% {
+    0%, 9%, 21%, 50%, 100% {
         visibility: hidden;
     }
-    20%, 30% {
+    10%, 20% {
         visibility: visible;
     }
 }
