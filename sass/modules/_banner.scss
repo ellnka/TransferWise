@@ -48,6 +48,7 @@
 @media screen and (max-width: $breakPointM) {
     .banner {
         padding: 1rem;
+        order: 1;
         &__content {
              background-image: none;
         }

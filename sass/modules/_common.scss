@@ -294,6 +294,10 @@ img {
 
 @media screen and (max-width: $breakPointM) {
 
+    body {  
+        display: flex;
+        flex-direction: column;
+    }
     .menu {
         visibility: hidden;
     }

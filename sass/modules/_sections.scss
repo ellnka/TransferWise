@@ -16,6 +16,13 @@
     } 
 }
 
+@media screen and (max-width: $breakPointM) {
+    .top-notification {
+        order: 1;
+    }
+}
+
+
 .exchange-rate {
     position: relative;
 
@@ -88,6 +95,7 @@
 @media screen and (max-width: $breakPointM) {
     .exchange-rate {
         text-align: center;
+        order: 3;
 
         &__row {
             flex-direction: column;
@@ -157,6 +165,7 @@
 @media screen and (max-width: $breakPointM) { 
     .instructions {
         padding: 1rem 0 1rem;
+        order: 3;
         &__block {
             padding: 1rem;
             margin: .5rem 0rem;
@@ -283,6 +292,8 @@
 @media screen and (max-width: $breakPointM) { 
     .reviews {
         padding: 2rem 0 1rem;
+        order: 3;
+
         &__title {
             padding-bottom: .5rem;
         }
@@ -373,6 +384,7 @@
 @media screen and (max-width: $breakPointM) {
     .support {
         padding: 1rem 0;
+        order: 3;
         &__content {
             padding-right: 0;
             padding-bottom: 2rem;
@@ -502,6 +514,7 @@
 
     .map {
         padding: 2rem 0;
+        order: 3;
 
         &__subtitle {
             width: 100%;
@@ -570,6 +583,17 @@
     }
 }
 
+
+@media screen and (max-width: $breakPointM) { 
+
+    .mobile-app {
+        padding: 1rem 0;
+        order: 3;
+
+    }
+}
+
+
 .facilities {
     background-color: $darkBlue;
 
@@ -589,6 +613,17 @@
         font-weight: $fontWeight700;
         line-height: 2.4rem;
         padding-top: 1.8rem;
+    }
+}
+
+@media screen and (max-width: $breakPointM) { 
+
+    .facilities  {
+        order: 3;
+
+        &__content {
+            padding: 1rem 0;
+        }
     }
 }
 
@@ -645,6 +680,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
         justify-content: center;
+        order: 3;
 
         &__menu-item, &__logo {
             width: 100%;

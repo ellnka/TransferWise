@@ -321,6 +321,7 @@
 @media screen and (max-width: $breakPointM) {
     .main {
         margin-bottom: 50rem;    
+        order: 1;
     }
     .navbar {
         &__button {

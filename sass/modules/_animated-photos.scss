@@ -231,3 +231,9 @@
     }
 }
 
+@media screen and (max-width: $breakPointM) { 
+    .animated-photos {
+        margin-left: 0;
+    }
+}
+
