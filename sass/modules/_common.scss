@@ -279,15 +279,16 @@ img {
 @media screen and (min-width: $breakPointM) {
     .menu {
         visibility: visible;
-        .desktop-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            clip: rect(0, 0, 0, 0);
-            overflow: hidden;
-        }
+    }
+
+    .desktop-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        clip: rect(0, 0, 0, 0);
+        overflow: hidden;
     }
 }
 

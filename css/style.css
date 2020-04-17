@@ -867,8 +867,9 @@ img {
   .menu {
     visibility: visible;
   }
-  /* line 282, ../sass/modules/_common.scss */
-  .menu .desktop-hidden {
+
+  /* line 284, ../sass/modules/_common.scss */
+  .desktop-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -879,12 +880,12 @@ img {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 296, ../sass/modules/_common.scss */
+  /* line 297, ../sass/modules/_common.scss */
   .menu {
     visibility: hidden;
   }
 
-  /* line 300, ../sass/modules/_common.scss */
+  /* line 301, ../sass/modules/_common.scss */
   .mobile-hidden {
     position: absolute !important;
     width: 1px !important;
@@ -896,63 +897,63 @@ img {
     visibility: hidden !important;
   }
 
-  /* line 311, ../sass/modules/_common.scss */
+  /* line 312, ../sass/modules/_common.scss */
   .mobile-flow {
     display: flex;
     flex-direction: column;
   }
 
-  /* line 316, ../sass/modules/_common.scss */
+  /* line 317, ../sass/modules/_common.scss */
   .m-l-8 {
     margin-left: 0.08rem;
   }
 
-  /* line 320, ../sass/modules/_common.scss */
+  /* line 321, ../sass/modules/_common.scss */
   .p-t-80 {
     padding-top: .8rem;
   }
 
-  /* line 324, ../sass/modules/_common.scss */
+  /* line 325, ../sass/modules/_common.scss */
   .p-t-72 {
     padding-top: .72rem;
   }
 
-  /* line 328, ../sass/modules/_common.scss */
+  /* line 329, ../sass/modules/_common.scss */
   .p-r-8 {
     padding-right: .8rem;
   }
 
-  /* line 332, ../sass/modules/_common.scss */
+  /* line 333, ../sass/modules/_common.scss */
   .p-r-44 {
     padding-right: .44rem;
   }
 
-  /* line 336, ../sass/modules/_common.scss */
+  /* line 337, ../sass/modules/_common.scss */
   .p-r-18 {
     padding-right: .18rem;
   }
 
-  /* line 340, ../sass/modules/_common.scss */
+  /* line 341, ../sass/modules/_common.scss */
   .p-b-24 {
     padding-bottom: .24rem;
   }
 
-  /* line 344, ../sass/modules/_common.scss */
+  /* line 345, ../sass/modules/_common.scss */
   .p-b-48 {
     padding-bottom: .48rem;
   }
 
-  /* line 348, ../sass/modules/_common.scss */
+  /* line 349, ../sass/modules/_common.scss */
   .p-l-3 {
     padding-left: .03rem;
   }
 
-  /* line 352, ../sass/modules/_common.scss */
+  /* line 353, ../sass/modules/_common.scss */
   .p-l-8 {
     padding-left: .8rem;
   }
 
-  /* line 356, ../sass/modules/_common.scss */
+  /* line 357, ../sass/modules/_common.scss */
   .p-l-64 {
     padding-left: .64rem;
   }
