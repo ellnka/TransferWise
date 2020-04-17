@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function loadFirebase () {
     const instructionBlocksDiv = document.querySelector('.instructions__blocks');
-    console.log(instructionBlocksDiv);
     const config = {
         apiKey: 'AIzaSyAl8cG6NY0q0gnIPyXBw_n_jJEJ2P7G02g',
         authDomain: 'transferwise-ac780.firebaseapp.com',
