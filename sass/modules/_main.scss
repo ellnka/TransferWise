@@ -357,9 +357,15 @@
 
         &__form-row {
             justify-content: center;
-            &--dir-col{
+            &--mobile-col{
                 flex-direction: column;
+                padding-top: 1rem;
             }
+        }
+
+        &__box {
+            padding: 0 .2rem;
+            margin: .2rem 0;
         }
     }
     

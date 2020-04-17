@@ -44,7 +44,7 @@ function loadFirebase() {
 
 function createBlockDiv(block) {
   var blockDiv = document.createElement('div');
-  blockDiv.innerHTML = "\n                <div class=\"instructions__block block\">\n                    <img class=\"block__img\" src=\"".concat(block.image, "\" alt=\"").concat(block.name, "\">\n                    <div class=\"block__title content__title content__title--h4\">").concat(block.index, ". ").concat(block.name, "</div>\n                    <p class=\"block__text content__text content__text--grey\">").concat(block.text, "</p>\n                </div>");
+  blockDiv.innerHTML = "\n                <div class=\"instructions__block block\">\n                    <img class=\"block__img mobile-hidden\" src=\"".concat(block.image, "\" alt=\"").concat(block.name, "\">\n                    <div class=\"block__title content__title content__title--h4\">").concat(block.index, ". ").concat(block.name, "</div>\n                    <p class=\"block__text content__text content__text--grey mobile-hidden\">").concat(block.text, "</p>\n                </div>");
   return blockDiv.firstElementChild;
 }
 

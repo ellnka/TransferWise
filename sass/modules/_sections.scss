@@ -154,6 +154,22 @@
     }
 }
 
+@media screen and (max-width: $breakPointM) { 
+    .instructions {
+        padding: 1rem 0 1rem;
+        &__block {
+            padding: 1rem;
+            margin: .5rem 0rem;
+        }
+    }
+    .block {
+        display: block;
+        min-width: 2.9rem;
+        width: 100%;
+    }
+
+}
+
 .reviews {
     padding: 9.2rem 0 7.2rem;
     background-image: url(./../images/bg_grey_instruction.svg);
@@ -264,6 +280,73 @@
     }
 }
 
+@media screen and (max-width: $breakPointM) { 
+    .reviews {
+        padding: 2rem 0 1rem;
+        &__title {
+            padding-bottom: .5rem;
+        }
+
+        &__photo {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            object-fit: contain; 
+        }
+
+        &__decor-wrapper {
+            max-width: 100%;
+        }
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &__wrapper {
+            max-width: 100%;
+            position: relative;
+            margin-top: -6rem;
+        }
+
+        &__decor-wrapper {
+            height: auto;
+            padding-bottom: 3rem;
+        }
+
+        &__decor {
+            visibility: hidden;
+        }
+        
+        &__content {
+            padding: 1rem;
+            overflow: visible;
+        }
+
+        &__text {
+            font-size: 1.6rem;
+        }
+
+        &__address {
+            font-size: 1.2rem;
+            font-weight: $fontWeight400;
+            line-height: 1.8rem;
+            padding-top: .5rem;
+        }
+
+        &__button {
+            margin-top: .7rem !important;
+            padding: .5rem !important;
+            font-size: 1.4rem !important;
+        }
+    }
+
+    
+}
+
+
+
 .support {
     padding: 9.6rem 0;
     &__content {
@@ -292,6 +375,7 @@
         padding: 1rem 0;
         &__content {
             padding-right: 0;
+            padding-bottom: 2rem;
         }
     }
 }
@@ -343,7 +427,7 @@
     }
 
     &__subtitle {
-        width:50%;
+        width: 50%;
     }
 
     &__text {
@@ -411,6 +495,33 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: $breakPointM) { 
+
+    .map {
+        padding: 2rem 0;
+
+        &__subtitle {
+            width: 100%;
+            font-size: 1.5rem;
+        }
+
+        &__img{
+            order: 0;
+        }
+
+        &__country {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        &__text {
+            width: 100%;
+            padding-top: 0;
+            font-size: 1.3rem;
+        }
     }
 }
 
@@ -482,7 +593,7 @@
 }
 
 .footer {
-    padding-top:16.5rem;
+    padding-top: 16.5rem;
     padding-bottom: 9rem;
     background-color: $darkBlue3;
     font-size: 1.4rem;
@@ -525,6 +636,35 @@
         color: $lightGrey;
         &:hover {
             color: $grey4;
+        }
+    }
+}
+
+@media screen and (max-width: $breakPointM) {
+    .footer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: center;
+
+        &__menu-item, &__logo {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+        }
+
+        &__title {
+            padding-top: 2rem;
+            padding-bottom: .6rem;
+            width: 100%;
+            text-align: center;
+        }
+        
+        &__text {
+            width: 100%;
+        }
+        &__follow-us {
+            padding-bottom: 2rem;
+            justify-content: center;
         }
     }
 }

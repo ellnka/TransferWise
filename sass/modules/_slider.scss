@@ -34,3 +34,31 @@
     }
   }
 }
+
+@media screen and (max-width: $breakPointM) { 
+  .bx {
+    height: auto;
+    &-wrapper {
+      img {
+        width: 100%;
+        height: auto;
+        top: 0;
+      }
+
+      ul li { height: auto; }
+    }
+    &-viewport {
+      height: auto; 
+    }
+
+    &-pager, &-default-pager {
+      bottom: -2rem !important;
+    }
+
+
+    &-pager &-default-pager {
+      padding: 0;
+      height: 3rem;
+    }
+  }  
+}
