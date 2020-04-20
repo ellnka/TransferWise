@@ -1342,7 +1342,7 @@ img {
   }
   /* line 184, ../sass/modules/_sections.scss */
   .instructions__block {
-    padding: 1rem;
+    padding: 2rem 1rem;
     margin: 1rem 0rem;
   }
 
