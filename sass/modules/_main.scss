@@ -333,12 +333,20 @@
         &__title {
             text-align: center;
             width: 100%;
+            padding-bottom: 3rem !important;
         }
     }
 
     .form-group {
+        
          &__input {
             width: 60%;
+        }
+
+        &__list {
+            width: 75%;
+            min-width: 27.5rem;
+            margin: 0 auto;
         }
 
         &__list-label {
@@ -366,7 +374,7 @@
 
         &__box {
             padding: 0 .2rem;
-            margin: .2rem 0;
+            margin: 1rem 0;
         }
     }
     

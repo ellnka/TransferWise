@@ -96,13 +96,26 @@
     .exchange-rate {
         text-align: center;
         order: 3;
+        padding-bottom: 5rem;
+
+        &__widget {
+            padding-bottom: 4rem;
+        }
+
+        &__title {
+            padding-bottom: 2rem;
+        }
 
         &__row {
             flex-direction: column;
         }
 
          &__footer {
-            padding-bottom: 1rem;
+            padding-bottom: 3rem;
+         }
+
+         &__button {
+             margin: 1rem 0;
          }
     }
 }
@@ -164,11 +177,13 @@
 
 @media screen and (max-width: $breakPointM) { 
     .instructions {
-        padding: 1rem 0 1rem;
+
+        padding: 5rem 0;
         order: 3;
+
         &__block {
             padding: 1rem;
-            margin: .5rem 0rem;
+            margin: 1rem 0rem;
         }
     }
     .block {
@@ -292,11 +307,11 @@
 
 @media screen and (max-width: $breakPointM) { 
     .reviews {
-        padding: 2rem 0 1rem;
+        padding: 5rem 0 2rem;
         order: 3;
 
         &__title {
-            padding-bottom: .5rem;
+            padding-bottom: 3rem;
         }
 
         &__photo {
@@ -333,20 +348,21 @@
         }
         
         &__content {
-            padding: 1rem;
+            padding: 2rem;
             overflow: visible;
-            margin-top: -5rem;
+            margin-top: -3rem;
         }
 
         &__text {
             font-size: 1.6rem;
+            padding-bottom: 1rem;
         }
 
         &__address {
             font-size: 1.2rem;
             font-weight: $fontWeight400;
             line-height: 1.8rem;
-            padding-top: .5rem;
+            padding: 1rem 0 2rem;
         }
 
         &__button {
@@ -386,7 +402,7 @@
 
 @media screen and (max-width: $breakPointM) {
     .support {
-        padding: 1rem 0;
+        padding: 5rem 0;
         order: 3;
         &__content {
             padding-right: 0;
@@ -516,8 +532,12 @@
 @media screen and (max-width: $breakPointM) { 
 
     .map {
-        padding: 2rem 0;
+        padding: 5rem 0;
         order: 3;
+
+        &__title {
+            margin: 1rem 0;
+        }
 
         &__subtitle {
             width: 100%;
@@ -590,8 +610,21 @@
 @media screen and (max-width: $breakPointM) { 
 
     .mobile-app {
-        padding: 1rem 0;
+        padding: 5rem 0;
         order: 3;
+
+        &__button {
+            margin-top: 2rem;
+        }
+
+        &__app-info {
+            margin-bottom: 3rem;
+        }
+
+        &__apple-rating, &__google-rating {
+            height: 2.6rem;
+            padding-top: 1rem;
+        }
 
     }
 }
@@ -622,6 +655,7 @@
 @media screen and (max-width: $breakPointM) { 
 
     .facilities  {
+        padding: 5rem 0;
         order: 3;
 
         &__content {
@@ -680,8 +714,7 @@
 
 @media screen and (max-width: $breakPointM) {
     .footer {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 5rem 0;
         justify-content: center;
         order: 3;
 
