@@ -1,5 +1,6 @@
 .content {
     margin: 0 auto;
+    width: 80vw;
     
     &__link {
         color: $blue1;
@@ -103,28 +104,11 @@
     }
 }
 
-
-
 // Responsive
-@media screen and (min-width: $breakPointXL) {
+@media screen and (min-width: $breakPointM) {
     .content {
-        max-width: 1164px;
-        &__col {
-            &--50 {
-                width: 50%;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: $breakPointL) {
-    .content {
-        max-width: 1164px;
-        &__col {
-            &--50 {
-                width: 50%;
-            }
-        }
+        max-width: $maxContentWidth;
+        min-width: $minContentWidth;
     }
 }
 

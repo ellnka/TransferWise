@@ -35,16 +35,29 @@
   }
 }
 
-@media screen and (max-width: $breakPointM) { 
+@media screen and (max-width: $breakPointM) {
+  .bx {
+    &-wrapper {
+
+      img {
+        width: 36rem;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakPointS) { 
   .bx {
     &-wrapper {
       img {
         width: 100%;
         height: auto;
+        min-height: 53rem;
         top: 0;
       }
 
-      ul li { height: 52rem; }
+      ul li { min-height: 53rem; }
     }
     &-viewport {
       height: 6rem;

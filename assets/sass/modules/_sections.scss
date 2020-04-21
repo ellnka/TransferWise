@@ -70,6 +70,7 @@
             margin-right: .9rem;
             margin-bottom: .3rem;
         }
+        
         &--after {
             margin-left: .8rem;
             width: 1.3rem;
@@ -91,6 +92,7 @@
         margin: 0 auto;
     }
 }
+
 
 @media screen and (max-width: $breakPointM) {
     .exchange-rate {
@@ -175,9 +177,16 @@
     }
 }
 
+@media screen and (max-width: $breakPointL) {
+    .instructions {
+        &__blocks {
+            justify-content: center;
+        }
+    }
+}
+
 @media screen and (max-width: $breakPointM) { 
     .instructions {
-
         padding: 5rem 0;
         order: 3;
 
@@ -186,12 +195,12 @@
             margin: 1rem 0rem;
         }
     }
+
     .block {
         display: block;
         min-width: 2.9rem;
         width: 100%;
     }
-
 }
 
 .reviews {
@@ -304,8 +313,60 @@
         height: 16rem !important;
     }
 }
+@media screen and (max-width: $breakPointM) {
+    .reviews {
+        padding: 5rem 0 2rem;
+        order: 3;
 
-@media screen and (max-width: $breakPointM) { 
+        &__photo {
+            max-width: 30%;
+            width: 30%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .card {
+
+        &__wrapper {
+            max-width: 40rem;
+        }
+
+        &__decor-wrapper {
+            height: auto;
+            padding-bottom: 3rem;
+        }
+
+        &__decor {
+            visibility: hidden;
+        }
+
+        &__content {
+            padding: 2rem;
+            overflow: visible;
+            margin-top: -3rem;
+        }
+
+        &__text {
+            font-size: 1.6rem;
+            padding-bottom: 1rem;
+        }
+
+        &__address {
+            font-size: 1.2rem;
+            font-weight: $fontWeight400;
+            line-height: 1.8rem;
+            padding: 1rem 0 2rem;
+        }
+
+        &__button {
+            margin-top: .7rem !important;
+            padding: .5rem !important;
+            font-size: 1.4rem !important;
+        }
+    }
+}
+@media screen and (max-width: $breakPointS) { 
     .reviews {
         padding: 5rem 0 2rem;
         order: 3;
@@ -335,7 +396,7 @@
         &__wrapper {
             max-width: 100%;
             position: relative;
-            margin-top: -8rem;
+            margin-top: -10rem;
         }
 
         &__decor-wrapper {
@@ -350,7 +411,7 @@
         &__content {
             padding: 2rem;
             overflow: visible;
-            margin-top: -3rem;
+            margin-top: -8rem;
         }
 
         &__text {
@@ -374,8 +435,6 @@
 
     
 }
-
-
 
 .support {
     padding: 9.6rem 0;
@@ -469,6 +528,7 @@
     &__countries {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
         padding-bottom: 3.2rem;
     }
@@ -530,7 +590,6 @@
 }
 
 @media screen and (max-width: $breakPointM) { 
-
     .map {
         padding: 5rem 0;
         order: 3;
@@ -546,17 +605,6 @@
 
         &__img{
             order: 0;
-        }
-
-        &__country {
-            width: 100%;
-            margin-right: 0;
-        }
-
-        &__text {
-            width: 100%;
-            padding-top: 0;
-            font-size: 1.3rem;
         }
     }
 }

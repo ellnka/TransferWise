@@ -34,10 +34,12 @@ $fontFamily: averta, Helvetica,Arial,sans-serif;
 
 // breakpoints
 $breakPointXs: 480px;
-$breakPointS: 576px;
-$breakPointM: 768px;
-$breakPointL: 992px;
-$breakPointXL: 1200px;
+$breakPointS: 768px;
+$breakPointM: 1015px;
+$breakPointL: 1400px;
+$minContentWidth: 950px;
+$maxContentWidth: 1164px;
+
 
 
 $fontWeight100: 100;
