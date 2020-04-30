@@ -37,7 +37,7 @@
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "dependencies": {}
 }
